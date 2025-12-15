@@ -1,0 +1,3383 @@
+[
+  {
+    "id": "imperial_retainer_lineman",
+    "name": "Imperial Retainer",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Fend"
+    ],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 45000
+  },
+  {
+    "id": "imperial_thrower_thrower",
+    "name": "Imperial Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 2,
+    "AV": 9,
+    "skills": [
+      "Give and Go",
+      "Pass",
+      "Pro"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "bodyguard_blocker",
+    "name": "Bodyguard",
+    "quantity": 4,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 5,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Stand Firm",
+      "Wrestle"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "noble_blitzer_blitzer",
+    "name": "Noble Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Human",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Catch",
+      "Pro"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "ogre_big_guy",
+    "name": "Ogre",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Ogre",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 140000
+  },
+  {
+    "id": "human_lineman_lineman",
+    "name": "Human Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "halfling_hopeful_lineman",
+    "name": "Halfling Hopeful",
+    "quantity": 3,
+    "type": "Lineman",
+    "race": "Halfling",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "G",
+      "S"
+    ],
+    "cost": 30000
+  },
+  {
+    "id": "human_catcher_catcher",
+    "name": "Human Catcher",
+    "quantity": 1,
+    "type": "Catcher",
+    "race": "Human",
+    "MA": 8,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Catch",
+      "Dodge"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "dwarf_lineman_lineman",
+    "name": "Dwarf Lineman",
+    "quantity": 3,
+    "type": "Lineman",
+    "race": "Dwarf",
+    "MA": 4,
+    "ST": 3,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Defensive",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "D"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "human_thrower_thrower",
+    "name": "Human Thrower",
+    "quantity": 1,
+    "type": "Thrower",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Pass",
+      "Sure Hands"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "dwarf_runner_runner",
+    "name": "Dwarf Runner",
+    "quantity": 1,
+    "type": "Runner",
+    "race": "Dwarf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Sprint",
+      "Sure Hands",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "human_blitzer_blitzer",
+    "name": "Human Blitzer",
+    "quantity": 1,
+    "type": "Blitzer",
+    "race": "Human",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Tackle"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "dwarf_blitzer_blitzer",
+    "name": "Dwarf Blitzer",
+    "quantity": 1,
+    "type": "Blitzer",
+    "race": "Dwarf",
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Diving Tackle",
+      "Tackle",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "P"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "troll_slayer_special",
+    "name": "Troll Slayer",
+    "quantity": 1,
+    "type": "Special",
+    "race": "Dwarf",
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 5,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Dauntless",
+      "Frenzy",
+      "Hatred (Troll)",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 95000
+  },
+  {
+    "id": "altern_forest_treeman_big_guy",
+    "name": "Altern Forest Treeman",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Treeman",
+    "MA": 2,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 11,
+    "skills": [
+      "Mighty Blow",
+      "Stand Firm",
+      "Strong Arm",
+      "Take Root",
+      "Thick Skull",
+      "Throw Team-mate",
+      "Timmm-ber!"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "cost": 120000
+  },
+  {
+    "id": "orc_lineman_lineman",
+    "name": "Orc Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Orc",
+    "MA": 5,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 10,
+    "skills": [],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "goblin_lineman_lineman",
+    "name": "Goblin Lineman",
+    "quantity": 4,
+    "type": "Lineman",
+    "race": "Goblin",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "orc_thrower_thrower",
+    "name": "Orc Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Orc",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Pass",
+      "Sure Hands"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S",
+      "D"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "orc_blitzer_blitzer",
+    "name": "Orc Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Orc",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Break Tackle"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "big_un_blocker_blocker",
+    "name": "Big Un Blocker",
+    "quantity": 2,
+    "type": "Blocker",
+    "race": "Orc",
+    "MA": 5,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Mighty Blow",
+      "Taunt",
+      "Thick Skull",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 95000
+  },
+  {
+    "id": "troll_big_guy",
+    "name": "Troll",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Troll",
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Loner",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "cost": 115000
+  },
+  {
+    "id": "skeleton_lineman_human,_lineman,_skeleton",
+    "name": "Skeleton Lineman",
+    "quantity": 16,
+    "type": "Human, Lineman, Skeleton",
+    "race": "Undead",
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 8,
+    "skills": [
+      "Regeneration",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "zombie_lineman_human,_lineman,_undead",
+    "name": "Zombie Lineman",
+    "quantity": 16,
+    "type": "Human, Lineman, Undead",
+    "race": "Zombie",
+    "MA": 4,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Eye Gouge",
+      "Regeneration",
+      "Unsteady"
+    ],
+    "primary": [
+      "D",
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "ghoul_runner_ghoul,_runner",
+    "name": "Ghoul Runner",
+    "quantity": 2,
+    "type": "Ghoul, Runner",
+    "race": "Undead",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Regeneration"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "D",
+      "P",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "wight_blitzer_blitzer,_human,_skeleton",
+    "name": "Wight Blitzer",
+    "quantity": 2,
+    "type": "Blitzer, Human, Skeleton",
+    "race": "Undead",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 5,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Regeneration",
+      "Tackle",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 95000
+  },
+  {
+    "id": "mummy_big_guy,_blocker,_human",
+    "name": "Mummy",
+    "quantity": 2,
+    "type": "Big Guy, Blocker, Human",
+    "race": "Undead",
+    "MA": 3,
+    "ST": 5,
+    "AG": 5,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Mighty Blow",
+      "Regeneration"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 125000
+  },
+  {
+    "id": "snotling_lineman_lineman",
+    "name": "Snotling Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Snotling",
+    "MA": 5,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "Insignificant",
+      "Right Stuff",
+      "Sidestep",
+      "Stunty",
+      "Titchy"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 15000
+  },
+  {
+    "id": "fun-hoppa_snotling",
+    "name": "Fun-hoppa",
+    "quantity": 2,
+    "type": "Snotling",
+    "race": "Special",
+    "MA": 6,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "Pogo",
+      "Right Stuff",
+      "Sidestep",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 20000
+  },
+  {
+    "id": "stilty_runna_runner",
+    "name": "Stilty Runna",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Snotling",
+    "MA": 6,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Sidestep",
+      "Sprint",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 20000
+  },
+  {
+    "id": "fungus_flinga_snotling",
+    "name": "Fungus Flinga",
+    "quantity": 2,
+    "type": "Snotling",
+    "race": "Special",
+    "MA": 5,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Bombardier",
+      "Dodge",
+      "Right Stuff",
+      "Secret Weapon",
+      "Sidestep",
+      "Stunty",
+      "Titchy"
+    ],
+    "primary": [
+      "A",
+      "D",
+      "P"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 30000
+  },
+  {
+    "id": "pump_wagon_big_guy,_snotling",
+    "name": "Pump Wagon",
+    "quantity": 2,
+    "type": "Big Guy, Snotling",
+    "race": "Special",
+    "MA": 5,
+    "ST": 5,
+    "AG": 5,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Dirty Player",
+      "Juggernaut",
+      "Mighty Blow",
+      "Really Stupid",
+      "Stand Firm"
+    ],
+    "primary": [
+      "D",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "trained_troll_big_guy",
+    "name": "Trained Troll",
+    "quantity": 2,
+    "type": "Big Guy",
+    "race": "Troll",
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "cost": 115000
+  },
+  {
+    "id": "tomb_kings_thrower_human,_skeleton,_thrower",
+    "name": "Tomb Kings Thrower",
+    "quantity": 2,
+    "type": "Human, Skeleton, Thrower",
+    "race": "Undead",
+    "MA": 6,
+    "ST": 3,
+    "AG": 4,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Pass",
+      "Regeneration",
+      "Sure Hands",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "tomb_kings_blitzer_blitzer,_human,_skeleton",
+    "name": "Tomb Kings Blitzer",
+    "quantity": 2,
+    "type": "Blitzer, Human, Skeleton",
+    "race": "Undead",
+    "MA": 6,
+    "ST": 3,
+    "AG": 4,
+    "PA": 5,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Regeneration",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "tomb_guardian_big_guy,_blocker,_human",
+    "name": "Tomb Guardian",
+    "quantity": 4,
+    "type": "Big Guy, Blocker, Human",
+    "race": "Undead",
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Brawler",
+      "Decay",
+      "Regeneration"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 115000
+  },
+  {
+    "id": "thrall_lineman_human,_lineman",
+    "name": "Thrall Lineman",
+    "quantity": 16,
+    "type": "Human, Lineman",
+    "race": "Thrall",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "vampire_runner_runner,_undead",
+    "name": "Vampire Runner",
+    "quantity": 2,
+    "type": "Runner, Undead",
+    "race": "Vampire",
+    "MA": 8,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Bloodlust",
+      "Hypnotic Gaze",
+      "Regeneration"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "vampire_thrower_thrower,_undead",
+    "name": "Vampire Thrower",
+    "quantity": 2,
+    "type": "Thrower, Undead",
+    "race": "Vampire",
+    "MA": 6,
+    "ST": 4,
+    "AG": 2,
+    "PA": 2,
+    "AV": 9,
+    "skills": [
+      "Bloodlust",
+      "Hypnotic Gaze",
+      "Pass",
+      "Regeneration"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 110000
+  },
+  {
+    "id": "vampire_blitzer_blitzer,_undead",
+    "name": "Vampire Blitzer",
+    "quantity": 2,
+    "type": "Blitzer, Undead",
+    "race": "Vampire",
+    "MA": 6,
+    "ST": 4,
+    "AG": 2,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Bloodlust",
+      "Hypnotic Gaze",
+      "Juggernaut",
+      "Regeneration"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "S"
+    ],
+    "secondary": [],
+    "cost": 110000
+  },
+  {
+    "id": "vargheist_big_guy,_undead",
+    "name": "Vargheist",
+    "quantity": 1,
+    "type": "Big Guy, Undead",
+    "race": "Vampire",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Bloodlust",
+      "Claws",
+      "Frenzy",
+      "Loner",
+      "Regeneration"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 150000
+  },
+  {
+    "id": "wood_elf_lineman_lineman",
+    "name": "Wood Elf Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "wood_elf_thrower_thrower",
+    "name": "Wood Elf Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 2,
+    "AV": 8,
+    "skills": [
+      "Pass",
+      "Safe Pair of Hands"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "wood_elf_catcher_catcher",
+    "name": "Wood Elf Catcher",
+    "quantity": 2,
+    "type": "Catcher",
+    "race": "Elf",
+    "MA": 8,
+    "ST": 2,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Catch",
+      "Dodge",
+      "Sprint"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "wardancer_blitzer",
+    "name": "Wardancer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Elf",
+    "MA": 8,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Block",
+      "Dodge",
+      "Leap"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 130000
+  },
+  {
+    "id": "loren_forest_treeman_big_guy",
+    "name": "Loren Forest Treeman",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Treeman",
+    "MA": 2,
+    "ST": 6,
+    "AG": 5,
+    "PA": 5,
+    "AV": 11,
+    "skills": [
+      "Loner",
+      "Mighty Blow",
+      "Stand Firm",
+      "Strong Arm",
+      "Take Root",
+      "Thick Skull",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 120000
+  },
+  {
+    "id": "eagle_warrior_linewoman",
+    "name": "Eagle Warrior",
+    "quantity": 16,
+    "type": "Linewoman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge"
+    ],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "python_warrior_thrower",
+    "name": "Python Warrior",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "On the Ball",
+      "Pass",
+      "Safe Pass"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "piranha_warrior_blitzer",
+    "name": "Piranha Warrior",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Human",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Hit and Run",
+      "Jump Up"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "jaguar_warrior_blocker",
+    "name": "Jaguar Warrior",
+    "quantity": 2,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 6,
+    "ST": 4,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Defensive",
+      "Dodge"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 110000
+  },
+  {
+    "id": "goblin_bruiser_lineman",
+    "name": "Goblin Bruiser",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Goblin",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+      "Thick Skull"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S"
+    ],
+    "cost": 45000
+  },
+  {
+    "id": "black_orc_blocker",
+    "name": "Black Orc",
+    "quantity": 6,
+    "type": "Blocker",
+    "race": "Orc",
+    "MA": 4,
+    "ST": 4,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Brawler",
+      "Grab"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "bretonnian_squire_lineman",
+    "name": "Bretonnian Squire",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Wrestle"
+    ],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "bretonnian_knight_catcher_catcher",
+    "name": "Bretonnian Knight Catcher",
+    "quantity": 2,
+    "type": "Catcher",
+    "race": "Human",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Catch",
+      "Dauntless",
+      "Nerves of Steel"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "bretonnian_knight_thrower_thrower",
+    "name": "Bretonnian Knight Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Dauntless",
+      "Nerves of Steel",
+      "Pass"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "grail_knight_blitzer",
+    "name": "Grail Knight",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Human",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Dauntless",
+      "Steady Footing"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 95000
+  },
+  {
+    "id": "beastman_lineman_lineman",
+    "name": "Beastman Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Beastman",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Horns",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "A",
+      "P",
+      "S",
+      "D"
+    ],
+    "cost": 55000
+  },
+  {
+    "id": "chaos_chosen_blocker",
+    "name": "Chaos Chosen",
+    "quantity": 4,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 5,
+    "ST": 4,
+    "AG": 3,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Arm Bar"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "minotaur_big_guy",
+    "name": "Minotaur",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Minotaur",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Frenzy",
+      "Horns",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Unchannelled Fury"
+    ],
+    "primary": [
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 150000
+  },
+  {
+    "id": "hobgoblin_lineman_lineman",
+    "name": "Hobgoblin Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Goblin",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [],
+    "primary": [
+      "D"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "sneaky_stabba_special",
+    "name": "Sneaky Stabba",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Goblin",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 5,
+    "AV": 8,
+    "skills": [
+      "Shadowing",
+      "Stab"
+    ],
+    "primary": [
+      "D",
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 60000
+  },
+  {
+    "id": "chaos_dwarf_blocker_blocker",
+    "name": "Chaos Dwarf Blocker",
+    "quantity": 4,
+    "type": "Blocker",
+    "race": "Dwarf",
+    "MA": 4,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Iron Hard Skin",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "M"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "flamesmith_special",
+    "name": "Flamesmith",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Dwarf",
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Brawler",
+      "Breathe Fire",
+      "Disturbing Presence",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "M"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "bull_centaur_blitzer",
+    "name": "Bull Centaur",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Dwarf",
+    "MA": 6,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Sprint",
+      "Sure Feet",
+      "Thick Skull",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "M"
+    ],
+    "cost": 130000
+  },
+  {
+    "id": "renegade_human_lineman",
+    "name": "Renegade Human",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Animosity"
+    ],
+    "primary": [
+      "D",
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "renegade_goblin_goblin",
+    "name": "Renegade Goblin",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Lineman",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Animosity",
+      "Dodge",
+      "Right Stuff",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "D",
+      "M"
+    ],
+    "secondary": [
+      "G",
+      "P"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "renegade_orc_lineman",
+    "name": "Renegade Orc",
+    "quantity": 1,
+    "type": "Lineman",
+    "race": "Orc",
+    "MA": 5,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Animosity"
+    ],
+    "primary": [
+      "D",
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "renegade_skaven_lineman",
+    "name": "Renegade Skaven",
+    "quantity": 1,
+    "type": "Lineman",
+    "race": "Skaven",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Animosity"
+    ],
+    "primary": [
+      "D",
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "renegade_dark_elf_elf",
+    "name": "Renegade Dark Elf",
+    "quantity": 1,
+    "type": "Elf",
+    "race": "Lineman",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Animosity"
+    ],
+    "primary": [
+      "A",
+      "D",
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "renegade_human_thrower_human",
+    "name": "Renegade Human Thrower",
+    "quantity": 1,
+    "type": "Human",
+    "race": "Thrower",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Animosity",
+      "Pass",
+      "Sure Hands"
+    ],
+    "primary": [
+      "D",
+      "G",
+      "M",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "rat_ogre_big_guy",
+    "name": "Rat Ogre",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Skaven",
+    "MA": 6,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Animal Savagery",
+      "Frenzy",
+      "Loner",
+      "Mighty Blow",
+      "Prehensile Tail"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "M"
+    ],
+    "cost": 150000
+  },
+  {
+    "id": "dark_elf_lineman_lineman",
+    "name": "Dark Elf Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Elf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 9,
+    "skills": [],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S",
+      "D"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "dark_elf_runner_runner",
+    "name": "Dark Elf Runner",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dump-off",
+      "Punt"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S",
+      "D"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "dark_elf_assassin_special",
+    "name": "Dark Elf Assassin",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Hit and Run",
+      "Shadowing",
+      "Stab"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G",
+      "S"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "dark_elf_blitzer_blitzer",
+    "name": "Dark Elf Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Block"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S",
+      "D"
+    ],
+    "cost": 105000
+  },
+  {
+    "id": "witch_elf_special",
+    "name": "Witch Elf",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Frenzy",
+      "Jump Up"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S",
+      "D"
+    ],
+    "cost": 110000
+  },
+  {
+    "id": "deathroller_big_guy,_dwarf",
+    "name": "Deathroller",
+    "quantity": 1,
+    "type": "Big Guy, Dwarf",
+    "race": "Special",
+    "MA": 5,
+    "ST": 7,
+    "AG": 5,
+    "PA": null,
+    "AV": 11,
+    "skills": [
+      "Break Tackle",
+      "Dirty Player",
+      "Juggernaut",
+      "Loner",
+      "Mighty Blow",
+      "No Ball",
+      "Secret Weapon",
+      "Stand Firm"
+    ],
+    "primary": [
+      "D",
+      "S"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 170000
+  },
+  {
+    "id": "elf_lineman_lineman",
+    "name": "Elf Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Elf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Fumblerooski"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "elf_thrower_thrower",
+    "name": "Elf Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Elf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 2,
+    "AV": 8,
+    "skills": [
+      "Hail Mary Pass",
+      "Pass"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "elf_catcher_catcher",
+    "name": "Elf Catcher",
+    "quantity": 2,
+    "type": "Catcher",
+    "race": "Elf",
+    "MA": 8,
+    "ST": 3,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Catch",
+      "Diving Catch",
+      "Nerves of Steel"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "elf_blitzer_blitzer",
+    "name": "Elf Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Sidestep"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 115000
+  },
+  {
+    "id": "gnome_lineman_lineman",
+    "name": "Gnome Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Gnome",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Jump Up",
+      "Right Stuff",
+      "Stunty",
+      "Wrestle"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "woodland_fox_runner",
+    "name": "Woodland Fox",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Animal",
+    "MA": 7,
+    "ST": 2,
+    "AG": 2,
+    "PA": null,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "My Ball",
+      "Sidestep",
+      "Stunty"
+    ],
+    "primary": [
+      "—"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "gnome_illusionist_special",
+    "name": "Gnome Illusionist",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Gnome",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 3,
+    "AV": 7,
+    "skills": [
+      "Jump Up",
+      "Stunty",
+      "Trickster",
+      "Wrestle"
+    ],
+    "primary": [
+      "A",
+      "P"
+    ],
+    "secondary": [
+      "G",
+      "D"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "gnome_beastmaster_blocker",
+    "name": "Gnome Beastmaster",
+    "quantity": 2,
+    "type": "Blocker",
+    "race": "Gnome",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Guard",
+      "Jump Up",
+      "Stunty",
+      "Wrestle"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S"
+    ],
+    "cost": 55000
+  },
+  {
+    "id": "goblin_lineman_goblin",
+    "name": "Goblin Lineman",
+    "quantity": 16,
+    "type": "Goblin",
+    "race": "Lineman",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "looney_goblin",
+    "name": "Looney",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": null,
+    "AV": 8,
+    "skills": [
+      "Chainsaw",
+      "No Ball",
+      "Secret Weapon",
+      "Stunty"
+    ],
+    "primary": [
+      "D"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "bomma_goblin",
+    "name": "Bomma",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Bombardier",
+      "Dodge",
+      "Secret Weapon",
+      "Stunty"
+    ],
+    "primary": [
+      "D",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "S"
+    ],
+    "cost": 45000
+  },
+  {
+    "id": "'ooligan_goblin",
+    "name": "'Ooligan",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 5,
+    "AV": 8,
+    "skills": [
+      "Dirty Player",
+      "Disturbing Presence",
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+      "Taunt"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G",
+      "S"
+    ],
+    "cost": 60000
+  },
+  {
+    "id": "doom_diver_goblin",
+    "name": "Doom Diver",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 6,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+      "Swoop"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "fanatic_goblin",
+    "name": "Fanatic",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 3,
+    "ST": 7,
+    "AG": 3,
+    "PA": null,
+    "AV": 8,
+    "skills": [
+      "Ball & Chain",
+      "No Ball",
+      "Secret Weapon",
+      "Stunty"
+    ],
+    "primary": [
+      "D",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "pogoer_goblin",
+    "name": "Pogoer",
+    "quantity": 1,
+    "type": "Goblin",
+    "race": "Special",
+    "MA": 7,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Pogo",
+      "Stunty"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S"
+    ],
+    "cost": 75000
+  },
+  {
+    "id": "halfling_hefty_blocker",
+    "name": "Halfling Hefty",
+    "quantity": 2,
+    "type": "Blocker",
+    "race": "Halfling",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Fend",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "P"
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "halfling_catcher_catcher",
+    "name": "Halfling Catcher",
+    "quantity": 2,
+    "type": "Catcher",
+    "race": "Halfling",
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Catch",
+      "Dodge",
+      "Right Stuff",
+      "Sprint",
+      "Stunty"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D"
+    ],
+    "cost": 55000
+  },
+  {
+    "id": "athel_forest_treeman_big_guy",
+    "name": "Athel Forest Treeman",
+    "quantity": 2,
+    "type": "Big Guy",
+    "race": "Treeman",
+    "MA": 2,
+    "ST": 6,
+    "AG": 5,
+    "PA": 5,
+    "AV": 11,
+    "skills": [
+      "Mighty Blow",
+      "Stand Firm",
+      "Strong Arm",
+      "Take Root",
+      "Thick Skull",
+      "Throw Team-mate",
+      "Timmm-ber!"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P",
+      "D"
+    ],
+    "cost": 120000
+  },
+  {
+    "id": "high_elf_lineman_lineman",
+    "name": "High Elf Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Elf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 9,
+    "skills": [],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 65000
+  },
+  {
+    "id": "high_elf_thrower_thrower",
+    "name": "High Elf Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Elf",
+    "MA": 6,
+    "ST": 3,
+    "AG": 2,
+    "PA": 2,
+    "AV": 9,
+    "skills": [
+      "Cloud Burster",
+      "Pass",
+      "Safe Pass"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "high_elf_catcher_catcher",
+    "name": "High Elf Catcher",
+    "quantity": 4,
+    "type": "Catcher",
+    "race": "Elf",
+    "MA": 8,
+    "ST": 3,
+    "AG": 2,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Catch"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "high_elf_blitzer_blitzer",
+    "name": "High Elf Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Elf",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Block"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "P",
+      "S"
+    ],
+    "cost": 100000
+  },
+  {
+    "id": "bloodborn_marauder_lineman",
+    "name": "Bloodborn Marauder",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Frenzy"
+    ],
+    "primary": [
+      "G",
+      "M"
+    ],
+    "secondary": [
+      "A",
+      "S",
+      "D"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "khorngor_runner",
+    "name": "Khorngor",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Beastman",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Horns",
+      "Juggernaut",
+      "Jump Up",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "P",
+      "D"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "bloodseeker_blocker",
+    "name": "Bloodseeker",
+    "quantity": 4,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 5,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Frenzy"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 105000
+  },
+  {
+    "id": "bloodspawn_big_guy",
+    "name": "Bloodspawn",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Spawn",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Claws",
+      "Frenzy",
+      "Loner",
+      "Mighty Blow",
+      "Unchannelled Fury"
+    ],
+    "primary": [
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 160000
+  },
+  {
+    "id": "skink_lineman_lineman",
+    "name": "Skink Lineman",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Lizardman",
+    "MA": 8,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Stunty"
+    ],
+    "primary": [
+      "A"
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S",
+      "D"
+    ],
+    "cost": 60000
+  },
+  {
+    "id": "chameleon_skink_thrower",
+    "name": "Chameleon Skink",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Lizardman",
+    "MA": 7,
+    "ST": 2,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "On the Ball",
+      "Shadowing",
+      "Stunty"
+    ],
+    "primary": [
+      "A",
+      "P"
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "saurus_blocker_blocker",
+    "name": "Saurus Blocker",
+    "quantity": 6,
+    "type": "Blocker",
+    "race": "Lizardman",
+    "MA": 6,
+    "ST": 4,
+    "AG": 5,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Juggernaut",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "kroxigor_big_guy",
+    "name": "Kroxigor",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Lizardman",
+    "MA": 6,
+    "ST": 5,
+    "AG": 5,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Prehensile Tail",
+      "Thick Skull"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 140000
+  },
+  {
+    "id": "wraith_blocker,_undead",
+    "name": "Wraith",
+    "quantity": 2,
+    "type": "Blocker, Undead",
+    "race": "Wraith",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": null,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Foul Appearance",
+      "No Ball",
+      "Regeneration",
+      "Sidestep"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "flesh_golem_blocker,_construct",
+    "name": "Flesh Golem",
+    "quantity": 2,
+    "type": "Blocker, Construct",
+    "race": "Undead",
+    "MA": 4,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Regeneration",
+      "Stand Firm",
+      "Thick Skull",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 110000
+  },
+  {
+    "id": "werewolf_blitzer,_undead",
+    "name": "Werewolf",
+    "quantity": 2,
+    "type": "Blitzer, Undead",
+    "race": "Werewolf",
+    "MA": 8,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Claws",
+      "Frenzy",
+      "Regeneration"
+    ],
+    "primary": [
+      "A",
+      "G"
+    ],
+    "secondary": [
+      "D",
+      "P",
+      "S"
+    ],
+    "cost": 120000
+  },
+  {
+    "id": "norse_raider_lineman",
+    "name": "Norse Raider",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Block",
+      "Drunkard",
+      "Thick Skull",
+      "Unsteady"
+    ],
+    "primary": [
+      "G"
+    ],
+    "secondary": [
+      "A",
+      "P",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "beer_boar_special",
+    "name": "Beer Boar",
+    "quantity": 2,
+    "type": "Special",
+    "race": "Animal",
+    "MA": 5,
+    "ST": 1,
+    "AG": 3,
+    "PA": null,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "No Ball",
+      "Pick-me-up",
+      "Stunty",
+      "Titchy"
+    ],
+    "primary": [],
+    "secondary": [
+      "A"
+    ],
+    "cost": 20000
+  },
+  {
+    "id": "norse_berserker_blitzer",
+    "name": "Norse Berserker",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Human",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 5,
+    "AV": 8,
+    "skills": [
+      "Block",
+      "Frenzy",
+      "Jump Up"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "P"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "valkyrie_catcher,_human",
+    "name": "Valkyrie",
+    "quantity": 2,
+    "type": "Catcher, Human",
+    "race": "Thrower",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Catch",
+      "Dauntless",
+      "Pass",
+      "Strip Ball"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "S"
+    ],
+    "cost": 95000
+  },
+  {
+    "id": "ulfwerener_blocker",
+    "name": "Ulfwerener",
+    "quantity": 2,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 6,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Frenzy",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A"
+    ],
+    "cost": 105000
+  },
+  {
+    "id": "yhetee_big_guy",
+    "name": "Yhetee",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Yhetee",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Claws",
+      "Disturbing Presence",
+      "Frenzy",
+      "Loner",
+      "Unchannelled Fury"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 140000
+  },
+  {
+    "id": "rotter_lineman",
+    "name": "Rotter",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Human",
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Decay",
+      "Plague Ridden"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "D"
+    ],
+    "secondary": [
+      "A",
+      "S"
+    ],
+    "cost": 40000
+  },
+  {
+    "id": "pestigor_runner",
+    "name": "Pestigor",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Beastman",
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Horns",
+      "Plague Ridden",
+      "Regeneration",
+      "Steady Footing",
+      "Thick Skull"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "P",
+      "D"
+    ],
+    "cost": 70000
+  },
+  {
+    "id": "bloater_blocker",
+    "name": "Bloater",
+    "quantity": 4,
+    "type": "Blocker",
+    "race": "Human",
+    "MA": 4,
+    "ST": 4,
+    "AG": 4,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Disturbing Presence",
+      "Foul Appearance",
+      "Plague Ridden",
+      "Regeneration",
+      "Stand Firm",
+      "Unsteady"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D"
+    ],
+    "cost": 110000
+  },
+  {
+    "id": "rotspawn_big_guy",
+    "name": "Rotspawn",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Spawn",
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 6,
+    "AV": 10,
+    "skills": [
+      "Disturbing Presence",
+      "Foul Appearance",
+      "Loner",
+      "Mighty Blow",
+      "Pick-me-up",
+      "Plague Ridden",
+      "Really Stupid",
+      "Tentacles"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "G",
+      "M",
+      "D"
+    ],
+    "cost": 140000
+  },
+  {
+    "id": "gnoblar_lineman_gnoblar",
+    "name": "Gnoblar Lineman",
+    "quantity": 16,
+    "type": "Gnoblar",
+    "race": "Lineman",
+    "MA": 5,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Sidestep",
+      "Stunty",
+      "Titchy"
+    ],
+    "primary": [
+      "A",
+      "D"
+    ],
+    "secondary": [
+      "G"
+    ],
+    "cost": 15000
+  },
+  {
+    "id": "ogre_blocker_big_guy,_blocker",
+    "name": "Ogre Blocker",
+    "quantity": 5,
+    "type": "Big Guy, Blocker",
+    "race": "Ogre",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "G",
+      "P"
+    ],
+    "cost": 140000
+  },
+  {
+    "id": "ogre_runt_punter_big_guy,_ogre",
+    "name": "Ogre Runt Punter",
+    "quantity": 1,
+    "type": "Big Guy, Ogre",
+    "race": "Thrower",
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Kick Team-mate",
+      "Mighty Blow",
+      "Thick Skull"
+    ],
+    "primary": [
+      "P",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "G"
+    ],
+    "cost": 145000
+  },
+  {
+    "id": "skaven_clanrat_lineman",
+    "name": "Skaven Clanrat",
+    "quantity": 16,
+    "type": "Lineman",
+    "race": "Skaven",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [],
+    "primary": [
+      "G",
+      "D"
+    ],
+    "secondary": [
+      "A",
+      "M",
+      "S"
+    ],
+    "cost": 50000
+  },
+  {
+    "id": "skaven_thrower_thrower",
+    "name": "Skaven Thrower",
+    "quantity": 2,
+    "type": "Thrower",
+    "race": "Skaven",
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 2,
+    "AV": 8,
+    "skills": [
+      "Pass",
+      "Sure Hands"
+    ],
+    "primary": [
+      "G",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "M",
+      "S"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "gutter_runner_runner",
+    "name": "Gutter Runner",
+    "quantity": 2,
+    "type": "Runner",
+    "race": "Skaven",
+    "MA": 9,
+    "ST": 2,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Stab"
+    ],
+    "primary": [
+      "A",
+      "G",
+      "D"
+    ],
+    "secondary": [
+      "M",
+      "S"
+    ],
+    "cost": 85000
+  },
+  {
+    "id": "skaven_blitzer_blitzer",
+    "name": "Skaven Blitzer",
+    "quantity": 2,
+    "type": "Blitzer",
+    "race": "Skaven",
+    "MA": 8,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Strip Ball"
+    ],
+    "primary": [
+      "G",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "M"
+    ],
+    "cost": 90000
+  },
+  {
+    "id": "skaven_thrower_skaven",
+    "name": "Skaven Thrower",
+    "quantity": 1,
+    "type": "Skaven",
+    "race": "Thrower",
+    "MA": 7,
+    "ST": 3,
+    "AG": 2,
+    "PA": 2,
+    "AV": 8,
+    "skills": [
+      "Animosity (Goblin)",
+      "Pass",
+      "Sure Hands"
+    ],
+    "primary": [
+      "G",
+      "M",
+      "P"
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S"
+    ],
+    "cost": 80000
+  },
+  {
+    "id": "troll\\*_big_guy",
+    "name": "Troll\\*",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Troll",
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Loner",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate"
+    ],
+    "primary": [
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P"
+    ],
+    "cost": 115000
+  },
+  {
+    "id": "rat_ogre\\*_big_guy",
+    "name": "Rat Ogre\\*",
+    "quantity": 1,
+    "type": "Big Guy",
+    "race": "Skaven",
+    "MA": 6,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Animal Savagery",
+      "Frenzy",
+      "Loner",
+      "Mighty Blow",
+      "Prehensile Tail"
+    ],
+    "primary": [
+      "M",
+      "S"
+    ],
+    "secondary": [
+      "A",
+      "G"
+    ],
+    "cost": 150000
+  }
+]
