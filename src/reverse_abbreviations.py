@@ -11,4 +11,4 @@ with open(input, "r") as file:
         rev_abbr[abbr[e]] = e
 
 with open(output, "w") as file:
-    json5.dump(rev_abbr, file, sort_keys=True, indent=4, quote_keys=True)
+    json5.dump(rev_abbr, file, sort_keys=True, indent=2, quote_keys=True)

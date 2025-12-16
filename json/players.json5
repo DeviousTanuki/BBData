@@ -1,33 +1,37 @@
 [
   {
-    "id": "imperial_retainer_lineman",
+    "id": "imperial_nobility_imperial_retainer",
     "name": "Imperial Retainer",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 8,
     "skills": [
-      "Fend"
+      "Fend",
     ],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 45000
+    "cost": 45000,
   },
   {
-    "id": "imperial_thrower_thrower",
+    "id": "imperial_nobility_imperial_thrower",
     "name": "Imperial Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Human",
+    "tags": [
+      "Thrower",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -36,24 +40,26 @@
     "skills": [
       "Give and Go",
       "Pass",
-      "Pro"
+      "Pro",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "bodyguard_blocker",
+    "id": "imperial_nobility_bodyguard",
     "name": "Bodyguard",
     "quantity": 4,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 3,
@@ -61,23 +67,25 @@
     "AV": 9,
     "skills": [
       "Stand Firm",
-      "Wrestle"
+      "Wrestle",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "noble_blitzer_blitzer",
+    "id": "imperial_nobility_noble_blitzer",
     "name": "Noble Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Human",
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -86,24 +94,26 @@
     "skills": [
       "Block",
       "Catch",
-      "Pro"
+      "Pro",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "ogre_big_guy",
+    "id": "imperial_nobility_ogre",
     "name": "Ogre",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Ogre",
+    "tags": [
+      "Big Guy",
+      "Ogre",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -114,23 +124,25 @@
       "Loner",
       "Mighty Blow",
       "Thick Skull",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 140000
+    "cost": 140000,
   },
   {
-    "id": "human_lineman_lineman",
+    "id": "old_world_alliance_human_lineman",
     "name": "Human Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -138,20 +150,22 @@
     "AV": 9,
     "skills": [],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "halfling_hopeful_lineman",
+    "id": "old_world_alliance_halfling_hopeful",
     "name": "Halfling Hopeful",
     "quantity": 3,
-    "type": "Lineman",
-    "race": "Halfling",
+    "tags": [
+      "Lineman",
+      "Halfling",
+    ],
     "MA": 5,
     "ST": 2,
     "AG": 3,
@@ -160,23 +174,25 @@
     "skills": [
       "Dodge",
       "Right Stuff",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
-      "A"
+      "A",
     ],
     "secondary": [
       "G",
-      "S"
+      "S",
     ],
-    "cost": 30000
+    "cost": 30000,
   },
   {
-    "id": "human_catcher_catcher",
+    "id": "old_world_alliance_human_catcher",
     "name": "Human Catcher",
     "quantity": 1,
-    "type": "Catcher",
-    "race": "Human",
+    "tags": [
+      "Catcher",
+      "Human",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 3,
@@ -184,24 +200,26 @@
     "AV": 8,
     "skills": [
       "Catch",
-      "Dodge"
+      "Dodge",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "dwarf_lineman_lineman",
+    "id": "old_world_alliance_dwarf_lineman",
     "name": "Dwarf Lineman",
     "quantity": 3,
-    "type": "Lineman",
-    "race": "Dwarf",
+    "tags": [
+      "Lineman",
+      "Dwarf",
+    ],
     "MA": 4,
     "ST": 3,
     "AG": 4,
@@ -210,23 +228,25 @@
     "skills": [
       "Block",
       "Defensive",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "D"
+      "D",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 70000
+    "cost": 70000,
   },
   {
-    "id": "human_thrower_thrower",
+    "id": "old_world_alliance_human_thrower",
     "name": "Human Thrower",
     "quantity": 1,
-    "type": "Thrower",
-    "race": "Human",
+    "tags": [
+      "Thrower",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -234,24 +254,26 @@
     "AV": 9,
     "skills": [
       "Pass",
-      "Sure Hands"
+      "Sure Hands",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "dwarf_runner_runner",
+    "id": "old_world_alliance_dwarf_runner",
     "name": "Dwarf Runner",
     "quantity": 1,
-    "type": "Runner",
-    "race": "Dwarf",
+    "tags": [
+      "Runner",
+      "Dwarf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -260,24 +282,26 @@
     "skills": [
       "Sprint",
       "Sure Hands",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "human_blitzer_blitzer",
+    "id": "old_world_alliance_human_blitzer",
     "name": "Human Blitzer",
     "quantity": 1,
-    "type": "Blitzer",
-    "race": "Human",
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -285,23 +309,25 @@
     "AV": 9,
     "skills": [
       "Block",
-      "Tackle"
+      "Tackle",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "dwarf_blitzer_blitzer",
+    "id": "old_world_alliance_dwarf_blitzer",
     "name": "Dwarf Blitzer",
     "quantity": 1,
-    "type": "Blitzer",
-    "race": "Dwarf",
+    "tags": [
+      "Blitzer",
+      "Dwarf",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 4,
@@ -311,23 +337,25 @@
       "Block",
       "Diving Tackle",
       "Tackle",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "P"
+      "P",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "troll_slayer_special",
+    "id": "old_world_alliance_troll_slayer",
     "name": "Troll Slayer",
     "quantity": 1,
-    "type": "Special",
-    "race": "Dwarf",
+    "tags": [
+      "Special",
+      "Dwarf",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 4,
@@ -338,23 +366,54 @@
       "Dauntless",
       "Frenzy",
       "Hatred (Troll)",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 95000
+    "cost": 95000,
   },
   {
-    "id": "altern_forest_treeman_big_guy",
+    "id": "old_world_alliance_ogre",
+    "name": "Ogre",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Ogre",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+    ],
+    "cost": 140000,
+  },
+  {
+    "id": "old_world_alliance_altern_forest_treeman",
     "name": "Altern Forest Treeman",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Treeman",
+    "tags": [
+      "Big Guy",
+      "Treeman",
+    ],
     "MA": 2,
     "ST": 5,
     "AG": 5,
@@ -367,24 +426,26 @@
       "Take Root",
       "Thick Skull",
       "Throw Team-mate",
-      "Timmm-ber!"
+      "Timmm-ber!",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
-    "cost": 120000
+    "cost": 120000,
   },
   {
-    "id": "orc_lineman_lineman",
+    "id": "orc_orc_lineman",
     "name": "Orc Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Orc",
+    "tags": [
+      "Lineman",
+      "Orc",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 3,
@@ -393,20 +454,22 @@
     "skills": [],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "goblin_lineman_lineman",
+    "id": "orc_goblin_lineman",
     "name": "Goblin Lineman",
     "quantity": 4,
-    "type": "Lineman",
-    "race": "Goblin",
+    "tags": [
+      "Lineman",
+      "Goblin",
+    ],
     "MA": 6,
     "ST": 2,
     "AG": 3,
@@ -415,25 +478,27 @@
     "skills": [
       "Dodge",
       "Right Stuff",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
       "G",
       "P",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "orc_thrower_thrower",
+    "id": "orc_orc_thrower",
     "name": "Orc Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Orc",
+    "tags": [
+      "Thrower",
+      "Orc",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -441,25 +506,27 @@
     "AV": 9,
     "skills": [
       "Pass",
-      "Sure Hands"
+      "Sure Hands",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "orc_blitzer_blitzer",
+    "id": "orc_orc_blitzer",
     "name": "Orc Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Orc",
+    "tags": [
+      "Blitzer",
+      "Orc",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -467,24 +534,26 @@
     "AV": 10,
     "skills": [
       "Block",
-      "Break Tackle"
+      "Break Tackle",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "big_un_blocker_blocker",
+    "id": "orc_big_un_blocker",
     "name": "Big Un Blocker",
     "quantity": 2,
-    "type": "Blocker",
-    "race": "Orc",
+    "tags": [
+      "Blocker",
+      "Orc",
+    ],
     "MA": 5,
     "ST": 4,
     "AG": 4,
@@ -494,24 +563,26 @@
       "Mighty Blow",
       "Taunt",
       "Thick Skull",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 95000
+    "cost": 95000,
   },
   {
-    "id": "troll_big_guy",
+    "id": "orc_troll",
     "name": "Troll",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Troll",
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
     "MA": 4,
     "ST": 5,
     "AG": 5,
@@ -524,24 +595,28 @@
       "Projectile Vomit",
       "Really Stupid",
       "Regeneration",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
-    "cost": 115000
+    "cost": 115000,
   },
   {
-    "id": "skeleton_lineman_human,_lineman,_skeleton",
+    "id": "shambling_undead_skeleton_lineman",
     "name": "Skeleton Lineman",
     "quantity": 16,
-    "type": "Human, Lineman, Skeleton",
-    "race": "Undead",
+    "tags": [
+      "Human",
+      "Lineman",
+      "Skeleton",
+      "Undead",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 4,
@@ -549,24 +624,28 @@
     "AV": 8,
     "skills": [
       "Regeneration",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
       "D",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "zombie_lineman_human,_lineman,_undead",
+    "id": "shambling_undead_zombie_lineman",
     "name": "Zombie Lineman",
     "quantity": 16,
-    "type": "Human, Lineman, Undead",
-    "race": "Zombie",
+    "tags": [
+      "Human",
+      "Lineman",
+      "Undead",
+      "Zombie",
+    ],
     "MA": 4,
     "ST": 3,
     "AG": 4,
@@ -575,24 +654,27 @@
     "skills": [
       "Eye Gouge",
       "Regeneration",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "D",
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "ghoul_runner_ghoul,_runner",
+    "id": "shambling_undead_ghoul_runner",
     "name": "Ghoul Runner",
     "quantity": 2,
-    "type": "Ghoul, Runner",
-    "race": "Undead",
+    "tags": [
+      "Ghoul",
+      "Runner",
+      "Undead",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -600,25 +682,29 @@
     "AV": 8,
     "skills": [
       "Dodge",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "D",
       "P",
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "wight_blitzer_blitzer,_human,_skeleton",
+    "id": "shambling_undead_wight_blitzer",
     "name": "Wight Blitzer",
     "quantity": 2,
-    "type": "Blitzer, Human, Skeleton",
-    "race": "Undead",
+    "tags": [
+      "Blitzer",
+      "Human",
+      "Skeleton",
+      "Undead",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -628,24 +714,28 @@
       "Block",
       "Regeneration",
       "Tackle",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 95000
+    "cost": 95000,
   },
   {
-    "id": "mummy_big_guy,_blocker,_human",
+    "id": "shambling_undead_mummy",
     "name": "Mummy",
     "quantity": 2,
-    "type": "Big Guy, Blocker, Human",
-    "race": "Undead",
+    "tags": [
+      "Big Guy",
+      "Blocker",
+      "Human",
+      "Undead",
+    ],
     "MA": 3,
     "ST": 5,
     "AG": 5,
@@ -653,23 +743,25 @@
     "AV": 10,
     "skills": [
       "Mighty Blow",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 125000
+    "cost": 125000,
   },
   {
-    "id": "snotling_lineman_lineman",
+    "id": "snotling_snotling_lineman",
     "name": "Snotling Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Snotling",
+    "tags": [
+      "Lineman",
+      "Snotling",
+    ],
     "MA": 5,
     "ST": 1,
     "AG": 3,
@@ -681,23 +773,25 @@
       "Right Stuff",
       "Sidestep",
       "Stunty",
-      "Titchy"
+      "Titchy",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 15000
+    "cost": 15000,
   },
   {
-    "id": "fun-hoppa_snotling",
+    "id": "snotling_fun-hoppa",
     "name": "Fun-hoppa",
     "quantity": 2,
-    "type": "Snotling",
-    "race": "Special",
+    "tags": [
+      "Snotling",
+      "Special",
+    ],
     "MA": 6,
     "ST": 1,
     "AG": 3,
@@ -708,23 +802,25 @@
       "Pogo",
       "Right Stuff",
       "Sidestep",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 20000
+    "cost": 20000,
   },
   {
-    "id": "stilty_runna_runner",
+    "id": "snotling_stilty_runna",
     "name": "Stilty Runna",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Snotling",
+    "tags": [
+      "Runner",
+      "Snotling",
+    ],
     "MA": 6,
     "ST": 1,
     "AG": 3,
@@ -735,23 +831,25 @@
       "Right Stuff",
       "Sidestep",
       "Sprint",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 20000
+    "cost": 20000,
   },
   {
-    "id": "fungus_flinga_snotling",
+    "id": "snotling_fungus_flinga",
     "name": "Fungus Flinga",
     "quantity": 2,
-    "type": "Snotling",
-    "race": "Special",
+    "tags": [
+      "Snotling",
+      "Special",
+    ],
     "MA": 5,
     "ST": 1,
     "AG": 3,
@@ -764,24 +862,27 @@
       "Secret Weapon",
       "Sidestep",
       "Stunty",
-      "Titchy"
+      "Titchy",
     ],
     "primary": [
       "A",
       "D",
-      "P"
+      "P",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 30000
+    "cost": 30000,
   },
   {
-    "id": "pump_wagon_big_guy,_snotling",
+    "id": "snotling_pump_wagon",
     "name": "Pump Wagon",
     "quantity": 2,
-    "type": "Big Guy, Snotling",
-    "race": "Special",
+    "tags": [
+      "Big Guy",
+      "Snotling",
+      "Special",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 5,
@@ -792,24 +893,26 @@
       "Juggernaut",
       "Mighty Blow",
       "Really Stupid",
-      "Stand Firm"
+      "Stand Firm",
     ],
     "primary": [
       "D",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "trained_troll_big_guy",
+    "id": "snotling_trained_troll",
     "name": "Trained Troll",
     "quantity": 2,
-    "type": "Big Guy",
-    "race": "Troll",
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
     "MA": 4,
     "ST": 5,
     "AG": 5,
@@ -821,24 +924,57 @@
       "Projectile Vomit",
       "Really Stupid",
       "Regeneration",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
-    "cost": 115000
+    "cost": 115000,
   },
   {
-    "id": "tomb_kings_thrower_human,_skeleton,_thrower",
+    "id": "tomb_kings_skeleton_lineman",
+    "name": "Skeleton Lineman",
+    "quantity": 16,
+    "tags": [
+      "Human",
+      "Lineman",
+      "Skeleton",
+      "Undead",
+    ],
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 8,
+    "skills": [
+      "Regeneration",
+      "Thick Skull",
+    ],
+    "primary": [
+      "G",
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S",
+    ],
+    "cost": 40000,
+  },
+  {
+    "id": "tomb_kings_tomb_kings_thrower",
     "name": "Tomb Kings Thrower",
     "quantity": 2,
-    "type": "Human, Skeleton, Thrower",
-    "race": "Undead",
+    "tags": [
+      "Human",
+      "Skeleton",
+      "Thrower",
+      "Undead",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 4,
@@ -848,25 +984,29 @@
       "Pass",
       "Regeneration",
       "Sure Hands",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
       "D",
-      "S"
+      "S",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "tomb_kings_blitzer_blitzer,_human,_skeleton",
+    "id": "tomb_kings_tomb_kings_blitzer",
     "name": "Tomb Kings Blitzer",
     "quantity": 2,
-    "type": "Blitzer, Human, Skeleton",
-    "race": "Undead",
+    "tags": [
+      "Blitzer",
+      "Human",
+      "Skeleton",
+      "Undead",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 4,
@@ -875,24 +1015,28 @@
     "skills": [
       "Block",
       "Regeneration",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "tomb_guardian_big_guy,_blocker,_human",
+    "id": "tomb_kings_tomb_guardian",
     "name": "Tomb Guardian",
     "quantity": 4,
-    "type": "Big Guy, Blocker, Human",
-    "race": "Undead",
+    "tags": [
+      "Big Guy",
+      "Blocker",
+      "Human",
+      "Undead",
+    ],
     "MA": 4,
     "ST": 5,
     "AG": 5,
@@ -901,23 +1045,26 @@
     "skills": [
       "Brawler",
       "Decay",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 115000
+    "cost": 115000,
   },
   {
-    "id": "thrall_lineman_human,_lineman",
+    "id": "vampire_thrall_lineman",
     "name": "Thrall Lineman",
     "quantity": 16,
-    "type": "Human, Lineman",
-    "race": "Thrall",
+    "tags": [
+      "Human",
+      "Lineman",
+      "Thrall",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -925,20 +1072,23 @@
     "AV": 8,
     "skills": [],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "vampire_runner_runner,_undead",
+    "id": "vampire_vampire_runner",
     "name": "Vampire Runner",
     "quantity": 2,
-    "type": "Runner, Undead",
-    "race": "Vampire",
+    "tags": [
+      "Runner",
+      "Undead",
+      "Vampire",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 2,
@@ -947,24 +1097,27 @@
     "skills": [
       "Bloodlust",
       "Hypnotic Gaze",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "vampire_thrower_thrower,_undead",
+    "id": "vampire_vampire_thrower",
     "name": "Vampire Thrower",
     "quantity": 2,
-    "type": "Thrower, Undead",
-    "race": "Vampire",
+    "tags": [
+      "Thrower",
+      "Undead",
+      "Vampire",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 2,
@@ -974,24 +1127,27 @@
       "Bloodlust",
       "Hypnotic Gaze",
       "Pass",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "vampire_blitzer_blitzer,_undead",
+    "id": "vampire_vampire_blitzer",
     "name": "Vampire Blitzer",
     "quantity": 2,
-    "type": "Blitzer, Undead",
-    "race": "Vampire",
+    "tags": [
+      "Blitzer",
+      "Undead",
+      "Vampire",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 2,
@@ -1001,22 +1157,25 @@
       "Bloodlust",
       "Hypnotic Gaze",
       "Juggernaut",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
       "A",
       "G",
-      "S"
+      "S",
     ],
     "secondary": [],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "vargheist_big_guy,_undead",
+    "id": "vampire_vargheist",
     "name": "Vargheist",
     "quantity": 1,
-    "type": "Big Guy, Undead",
-    "race": "Vampire",
+    "tags": [
+      "Big Guy",
+      "Undead",
+      "Vampire",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -1027,23 +1186,25 @@
       "Claws",
       "Frenzy",
       "Loner",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 150000
+    "cost": 150000,
   },
   {
-    "id": "wood_elf_lineman_lineman",
+    "id": "wood_elf_wood_elf_lineman",
     "name": "Wood Elf Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Elf",
+    "tags": [
+      "Lineman",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -1052,19 +1213,21 @@
     "skills": [],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "wood_elf_thrower_thrower",
+    "id": "wood_elf_wood_elf_thrower",
     "name": "Wood Elf Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Elf",
+    "tags": [
+      "Thrower",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -1072,24 +1235,26 @@
     "AV": 8,
     "skills": [
       "Pass",
-      "Safe Pair of Hands"
+      "Safe Pair of Hands",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "wood_elf_catcher_catcher",
+    "id": "wood_elf_wood_elf_catcher",
     "name": "Wood Elf Catcher",
     "quantity": 2,
-    "type": "Catcher",
-    "race": "Elf",
+    "tags": [
+      "Catcher",
+      "Elf",
+    ],
     "MA": 8,
     "ST": 2,
     "AG": 2,
@@ -1098,24 +1263,26 @@
     "skills": [
       "Catch",
       "Dodge",
-      "Sprint"
+      "Sprint",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "wardancer_blitzer",
+    "id": "wood_elf_wardancer",
     "name": "Wardancer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Elf",
+    "tags": [
+      "Blitzer",
+      "Elf",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 2,
@@ -1124,24 +1291,26 @@
     "skills": [
       "Block",
       "Dodge",
-      "Leap"
+      "Leap",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 130000
+    "cost": 130000,
   },
   {
-    "id": "loren_forest_treeman_big_guy",
+    "id": "wood_elf_loren_forest_treeman",
     "name": "Loren Forest Treeman",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Treeman",
+    "tags": [
+      "Big Guy",
+      "Treeman",
+    ],
     "MA": 2,
     "ST": 6,
     "AG": 5,
@@ -1154,46 +1323,50 @@
       "Strong Arm",
       "Take Root",
       "Thick Skull",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 120000
+    "cost": 120000,
   },
   {
-    "id": "eagle_warrior_linewoman",
+    "id": "amazon_eagle_warrior",
     "name": "Eagle Warrior",
     "quantity": 16,
-    "type": "Linewoman",
-    "race": "Human",
+    "tags": [
+      "Linewoman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 8,
     "skills": [
-      "Dodge"
+      "Dodge",
     ],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "python_warrior_thrower",
+    "id": "amazon_python_warrior",
     "name": "Python Warrior",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Human",
+    "tags": [
+      "Thrower",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1203,24 +1376,26 @@
       "Dodge",
       "On the Ball",
       "Pass",
-      "Safe Pass"
+      "Safe Pass",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "piranha_warrior_blitzer",
+    "id": "amazon_piranha_warrior",
     "name": "Piranha Warrior",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Human",
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -1229,23 +1404,25 @@
     "skills": [
       "Dodge",
       "Hit and Run",
-      "Jump Up"
+      "Jump Up",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "jaguar_warrior_blocker",
+    "id": "amazon_jaguar_warrior",
     "name": "Jaguar Warrior",
     "quantity": 2,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 3,
@@ -1253,23 +1430,25 @@
     "AV": 9,
     "skills": [
       "Defensive",
-      "Dodge"
+      "Dodge",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "goblin_bruiser_lineman",
+    "id": "black_orc_goblin_bruiser",
     "name": "Goblin Bruiser",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Goblin",
+    "tags": [
+      "Lineman",
+      "Goblin",
+    ],
     "MA": 6,
     "ST": 2,
     "AG": 3,
@@ -1279,25 +1458,27 @@
       "Dodge",
       "Right Stuff",
       "Stunty",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
       "G",
       "P",
-      "S"
+      "S",
     ],
-    "cost": 45000
+    "cost": 45000,
   },
   {
-    "id": "black_orc_blocker",
+    "id": "black_orc_black_orc",
     "name": "Black Orc",
     "quantity": 6,
-    "type": "Blocker",
-    "race": "Orc",
+    "tags": [
+      "Blocker",
+      "Orc",
+    ],
     "MA": 4,
     "ST": 4,
     "AG": 4,
@@ -1305,47 +1486,82 @@
     "AV": 10,
     "skills": [
       "Brawler",
-      "Grab"
+      "Grab",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "bretonnian_squire_lineman",
+    "id": "black_orc_trained_troll",
+    "name": "Trained Troll",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P",
+    ],
+    "cost": 115000,
+  },
+  {
+    "id": "bretonnian_bretonnian_squire",
     "name": "Bretonnian Squire",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 8,
     "skills": [
-      "Wrestle"
+      "Wrestle",
     ],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "bretonnian_knight_catcher_catcher",
+    "id": "bretonnian_bretonnian_knight_catcher",
     "name": "Bretonnian Knight Catcher",
     "quantity": 2,
-    "type": "Catcher",
-    "race": "Human",
+    "tags": [
+      "Catcher",
+      "Human",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -1354,23 +1570,25 @@
     "skills": [
       "Catch",
       "Dauntless",
-      "Nerves of Steel"
+      "Nerves of Steel",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "bretonnian_knight_thrower_thrower",
+    "id": "bretonnian_bretonnian_knight_thrower",
     "name": "Bretonnian Knight Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Human",
+    "tags": [
+      "Thrower",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1379,24 +1597,26 @@
     "skills": [
       "Dauntless",
       "Nerves of Steel",
-      "Pass"
+      "Pass",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "grail_knight_blitzer",
+    "id": "bretonnian_grail_knight",
     "name": "Grail Knight",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Human",
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -1405,23 +1625,25 @@
     "skills": [
       "Block",
       "Dauntless",
-      "Steady Footing"
+      "Steady Footing",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 95000
+    "cost": 95000,
   },
   {
-    "id": "beastman_lineman_lineman",
+    "id": "chaos_chosen_beastman_lineman",
     "name": "Beastman Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Beastman",
+    "tags": [
+      "Lineman",
+      "Beastman",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1429,51 +1651,118 @@
     "AV": 9,
     "skills": [
       "Horns",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
       "A",
       "P",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 55000
+    "cost": 55000,
   },
   {
-    "id": "chaos_chosen_blocker",
+    "id": "chaos_chosen_chaos_chosen",
     "name": "Chaos Chosen",
     "quantity": 4,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 5,
     "ST": 4,
     "AG": 3,
     "PA": 5,
     "AV": 10,
     "skills": [
-      "Arm Bar"
+      "Arm Bar",
     ],
     "primary": [
       "G",
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "minotaur_big_guy",
+    "id": "chaos_chosen_troll",
+    "name": "Troll",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Loner",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "M",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P",
+    ],
+    "cost": 115000,
+  },
+  {
+    "id": "chaos_chosen_ogre",
+    "name": "Ogre",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Ogre",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "M",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+    ],
+    "cost": 140000,
+  },
+  {
+    "id": "chaos_chosen_minotaur",
     "name": "Minotaur",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Minotaur",
+    "tags": [
+      "Big Guy",
+      "Minotaur",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -1485,24 +1774,26 @@
       "Loner",
       "Mighty Blow",
       "Thick Skull",
-      "Unchannelled Fury"
+      "Unchannelled Fury",
     ],
     "primary": [
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 150000
+    "cost": 150000,
   },
   {
-    "id": "hobgoblin_lineman_lineman",
+    "id": "chaos_dwarf_hobgoblin_lineman",
     "name": "Hobgoblin Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Goblin",
+    "tags": [
+      "Lineman",
+      "Goblin",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1510,21 +1801,23 @@
     "AV": 8,
     "skills": [],
     "primary": [
-      "D"
+      "D",
     ],
     "secondary": [
       "A",
       "G",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "sneaky_stabba_special",
+    "id": "chaos_dwarf_sneaky_stabba",
     "name": "Sneaky Stabba",
     "quantity": 2,
-    "type": "Special",
-    "race": "Goblin",
+    "tags": [
+      "Special",
+      "Goblin",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1532,24 +1825,26 @@
     "AV": 8,
     "skills": [
       "Shadowing",
-      "Stab"
+      "Stab",
     ],
     "primary": [
       "D",
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 60000
+    "cost": 60000,
   },
   {
-    "id": "chaos_dwarf_blocker_blocker",
+    "id": "chaos_dwarf_chaos_dwarf_blocker",
     "name": "Chaos Dwarf Blocker",
     "quantity": 4,
-    "type": "Blocker",
-    "race": "Dwarf",
+    "tags": [
+      "Blocker",
+      "Dwarf",
+    ],
     "MA": 4,
     "ST": 3,
     "AG": 4,
@@ -1558,25 +1853,27 @@
     "skills": [
       "Block",
       "Iron Hard Skin",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
-      "M"
+      "M",
     ],
-    "cost": 70000
+    "cost": 70000,
   },
   {
-    "id": "flamesmith_special",
+    "id": "chaos_dwarf_flamesmith",
     "name": "Flamesmith",
     "quantity": 2,
-    "type": "Special",
-    "race": "Dwarf",
+    "tags": [
+      "Special",
+      "Dwarf",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 4,
@@ -1586,25 +1883,27 @@
       "Brawler",
       "Breathe Fire",
       "Disturbing Presence",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
-      "M"
+      "M",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "bull_centaur_blitzer",
+    "id": "chaos_dwarf_bull_centaur",
     "name": "Bull Centaur",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Dwarf",
+    "tags": [
+      "Blitzer",
+      "Dwarf",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 4,
@@ -1614,50 +1913,84 @@
       "Sprint",
       "Sure Feet",
       "Thick Skull",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
-      "M"
+      "M",
     ],
-    "cost": 130000
+    "cost": 130000,
   },
   {
-    "id": "renegade_human_lineman",
+    "id": "chaos_dwarf_minotaur",
+    "name": "Minotaur",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Minotaur",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Frenzy",
+      "Horns",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+    ],
+    "primary": [
+      "M",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+    ],
+    "cost": 150000,
+  },
+  {
+    "id": "chaos_renegades_renegade_human",
     "name": "Renegade Human",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 9,
     "skills": [
-      "Animosity"
+      "Animosity",
     ],
     "primary": [
       "D",
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "renegade_goblin_goblin",
+    "id": "chaos_renegades_renegade_goblin",
     "name": "Renegade Goblin",
     "quantity": 1,
-    "type": "Goblin",
-    "race": "Lineman",
+    "tags": [
+      "Goblin",
+      "Lineman",
+    ],
     "MA": 6,
     "ST": 2,
     "AG": 3,
@@ -1667,100 +2000,108 @@
       "Animosity",
       "Dodge",
       "Right Stuff",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
       "A",
       "D",
-      "M"
+      "M",
     ],
     "secondary": [
       "G",
-      "P"
+      "P",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "renegade_orc_lineman",
+    "id": "chaos_renegades_renegade_orc",
     "name": "Renegade Orc",
     "quantity": 1,
-    "type": "Lineman",
-    "race": "Orc",
+    "tags": [
+      "Lineman",
+      "Orc",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 10,
     "skills": [
-      "Animosity"
+      "Animosity",
     ],
     "primary": [
       "D",
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "renegade_skaven_lineman",
+    "id": "chaos_renegades_renegade_skaven",
     "name": "Renegade Skaven",
     "quantity": 1,
-    "type": "Lineman",
-    "race": "Skaven",
+    "tags": [
+      "Lineman",
+      "Skaven",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 8,
     "skills": [
-      "Animosity"
+      "Animosity",
     ],
     "primary": [
       "D",
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "renegade_dark_elf_elf",
+    "id": "chaos_renegades_renegade_dark_elf",
     "name": "Renegade Dark Elf",
     "quantity": 1,
-    "type": "Elf",
-    "race": "Lineman",
+    "tags": [
+      "Elf",
+      "Lineman",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
     "PA": 3,
     "AV": 9,
     "skills": [
-      "Animosity"
+      "Animosity",
     ],
     "primary": [
       "A",
       "D",
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "renegade_human_thrower_human",
+    "id": "chaos_renegades_renegade_human_thrower",
     "name": "Renegade Human Thrower",
     "quantity": 1,
-    "type": "Human",
-    "race": "Thrower",
+    "tags": [
+      "Human",
+      "Thrower",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -1769,26 +2110,122 @@
     "skills": [
       "Animosity",
       "Pass",
-      "Sure Hands"
+      "Sure Hands",
     ],
     "primary": [
       "D",
       "G",
       "M",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "rat_ogre_big_guy",
+    "id": "chaos_renegades_troll",
+    "name": "Troll",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Loner",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "M",
+      "P",
+    ],
+    "cost": 115000,
+  },
+  {
+    "id": "chaos_renegades_ogre",
+    "name": "Ogre",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Ogre",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "M",
+    ],
+    "cost": 140000,
+  },
+  {
+    "id": "chaos_renegades_minotaur",
+    "name": "Minotaur",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Minotaur",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Frenzy",
+      "Horns",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Unchannelled Fury",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "M",
+    ],
+    "cost": 150000,
+  },
+  {
+    "id": "chaos_renegades_rat_ogre",
     "name": "Rat Ogre",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Skaven",
+    "tags": [
+      "Big Guy",
+      "Skaven",
+    ],
     "MA": 6,
     "ST": 5,
     "AG": 4,
@@ -1799,24 +2236,26 @@
       "Frenzy",
       "Loner",
       "Mighty Blow",
-      "Prehensile Tail"
+      "Prehensile Tail",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
-      "M"
+      "M",
     ],
-    "cost": 150000
+    "cost": 150000,
   },
   {
-    "id": "dark_elf_lineman_lineman",
+    "id": "dark_elf_dark_elf_lineman",
     "name": "Dark Elf Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Elf",
+    "tags": [
+      "Lineman",
+      "Elf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
@@ -1825,20 +2264,22 @@
     "skills": [],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "S",
-      "D"
+      "D",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "dark_elf_runner_runner",
+    "id": "dark_elf_dark_elf_runner",
     "name": "Dark Elf Runner",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Elf",
+    "tags": [
+      "Runner",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -1846,25 +2287,27 @@
     "AV": 8,
     "skills": [
       "Dump-off",
-      "Punt"
+      "Punt",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "S",
-      "D"
+      "D",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "dark_elf_assassin_special",
+    "id": "dark_elf_dark_elf_assassin",
     "name": "Dark Elf Assassin",
     "quantity": 2,
-    "type": "Special",
-    "race": "Elf",
+    "tags": [
+      "Special",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -1873,49 +2316,53 @@
     "skills": [
       "Hit and Run",
       "Shadowing",
-      "Stab"
+      "Stab",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
       "G",
-      "S"
+      "S",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "dark_elf_blitzer_blitzer",
+    "id": "dark_elf_dark_elf_blitzer",
     "name": "Dark Elf Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Elf",
+    "tags": [
+      "Blitzer",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
     "PA": 3,
     "AV": 9,
     "skills": [
-      "Block"
+      "Block",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 105000
+    "cost": 105000,
   },
   {
-    "id": "witch_elf_special",
+    "id": "dark_elf_witch_elf",
     "name": "Witch Elf",
     "quantity": 2,
-    "type": "Special",
-    "race": "Elf",
+    "tags": [
+      "Special",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -1924,24 +2371,138 @@
     "skills": [
       "Dodge",
       "Frenzy",
-      "Jump Up"
+      "Jump Up",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "S",
-      "D"
+      "D",
     ],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "deathroller_big_guy,_dwarf",
+    "id": "dwarf_dwarf_lineman",
+    "name": "Dwarf Lineman",
+    "quantity": 16,
+    "tags": [
+      "Lineman",
+      "Dwarf",
+    ],
+    "MA": 4,
+    "ST": 3,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Defensive",
+      "Thick Skull",
+    ],
+    "primary": [
+      "D",
+      "G",
+    ],
+    "secondary": [
+      "S",
+    ],
+    "cost": 70000,
+  },
+  {
+    "id": "dwarf_dwarf_runner",
+    "name": "Dwarf Runner",
+    "quantity": 2,
+    "tags": [
+      "Runner",
+      "Dwarf",
+    ],
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Sprint",
+      "Sure Hands",
+      "Thick Skull",
+    ],
+    "primary": [
+      "G",
+      "P",
+    ],
+    "secondary": [
+      "S",
+    ],
+    "cost": 80000,
+  },
+  {
+    "id": "dwarf_dwarf_blitzer",
+    "name": "Dwarf Blitzer",
+    "quantity": 2,
+    "tags": [
+      "Blitzer",
+      "Dwarf",
+    ],
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 4,
+    "AV": 10,
+    "skills": [
+      "Block",
+      "Diving Tackle",
+      "Tackle",
+      "Thick Skull",
+    ],
+    "primary": [
+      "G",
+      "S",
+    ],
+    "secondary": [
+      "P",
+    ],
+    "cost": 100000,
+  },
+  {
+    "id": "dwarf_troll_slayer",
+    "name": "Troll Slayer",
+    "quantity": 2,
+    "tags": [
+      "Special",
+      "Dwarf",
+    ],
+    "MA": 5,
+    "ST": 3,
+    "AG": 4,
+    "PA": 5,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Dauntless",
+      "Frenzy",
+      "Hatred",
+      "Thick Skull",
+    ],
+    "primary": [
+      "G",
+      "S",
+    ],
+    "secondary": [
+      "D",
+    ],
+    "cost": 95000,
+  },
+  {
+    "id": "dwarf_deathroller",
     "name": "Deathroller",
     "quantity": 1,
-    "type": "Big Guy, Dwarf",
-    "race": "Special",
+    "tags": [
+      "Big Guy",
+      "Dwarf",
+      "Special",
+    ],
     "MA": 5,
     "ST": 7,
     "AG": 5,
@@ -1955,46 +2516,50 @@
       "Mighty Blow",
       "No Ball",
       "Secret Weapon",
-      "Stand Firm"
+      "Stand Firm",
     ],
     "primary": [
       "D",
-      "S"
+      "S",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 170000
+    "cost": 170000,
   },
   {
-    "id": "elf_lineman_lineman",
+    "id": "elven_union_elf_lineman",
     "name": "Elf Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Elf",
+    "tags": [
+      "Lineman",
+      "Elf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
     "PA": 3,
     "AV": 8,
     "skills": [
-      "Fumblerooski"
+      "Fumblerooski",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "elf_thrower_thrower",
+    "id": "elven_union_elf_thrower",
     "name": "Elf Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Elf",
+    "tags": [
+      "Thrower",
+      "Elf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
@@ -2002,24 +2567,26 @@
     "AV": 8,
     "skills": [
       "Hail Mary Pass",
-      "Pass"
+      "Pass",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 75000
+    "cost": 75000,
   },
   {
-    "id": "elf_catcher_catcher",
+    "id": "elven_union_elf_catcher",
     "name": "Elf Catcher",
     "quantity": 2,
-    "type": "Catcher",
-    "race": "Elf",
+    "tags": [
+      "Catcher",
+      "Elf",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 2,
@@ -2028,23 +2595,25 @@
     "skills": [
       "Catch",
       "Diving Catch",
-      "Nerves of Steel"
+      "Nerves of Steel",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "elf_blitzer_blitzer",
+    "id": "elven_union_elf_blitzer",
     "name": "Elf Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Elf",
+    "tags": [
+      "Blitzer",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -2052,24 +2621,26 @@
     "AV": 9,
     "skills": [
       "Block",
-      "Sidestep"
+      "Sidestep",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 115000
+    "cost": 115000,
   },
   {
-    "id": "gnome_lineman_lineman",
+    "id": "gnome_gnome_lineman",
     "name": "Gnome Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Gnome",
+    "tags": [
+      "Lineman",
+      "Gnome",
+    ],
     "MA": 5,
     "ST": 2,
     "AG": 3,
@@ -2079,24 +2650,26 @@
       "Jump Up",
       "Right Stuff",
       "Stunty",
-      "Wrestle"
+      "Wrestle",
     ],
     "primary": [
-      "A"
+      "A",
     ],
     "secondary": [
       "G",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "woodland_fox_runner",
+    "id": "gnome_woodland_fox",
     "name": "Woodland Fox",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Animal",
+    "tags": [
+      "Runner",
+      "Animal",
+    ],
     "MA": 7,
     "ST": 2,
     "AG": 2,
@@ -2106,22 +2679,24 @@
       "Dodge",
       "My Ball",
       "Sidestep",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
-      "—"
+      "—",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "gnome_illusionist_special",
+    "id": "gnome_gnome_illusionist",
     "name": "Gnome Illusionist",
     "quantity": 2,
-    "type": "Special",
-    "race": "Gnome",
+    "tags": [
+      "Special",
+      "Gnome",
+    ],
     "MA": 5,
     "ST": 2,
     "AG": 3,
@@ -2131,24 +2706,26 @@
       "Jump Up",
       "Stunty",
       "Trickster",
-      "Wrestle"
+      "Wrestle",
     ],
     "primary": [
       "A",
-      "P"
+      "P",
     ],
     "secondary": [
       "G",
-      "D"
+      "D",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "gnome_beastmaster_blocker",
+    "id": "gnome_gnome_beastmaster",
     "name": "Gnome Beastmaster",
     "quantity": 2,
-    "type": "Blocker",
-    "race": "Gnome",
+    "tags": [
+      "Blocker",
+      "Gnome",
+    ],
     "MA": 5,
     "ST": 2,
     "AG": 3,
@@ -2158,270 +2735,26 @@
       "Guard",
       "Jump Up",
       "Stunty",
-      "Wrestle"
+      "Wrestle",
     ],
     "primary": [
-      "A"
+      "A",
     ],
     "secondary": [
       "D",
-      "G",
-      "S"
-    ],
-    "cost": 55000
-  },
-  {
-    "id": "goblin_lineman_goblin",
-    "name": "Goblin Lineman",
-    "quantity": 16,
-    "type": "Goblin",
-    "race": "Lineman",
-    "MA": 6,
-    "ST": 2,
-    "AG": 3,
-    "PA": 4,
-    "AV": 8,
-    "skills": [
-      "Dodge",
-      "Right Stuff",
-      "Stunty"
-    ],
-    "primary": [
-      "A",
-      "D"
-    ],
-    "secondary": [
-      "G",
-      "P",
-      "S"
-    ],
-    "cost": 40000
-  },
-  {
-    "id": "looney_goblin",
-    "name": "Looney",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 6,
-    "ST": 2,
-    "AG": 3,
-    "PA": null,
-    "AV": 8,
-    "skills": [
-      "Chainsaw",
-      "No Ball",
-      "Secret Weapon",
-      "Stunty"
-    ],
-    "primary": [
-      "D"
-    ],
-    "secondary": [
-      "A",
-      "G",
-      "S"
-    ],
-    "cost": 40000
-  },
-  {
-    "id": "bomma_goblin",
-    "name": "Bomma",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 6,
-    "ST": 2,
-    "AG": 3,
-    "PA": 4,
-    "AV": 8,
-    "skills": [
-      "Bombardier",
-      "Dodge",
-      "Secret Weapon",
-      "Stunty"
-    ],
-    "primary": [
-      "D",
-      "P"
-    ],
-    "secondary": [
-      "A",
-      "G",
-      "S"
-    ],
-    "cost": 45000
-  },
-  {
-    "id": "'ooligan_goblin",
-    "name": "'Ooligan",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 6,
-    "ST": 2,
-    "AG": 3,
-    "PA": 5,
-    "AV": 8,
-    "skills": [
-      "Dirty Player",
-      "Disturbing Presence",
-      "Dodge",
-      "Right Stuff",
-      "Stunty",
-      "Taunt"
-    ],
-    "primary": [
-      "A",
-      "D"
-    ],
-    "secondary": [
-      "G",
-      "S"
-    ],
-    "cost": 60000
-  },
-  {
-    "id": "doom_diver_goblin",
-    "name": "Doom Diver",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 6,
-    "ST": 2,
-    "AG": 3,
-    "PA": 6,
-    "AV": 8,
-    "skills": [
-      "Dodge",
-      "Right Stuff",
-      "Stunty",
-      "Swoop"
-    ],
-    "primary": [
-      "A"
-    ],
-    "secondary": [
-      "D",
-      "G",
-      "S"
-    ],
-    "cost": 65000
-  },
-  {
-    "id": "fanatic_goblin",
-    "name": "Fanatic",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 3,
-    "ST": 7,
-    "AG": 3,
-    "PA": null,
-    "AV": 8,
-    "skills": [
-      "Ball & Chain",
-      "No Ball",
-      "Secret Weapon",
-      "Stunty"
-    ],
-    "primary": [
-      "D",
-      "S"
-    ],
-    "secondary": [
-      "A",
-      "G"
-    ],
-    "cost": 70000
-  },
-  {
-    "id": "pogoer_goblin",
-    "name": "Pogoer",
-    "quantity": 1,
-    "type": "Goblin",
-    "race": "Special",
-    "MA": 7,
-    "ST": 2,
-    "AG": 3,
-    "PA": 4,
-    "AV": 8,
-    "skills": [
-      "Dodge",
-      "Pogo",
-      "Stunty"
-    ],
-    "primary": [
-      "A"
-    ],
-    "secondary": [
-      "D",
-      "G",
-      "S"
-    ],
-    "cost": 75000
-  },
-  {
-    "id": "halfling_hefty_blocker",
-    "name": "Halfling Hefty",
-    "quantity": 2,
-    "type": "Blocker",
-    "race": "Halfling",
-    "MA": 5,
-    "ST": 2,
-    "AG": 3,
-    "PA": 3,
-    "AV": 8,
-    "skills": [
-      "Dodge",
-      "Fend",
-      "Stunty"
-    ],
-    "primary": [
-      "A",
-      "P"
-    ],
-    "secondary": [
       "G",
       "S",
-      "D"
     ],
-    "cost": 50000
+    "cost": 55000,
   },
   {
-    "id": "halfling_catcher_catcher",
-    "name": "Halfling Catcher",
+    "id": "gnome_altern_forest_treeman",
+    "name": "Altern Forest Treeman",
     "quantity": 2,
-    "type": "Catcher",
-    "race": "Halfling",
-    "MA": 5,
-    "ST": 2,
-    "AG": 3,
-    "PA": 4,
-    "AV": 7,
-    "skills": [
-      "Catch",
-      "Dodge",
-      "Right Stuff",
-      "Sprint",
-      "Stunty"
+    "tags": [
+      "Big Guy",
+      "Treeman",
     ],
-    "primary": [
-      "A"
-    ],
-    "secondary": [
-      "G",
-      "S",
-      "D"
-    ],
-    "cost": 55000
-  },
-  {
-    "id": "athel_forest_treeman_big_guy",
-    "name": "Athel Forest Treeman",
-    "quantity": 2,
-    "type": "Big Guy",
-    "race": "Treeman",
     "MA": 2,
     "ST": 6,
     "AG": 5,
@@ -2434,25 +2767,382 @@
       "Take Root",
       "Thick Skull",
       "Throw Team-mate",
-      "Timmm-ber!"
+      "Timmm-ber!",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
       "P",
-      "D"
     ],
-    "cost": 120000
+    "cost": 120000,
   },
   {
-    "id": "high_elf_lineman_lineman",
+    "id": "goblin_goblin_lineman",
+    "name": "Goblin Lineman",
+    "quantity": 16,
+    "tags": [
+      "Goblin",
+      "Lineman",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+      "D",
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S",
+    ],
+    "cost": 40000,
+  },
+  {
+    "id": "goblin_looney",
+    "name": "Looney",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": null,
+    "AV": 8,
+    "skills": [
+      "Chainsaw",
+      "No Ball",
+      "Secret Weapon",
+      "Stunty",
+    ],
+    "primary": [
+      "D",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "S",
+    ],
+    "cost": 40000,
+  },
+  {
+    "id": "goblin_bomma",
+    "name": "Bomma",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Bombardier",
+      "Dodge",
+      "Secret Weapon",
+      "Stunty",
+    ],
+    "primary": [
+      "D",
+      "P",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "S",
+    ],
+    "cost": 45000,
+  },
+  {
+    "id": "goblin_'ooligan",
+    "name": "'Ooligan",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 5,
+    "AV": 8,
+    "skills": [
+      "Dirty Player",
+      "Disturbing Presence",
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+      "Taunt",
+    ],
+    "primary": [
+      "A",
+      "D",
+    ],
+    "secondary": [
+      "G",
+      "S",
+    ],
+    "cost": 60000,
+  },
+  {
+    "id": "goblin_doom_diver",
+    "name": "Doom Diver",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 6,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+      "Swoop",
+    ],
+    "primary": [
+      "A",
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S",
+    ],
+    "cost": 65000,
+  },
+  {
+    "id": "goblin_fanatic",
+    "name": "Fanatic",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 3,
+    "ST": 7,
+    "AG": 3,
+    "PA": null,
+    "AV": 8,
+    "skills": [
+      "Ball & Chain",
+      "No Ball",
+      "Secret Weapon",
+      "Stunty",
+    ],
+    "primary": [
+      "D",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+    ],
+    "cost": 70000,
+  },
+  {
+    "id": "goblin_pogoer",
+    "name": "Pogoer",
+    "quantity": 1,
+    "tags": [
+      "Goblin",
+      "Special",
+    ],
+    "MA": 7,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Pogo",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S",
+    ],
+    "cost": 75000,
+  },
+  {
+    "id": "goblin_trained_troll",
+    "name": "Trained Troll",
+    "quantity": 2,
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
+    "MA": 4,
+    "ST": 5,
+    "AG": 5,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Always Hungry",
+      "Mighty Blow",
+      "Projectile Vomit",
+      "Really Stupid",
+      "Regeneration",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P",
+    ],
+    "cost": 115000,
+  },
+  {
+    "id": "halfling_halfling_hopeful",
+    "name": "Halfling Hopeful",
+    "quantity": 16,
+    "tags": [
+      "Lineman",
+      "Halfling",
+    ],
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D",
+    ],
+    "cost": 30000,
+  },
+  {
+    "id": "halfling_halfling_hefty",
+    "name": "Halfling Hefty",
+    "quantity": 2,
+    "tags": [
+      "Blocker",
+      "Halfling",
+    ],
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Fend",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+      "P",
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D",
+    ],
+    "cost": 50000,
+  },
+  {
+    "id": "halfling_halfling_catcher",
+    "name": "Halfling Catcher",
+    "quantity": 2,
+    "tags": [
+      "Catcher",
+      "Halfling",
+    ],
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Catch",
+      "Dodge",
+      "Right Stuff",
+      "Sprint",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+    ],
+    "secondary": [
+      "G",
+      "S",
+      "D",
+    ],
+    "cost": 55000,
+  },
+  {
+    "id": "halfling_athel_forest_treeman",
+    "name": "Athel Forest Treeman",
+    "quantity": 2,
+    "tags": [
+      "Big Guy",
+      "Treeman",
+    ],
+    "MA": 2,
+    "ST": 6,
+    "AG": 5,
+    "PA": 5,
+    "AV": 11,
+    "skills": [
+      "Mighty Blow",
+      "Stand Firm",
+      "Strong Arm",
+      "Take Root",
+      "Thick Skull",
+      "Throw Team-mate",
+      "Timmm-ber!",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "P",
+      "D",
+    ],
+    "cost": 120000,
+  },
+  {
+    "id": "high_elf_high_elf_lineman",
     "name": "High Elf Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Elf",
+    "tags": [
+      "Lineman",
+      "Elf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
@@ -2461,20 +3151,22 @@
     "skills": [],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 65000
+    "cost": 65000,
   },
   {
-    "id": "high_elf_thrower_thrower",
+    "id": "high_elf_high_elf_thrower",
     "name": "High Elf Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Elf",
+    "tags": [
+      "Thrower",
+      "Elf",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 2,
@@ -2483,96 +3175,104 @@
     "skills": [
       "Cloud Burster",
       "Pass",
-      "Safe Pass"
+      "Safe Pass",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "high_elf_catcher_catcher",
+    "id": "high_elf_high_elf_catcher",
     "name": "High Elf Catcher",
     "quantity": 4,
-    "type": "Catcher",
-    "race": "Elf",
+    "tags": [
+      "Catcher",
+      "Elf",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 2,
     "PA": 3,
     "AV": 8,
     "skills": [
-      "Catch"
+      "Catch",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "high_elf_blitzer_blitzer",
+    "id": "high_elf_high_elf_blitzer",
     "name": "High Elf Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Elf",
+    "tags": [
+      "Blitzer",
+      "Elf",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
     "PA": 4,
     "AV": 9,
     "skills": [
-      "Block"
+      "Block",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "P",
-      "S"
+      "S",
     ],
-    "cost": 100000
+    "cost": 100000,
   },
   {
-    "id": "bloodborn_marauder_lineman",
+    "id": "khorne_bloodborn_marauder",
     "name": "Bloodborn Marauder",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
     "PA": 4,
     "AV": 8,
     "skills": [
-      "Frenzy"
+      "Frenzy",
     ],
     "primary": [
       "G",
-      "M"
+      "M",
     ],
     "secondary": [
       "A",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "khorngor_runner",
+    "id": "khorne_khorngor",
     "name": "Khorngor",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Beastman",
+    "tags": [
+      "Runner",
+      "Beastman",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -2582,51 +3282,55 @@
       "Horns",
       "Juggernaut",
       "Jump Up",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "P",
-      "D"
+      "D",
     ],
-    "cost": 70000
+    "cost": 70000,
   },
   {
-    "id": "bloodseeker_blocker",
+    "id": "khorne_bloodseeker",
     "name": "Bloodseeker",
     "quantity": 4,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 5,
     "ST": 4,
     "AG": 4,
     "PA": 6,
     "AV": 10,
     "skills": [
-      "Frenzy"
+      "Frenzy",
     ],
     "primary": [
       "G",
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 105000
+    "cost": 105000,
   },
   {
-    "id": "bloodspawn_big_guy",
+    "id": "khorne_bloodspawn",
     "name": "Bloodspawn",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Spawn",
+    "tags": [
+      "Big Guy",
+      "Spawn",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -2637,24 +3341,26 @@
       "Frenzy",
       "Loner",
       "Mighty Blow",
-      "Unchannelled Fury"
+      "Unchannelled Fury",
     ],
     "primary": [
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 160000
+    "cost": 160000,
   },
   {
-    "id": "skink_lineman_lineman",
+    "id": "lizardmen_skink_lineman",
     "name": "Skink Lineman",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Lizardman",
+    "tags": [
+      "Lineman",
+      "Lizardman",
+    ],
     "MA": 8,
     "ST": 2,
     "AG": 3,
@@ -2662,25 +3368,27 @@
     "AV": 8,
     "skills": [
       "Dodge",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
-      "A"
+      "A",
     ],
     "secondary": [
       "G",
       "P",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 60000
+    "cost": 60000,
   },
   {
-    "id": "chameleon_skink_thrower",
+    "id": "lizardmen_chameleon_skink",
     "name": "Chameleon Skink",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Lizardman",
+    "tags": [
+      "Thrower",
+      "Lizardman",
+    ],
     "MA": 7,
     "ST": 2,
     "AG": 3,
@@ -2690,25 +3398,27 @@
       "Dodge",
       "On the Ball",
       "Shadowing",
-      "Stunty"
+      "Stunty",
     ],
     "primary": [
       "A",
-      "P"
+      "P",
     ],
     "secondary": [
       "G",
       "S",
-      "D"
+      "D",
     ],
-    "cost": 70000
+    "cost": 70000,
   },
   {
-    "id": "saurus_blocker_blocker",
+    "id": "lizardmen_saurus_blocker",
     "name": "Saurus Blocker",
     "quantity": 6,
-    "type": "Blocker",
-    "race": "Lizardman",
+    "tags": [
+      "Blocker",
+      "Lizardman",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 5,
@@ -2716,23 +3426,25 @@
     "AV": 10,
     "skills": [
       "Juggernaut",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "kroxigor_big_guy",
+    "id": "lizardmen_kroxigor",
     "name": "Kroxigor",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Lizardman",
+    "tags": [
+      "Big Guy",
+      "Lizardman",
+    ],
     "MA": 6,
     "ST": 5,
     "AG": 5,
@@ -2743,23 +3455,85 @@
       "Loner",
       "Mighty Blow",
       "Prehensile Tail",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 140000
+    "cost": 140000,
   },
   {
-    "id": "wraith_blocker,_undead",
+    "id": "necromantic_horror_zombie_lineman",
+    "name": "Zombie Lineman",
+    "quantity": 16,
+    "tags": [
+      "Human",
+      "Lineman",
+      "Undead",
+      "Zombie",
+    ],
+    "MA": 4,
+    "ST": 3,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Eye Gouge",
+      "Regeneration",
+      "Unsteady",
+    ],
+    "primary": [
+      "D",
+      "G",
+    ],
+    "secondary": [
+      "A",
+      "S",
+    ],
+    "cost": 40000,
+  },
+  {
+    "id": "necromantic_horror_ghoul_runner",
+    "name": "Ghoul Runner",
+    "quantity": 2,
+    "tags": [
+      "Ghoul",
+      "Runner",
+      "Undead",
+    ],
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Regeneration",
+    ],
+    "primary": [
+      "A",
+      "G",
+    ],
+    "secondary": [
+      "D",
+      "P",
+      "S",
+    ],
+    "cost": 75000,
+  },
+  {
+    "id": "necromantic_horror_wraith",
     "name": "Wraith",
     "quantity": 2,
-    "type": "Blocker, Undead",
-    "race": "Wraith",
+    "tags": [
+      "Blocker",
+      "Undead",
+      "Wraith",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -2770,24 +3544,27 @@
       "Foul Appearance",
       "No Ball",
       "Regeneration",
-      "Sidestep"
+      "Sidestep",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "flesh_golem_blocker,_construct",
+    "id": "necromantic_horror_flesh_golem",
     "name": "Flesh Golem",
     "quantity": 2,
-    "type": "Blocker, Construct",
-    "race": "Undead",
+    "tags": [
+      "Blocker",
+      "Construct",
+      "Undead",
+    ],
     "MA": 4,
     "ST": 4,
     "AG": 4,
@@ -2797,24 +3574,27 @@
       "Regeneration",
       "Stand Firm",
       "Thick Skull",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "werewolf_blitzer,_undead",
+    "id": "necromantic_horror_werewolf",
     "name": "Werewolf",
     "quantity": 2,
-    "type": "Blitzer, Undead",
-    "race": "Werewolf",
+    "tags": [
+      "Blitzer",
+      "Undead",
+      "Werewolf",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 3,
@@ -2823,25 +3603,27 @@
     "skills": [
       "Claws",
       "Frenzy",
-      "Regeneration"
+      "Regeneration",
     ],
     "primary": [
       "A",
-      "G"
+      "G",
     ],
     "secondary": [
       "D",
       "P",
-      "S"
+      "S",
     ],
-    "cost": 120000
+    "cost": 120000,
   },
   {
-    "id": "norse_raider_lineman",
+    "id": "norse_norse_raider",
     "name": "Norse Raider",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -2851,24 +3633,26 @@
       "Block",
       "Drunkard",
       "Thick Skull",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
-      "G"
+      "G",
     ],
     "secondary": [
       "A",
       "P",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "beer_boar_special",
+    "id": "norse_beer_boar",
     "name": "Beer Boar",
     "quantity": 2,
-    "type": "Special",
-    "race": "Animal",
+    "tags": [
+      "Special",
+      "Animal",
+    ],
     "MA": 5,
     "ST": 1,
     "AG": 3,
@@ -2879,20 +3663,22 @@
       "No Ball",
       "Pick-me-up",
       "Stunty",
-      "Titchy"
+      "Titchy",
     ],
     "primary": [],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 20000
+    "cost": 20000,
   },
   {
-    "id": "norse_berserker_blitzer",
+    "id": "norse_norse_berserker",
     "name": "Norse Berserker",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Human",
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -2901,24 +3687,27 @@
     "skills": [
       "Block",
       "Frenzy",
-      "Jump Up"
+      "Jump Up",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "P"
+      "P",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "valkyrie_catcher,_human",
+    "id": "norse_valkyrie",
     "name": "Valkyrie",
     "quantity": 2,
-    "type": "Catcher, Human",
-    "race": "Thrower",
+    "tags": [
+      "Catcher",
+      "Human",
+      "Thrower",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -2928,24 +3717,26 @@
       "Catch",
       "Dauntless",
       "Pass",
-      "Strip Ball"
+      "Strip Ball",
     ],
     "primary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
-      "S"
+      "S",
     ],
-    "cost": 95000
+    "cost": 95000,
   },
   {
-    "id": "ulfwerener_blocker",
+    "id": "norse_ulfwerener",
     "name": "Ulfwerener",
     "quantity": 2,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 6,
     "ST": 4,
     "AG": 4,
@@ -2953,23 +3744,25 @@
     "AV": 9,
     "skills": [
       "Frenzy",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
-      "A"
+      "A",
     ],
-    "cost": 105000
+    "cost": 105000,
   },
   {
-    "id": "yhetee_big_guy",
+    "id": "norse_yhetee",
     "name": "Yhetee",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Yhetee",
+    "tags": [
+      "Big Guy",
+      "Yhetee",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -2980,23 +3773,25 @@
       "Disturbing Presence",
       "Frenzy",
       "Loner",
-      "Unchannelled Fury"
+      "Unchannelled Fury",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 140000
+    "cost": 140000,
   },
   {
-    "id": "rotter_lineman",
+    "id": "nurgle_rotter",
     "name": "Rotter",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Human",
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
     "MA": 5,
     "ST": 3,
     "AG": 4,
@@ -3004,25 +3799,27 @@
     "AV": 9,
     "skills": [
       "Decay",
-      "Plague Ridden"
+      "Plague Ridden",
     ],
     "primary": [
       "G",
       "M",
-      "D"
+      "D",
     ],
     "secondary": [
       "A",
-      "S"
+      "S",
     ],
-    "cost": 40000
+    "cost": 40000,
   },
   {
-    "id": "pestigor_runner",
+    "id": "nurgle_pestigor",
     "name": "Pestigor",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Beastman",
+    "tags": [
+      "Runner",
+      "Beastman",
+    ],
     "MA": 6,
     "ST": 3,
     "AG": 3,
@@ -3033,26 +3830,28 @@
       "Plague Ridden",
       "Regeneration",
       "Steady Footing",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "G",
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "P",
-      "D"
+      "D",
     ],
-    "cost": 70000
+    "cost": 70000,
   },
   {
-    "id": "bloater_blocker",
+    "id": "nurgle_bloater",
     "name": "Bloater",
     "quantity": 4,
-    "type": "Blocker",
-    "race": "Human",
+    "tags": [
+      "Blocker",
+      "Human",
+    ],
     "MA": 4,
     "ST": 4,
     "AG": 4,
@@ -3064,25 +3863,27 @@
       "Plague Ridden",
       "Regeneration",
       "Stand Firm",
-      "Unsteady"
+      "Unsteady",
     ],
     "primary": [
       "G",
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "D"
+      "D",
     ],
-    "cost": 110000
+    "cost": 110000,
   },
   {
-    "id": "rotspawn_big_guy",
+    "id": "nurgle_rotspawn",
     "name": "Rotspawn",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Spawn",
+    "tags": [
+      "Big Guy",
+      "Spawn",
+    ],
     "MA": 4,
     "ST": 5,
     "AG": 5,
@@ -3096,24 +3897,26 @@
       "Pick-me-up",
       "Plague Ridden",
       "Really Stupid",
-      "Tentacles"
+      "Tentacles",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "G",
       "M",
-      "D"
+      "D",
     ],
-    "cost": 140000
+    "cost": 140000,
   },
   {
-    "id": "gnoblar_lineman_gnoblar",
+    "id": "ogre_gnoblar_lineman",
     "name": "Gnoblar Lineman",
     "quantity": 16,
-    "type": "Gnoblar",
-    "race": "Lineman",
+    "tags": [
+      "Gnoblar",
+      "Lineman",
+    ],
     "MA": 5,
     "ST": 1,
     "AG": 3,
@@ -3124,23 +3927,26 @@
       "Right Stuff",
       "Sidestep",
       "Stunty",
-      "Titchy"
+      "Titchy",
     ],
     "primary": [
       "A",
-      "D"
+      "D",
     ],
     "secondary": [
-      "G"
+      "G",
     ],
-    "cost": 15000
+    "cost": 15000,
   },
   {
-    "id": "ogre_blocker_big_guy,_blocker",
+    "id": "ogre_ogre_blocker",
     "name": "Ogre Blocker",
     "quantity": 5,
-    "type": "Big Guy, Blocker",
-    "race": "Ogre",
+    "tags": [
+      "Big Guy",
+      "Blocker",
+      "Ogre",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -3150,25 +3956,28 @@
       "Bone Head",
       "Mighty Blow",
       "Thick Skull",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
       "G",
-      "P"
+      "P",
     ],
-    "cost": 140000
+    "cost": 140000,
   },
   {
-    "id": "ogre_runt_punter_big_guy,_ogre",
+    "id": "ogre_ogre_runt_punter",
     "name": "Ogre Runt Punter",
     "quantity": 1,
-    "type": "Big Guy, Ogre",
-    "race": "Thrower",
+    "tags": [
+      "Big Guy",
+      "Ogre",
+      "Thrower",
+    ],
     "MA": 5,
     "ST": 5,
     "AG": 4,
@@ -3178,25 +3987,27 @@
       "Bone Head",
       "Kick Team-mate",
       "Mighty Blow",
-      "Thick Skull"
+      "Thick Skull",
     ],
     "primary": [
       "P",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
-      "G"
+      "G",
     ],
-    "cost": 145000
+    "cost": 145000,
   },
   {
-    "id": "skaven_clanrat_lineman",
+    "id": "skaven_skaven_clanrat",
     "name": "Skaven Clanrat",
     "quantity": 16,
-    "type": "Lineman",
-    "race": "Skaven",
+    "tags": [
+      "Lineman",
+      "Skaven",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -3205,21 +4016,23 @@
     "skills": [],
     "primary": [
       "G",
-      "D"
+      "D",
     ],
     "secondary": [
       "A",
       "M",
-      "S"
+      "S",
     ],
-    "cost": 50000
+    "cost": 50000,
   },
   {
-    "id": "skaven_thrower_thrower",
+    "id": "skaven_skaven_thrower",
     "name": "Skaven Thrower",
     "quantity": 2,
-    "type": "Thrower",
-    "race": "Skaven",
+    "tags": [
+      "Thrower",
+      "Skaven",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 3,
@@ -3227,26 +4040,28 @@
     "AV": 8,
     "skills": [
       "Pass",
-      "Sure Hands"
+      "Sure Hands",
     ],
     "primary": [
       "G",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
       "D",
       "M",
-      "S"
+      "S",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "gutter_runner_runner",
+    "id": "skaven_gutter_runner",
     "name": "Gutter Runner",
     "quantity": 2,
-    "type": "Runner",
-    "race": "Skaven",
+    "tags": [
+      "Runner",
+      "Skaven",
+    ],
     "MA": 9,
     "ST": 2,
     "AG": 2,
@@ -3254,25 +4069,27 @@
     "AV": 8,
     "skills": [
       "Dodge",
-      "Stab"
+      "Stab",
     ],
     "primary": [
       "A",
       "G",
-      "D"
+      "D",
     ],
     "secondary": [
       "M",
-      "S"
+      "S",
     ],
-    "cost": 85000
+    "cost": 85000,
   },
   {
-    "id": "skaven_blitzer_blitzer",
+    "id": "skaven_skaven_blitzer",
     "name": "Skaven Blitzer",
     "quantity": 2,
-    "type": "Blitzer",
-    "race": "Skaven",
+    "tags": [
+      "Blitzer",
+      "Skaven",
+    ],
     "MA": 8,
     "ST": 3,
     "AG": 3,
@@ -3280,25 +4097,145 @@
     "AV": 9,
     "skills": [
       "Block",
-      "Strip Ball"
+      "Strip Ball",
     ],
     "primary": [
       "G",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "D",
-      "M"
+      "M",
     ],
-    "cost": 90000
+    "cost": 90000,
   },
   {
-    "id": "skaven_thrower_skaven",
+    "id": "skaven_rat_ogre",
+    "name": "Rat Ogre",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Skaven",
+    ],
+    "MA": 6,
+    "ST": 5,
+    "AG": 4,
+    "PA": 6,
+    "AV": 9,
+    "skills": [
+      "Animal Savagery",
+      "Frenzy",
+      "Loner",
+      "Mighty Blow",
+      "Prehensile Tail",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+      "M",
+    ],
+    "cost": 150000,
+  },
+  {
+    "id": "underworld_denizens_goblin_lineman",
+    "name": "Goblin Lineman",
+    "quantity": 16,
+    "tags": [
+      "Goblin",
+      "Lineman",
+    ],
+    "MA": 6,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+      "D",
+      "M",
+    ],
+    "secondary": [
+      "G",
+      "P",
+      "S",
+    ],
+    "cost": 40000,
+  },
+  {
+    "id": "underworld_denizens_snotling_lineman",
+    "name": "Snotling Lineman",
+    "quantity": 6,
+    "tags": [
+      "Lineman",
+      "Snotling",
+    ],
+    "MA": 5,
+    "ST": 1,
+    "AG": 3,
+    "PA": 4,
+    "AV": 6,
+    "skills": [
+      "Dodge",
+      "Insignificant",
+      "Right Stuff",
+      "Sidestep",
+      "Stunty",
+      "Titchy",
+    ],
+    "primary": [
+      "A",
+      "D",
+      "M",
+    ],
+    "secondary": [
+      "G",
+    ],
+    "cost": 15000,
+  },
+  {
+    "id": "underworld_denizens_skaven_clanrat",
+    "name": "Skaven Clanrat",
+    "quantity": 3,
+    "tags": [
+      "Lineman",
+      "Skaven",
+    ],
+    "MA": 7,
+    "ST": 3,
+    "AG": 4,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Animosity (Goblin)",
+    ],
+    "primary": [
+      "D",
+      "G",
+      "M",
+    ],
+    "secondary": [
+      "A",
+      "S",
+    ],
+    "cost": 50000,
+  },
+  {
+    "id": "underworld_denizens_skaven_thrower",
     "name": "Skaven Thrower",
     "quantity": 1,
-    "type": "Skaven",
-    "race": "Thrower",
+    "tags": [
+      "Skaven",
+      "Thrower",
+    ],
     "MA": 7,
     "ST": 3,
     "AG": 2,
@@ -3307,26 +4244,86 @@
     "skills": [
       "Animosity (Goblin)",
       "Pass",
-      "Sure Hands"
+      "Sure Hands",
     ],
     "primary": [
       "G",
       "M",
-      "P"
+      "P",
     ],
     "secondary": [
       "A",
       "D",
-      "S"
+      "S",
     ],
-    "cost": 80000
+    "cost": 80000,
   },
   {
-    "id": "troll\\*_big_guy",
+    "id": "underworld_denizens_gutter_runner",
+    "name": "Gutter Runner",
+    "quantity": 1,
+    "tags": [
+      "Runner",
+      "Skaven",
+    ],
+    "MA": 9,
+    "ST": 2,
+    "AG": 2,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Animosity (Goblin)",
+      "Dodge",
+      "Stab",
+    ],
+    "primary": [
+      "A",
+      "D",
+      "G",
+      "M",
+    ],
+    "secondary": [
+      "S",
+    ],
+    "cost": 85000,
+  },
+  {
+    "id": "underworld_denizens_skaven_blitzer",
+    "name": "Skaven Blitzer",
+    "quantity": 1,
+    "tags": [
+      "Blitzer",
+      "Skaven",
+    ],
+    "MA": 8,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Animosity (Goblin)",
+      "Block",
+      "Strip Ball",
+    ],
+    "primary": [
+      "G",
+      "M",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "D",
+    ],
+    "cost": 90000,
+  },
+  {
+    "id": "underworld_denizens_troll\\*",
     "name": "Troll\\*",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Troll",
+    "tags": [
+      "Big Guy",
+      "Troll",
+    ],
     "MA": 4,
     "ST": 5,
     "AG": 5,
@@ -3339,25 +4336,27 @@
       "Projectile Vomit",
       "Really Stupid",
       "Regeneration",
-      "Throw Team-mate"
+      "Throw Team-mate",
     ],
     "primary": [
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
       "G",
-      "P"
+      "P",
     ],
-    "cost": 115000
+    "cost": 115000,
   },
   {
-    "id": "rat_ogre\\*_big_guy",
+    "id": "underworld_denizens_rat_ogre\\*",
     "name": "Rat Ogre\\*",
     "quantity": 1,
-    "type": "Big Guy",
-    "race": "Skaven",
+    "tags": [
+      "Big Guy",
+      "Skaven",
+    ],
     "MA": 6,
     "ST": 5,
     "AG": 4,
@@ -3368,16 +4367,180 @@
       "Frenzy",
       "Loner",
       "Mighty Blow",
-      "Prehensile Tail"
+      "Prehensile Tail",
     ],
     "primary": [
       "M",
-      "S"
+      "S",
     ],
     "secondary": [
       "A",
-      "G"
+      "G",
     ],
-    "cost": 150000
-  }
+    "cost": 150000,
+  },
+  {
+    "id": "human_human_lineman",
+    "name": "Human Lineman",
+    "quantity": 16,
+    "tags": [
+      "Lineman",
+      "Human",
+    ],
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [],
+    "primary": [
+      "G",
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S",
+    ],
+    "cost": 50000,
+  },
+  {
+    "id": "human_halfling_hopeful",
+    "name": "Halfling Hopeful",
+    "quantity": 3,
+    "tags": [
+      "Lineman",
+      "Halfling",
+    ],
+    "MA": 5,
+    "ST": 2,
+    "AG": 3,
+    "PA": 4,
+    "AV": 7,
+    "skills": [
+      "Dodge",
+      "Right Stuff",
+      "Stunty",
+    ],
+    "primary": [
+      "A",
+    ],
+    "secondary": [
+      "D",
+      "G",
+      "S",
+    ],
+    "cost": 30000,
+  },
+  {
+    "id": "human_human_catcher",
+    "name": "Human Catcher",
+    "quantity": 2,
+    "tags": [
+      "Catcher",
+      "Human",
+    ],
+    "MA": 8,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 8,
+    "skills": [
+      "Catch",
+      "Dodge",
+    ],
+    "primary": [
+      "A",
+      "G",
+    ],
+    "secondary": [
+      "D",
+      "P",
+      "S",
+    ],
+    "cost": 75000,
+  },
+  {
+    "id": "human_human_thrower",
+    "name": "Human Thrower",
+    "quantity": 2,
+    "tags": [
+      "Thrower",
+      "Human",
+    ],
+    "MA": 6,
+    "ST": 3,
+    "AG": 3,
+    "PA": 3,
+    "AV": 9,
+    "skills": [
+      "Pass",
+      "Sure Hands",
+    ],
+    "primary": [
+      "G",
+      "P",
+    ],
+    "secondary": [
+      "A",
+      "D",
+      "S",
+    ],
+    "cost": 75000,
+  },
+  {
+    "id": "human_human_blitzer",
+    "name": "Human Blitzer",
+    "quantity": 2,
+    "tags": [
+      "Blitzer",
+      "Human",
+    ],
+    "MA": 7,
+    "ST": 3,
+    "AG": 3,
+    "PA": 4,
+    "AV": 9,
+    "skills": [
+      "Block",
+      "Tackle",
+    ],
+    "primary": [
+      "G",
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "D",
+    ],
+    "cost": 85000,
+  },
+  {
+    "id": "human_ogre",
+    "name": "Ogre",
+    "quantity": 1,
+    "tags": [
+      "Big Guy",
+      "Ogre",
+    ],
+    "MA": 5,
+    "ST": 5,
+    "AG": 4,
+    "PA": 5,
+    "AV": 10,
+    "skills": [
+      "Bone Head",
+      "Loner",
+      "Mighty Blow",
+      "Thick Skull",
+      "Throw Team-mate",
+    ],
+    "primary": [
+      "S",
+    ],
+    "secondary": [
+      "A",
+      "G",
+    ],
+    "cost": 140000,
+  },
 ]

@@ -2,4450 +2,4257 @@
   {
     "name": "Imperial Nobility",
     "players": [
-      "imperial_retainer_lineman",
-      "imperial_thrower_thrower",
-      "bodyguard_blocker",
-      "noble_blitzer_blitzer",
-      "ogre_big_guy"
+      "imperial_nobility_imperial_retainer",
+      "imperial_nobility_imperial_thrower",
+      "imperial_nobility_bodyguard",
+      "imperial_nobility_noble_blitzer",
+      "imperial_nobility_ogre",
     ],
     "special_rules": [
-      {
-        "name": "Old World Classic",
-        "cost": 0
-      }
+      "Old World Classic",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Helmut Wulf",
-        "cost": 140000
+        "cost": 140000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Josef Bugman",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Ivar Eriksson",
-        "cost": 215000
+        "cost": 215000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Griff Oberwald",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Old World Alliance",
     "players": [
-      "human_lineman_lineman",
-      "halfling_hopeful_lineman",
-      "human_catcher_catcher",
-      "dwarf_lineman_lineman",
-      "human_thrower_thrower",
-      "dwarf_runner_runner",
-      "human_blitzer_blitzer",
-      "dwarf_blitzer_blitzer",
-      "troll_slayer_special",
-      "ogre_big_guy",
-      "altern_forest_treeman_big_guy"
+      "old_world_alliance_human_lineman",
+      "old_world_alliance_halfling_hopeful",
+      "old_world_alliance_human_catcher",
+      "old_world_alliance_dwarf_lineman",
+      "old_world_alliance_human_thrower",
+      "old_world_alliance_dwarf_runner",
+      "old_world_alliance_human_blitzer",
+      "old_world_alliance_dwarf_blitzer",
+      "old_world_alliance_troll_slayer",
+      "old_world_alliance_ogre",
+      "old_world_alliance_altern_forest_treeman",
     ],
     "special_rules": [
-      {
-        "name": "Old World Classic",
-        "cost": 0
-      }
+      "Old World Classic",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Helmut Wulf",
-        "cost": 140000
+        "cost": 140000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Ivar Eriksson",
-        "cost": 215000
+        "cost": 215000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Griff Oberwald",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Riotous Rookies",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Orc",
     "players": [
-      "orc_lineman_lineman",
-      "goblin_lineman_lineman",
-      "orc_thrower_thrower",
-      "orc_blitzer_blitzer",
-      "big_un_blocker_blocker",
-      "troll_big_guy"
+      "orc_orc_lineman",
+      "orc_goblin_lineman",
+      "orc_orc_thrower",
+      "orc_orc_blitzer",
+      "orc_big_un_blocker",
+      "orc_troll",
     ],
     "special_rules": [
-      {
-        "name": "Badlands Brawl",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      },
-      {
-        "name": "Team Captain",
-        "cost": 0
-      }
+      "Badlands Brawl",
+      "Brawlin' Brutes",
+      "Team Captain",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Rashnak Backstabber",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Varag Ghoul-Chewer",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "H'thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Shambling Undead",
     "players": [
-      "skeleton_lineman_human,_lineman,_skeleton",
-      "zombie_lineman_human,_lineman,_undead",
-      "ghoul_runner_ghoul,_runner",
-      "wight_blitzer_blitzer,_human,_skeleton",
-      "mummy_big_guy,_blocker,_human"
+      "shambling_undead_skeleton_lineman",
+      "shambling_undead_zombie_lineman",
+      "shambling_undead_ghoul_runner",
+      "shambling_undead_wight_blitzer",
+      "shambling_undead_mummy",
     ],
     "special_rules": [
-      {
-        "name": "Sylvanian Spotlight",
-        "cost": 0
-      },
-      {
-        "name": "Masters of Undeath",
-        "cost": 0
-      }
+      "Sylvanian Spotlight",
+      "Masters of Undeath",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Gretchen Wächter",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Ivan 'the Animal' Deathshroud",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Wilhelm Chaney",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Captain Karina von Riesz",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Count Luthor Von Drakenborg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Snotling",
     "players": [
-      "snotling_lineman_lineman",
-      "fun-hoppa_snotling",
-      "stilty_runna_runner",
-      "fungus_flinga_snotling",
-      "pump_wagon_big_guy,_snotling",
-      "trained_troll_big_guy"
+      "snotling_snotling_lineman",
+      "snotling_fun-hoppa",
+      "snotling_stilty_runna",
+      "snotling_fungus_flinga",
+      "snotling_pump_wagon",
+      "snotling_trained_troll",
     ],
     "special_rules": [
-      {
-        "name": "Underworld Challenge",
-        "cost": 0
-      },
-      {
-        "name": "Bribery and Corruption",
-        "cost": 0
-      },
-      {
-        "name": "Low Cost Linemen",
-        "cost": 0
-      },
-      {
-        "name": "Swarming",
-        "cost": 0
-      }
+      "Underworld Challenge",
+      "Bribery and Corruption",
+      "Low Cost Linemen",
+      "Swarming",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Skitter Stab-Stab",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Glart Smashrip",
-        "cost": 175000
+        "cost": 175000,
       },
       {
         "name": "Kreek Rustgouger",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Hakflem Skuttlespike",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Biased Referee",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Riotous Rookies",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Tomb Kings",
     "players": [
-      "skeleton_lineman_human,_lineman,_skeleton",
-      "tomb_kings_thrower_human,_skeleton,_thrower",
-      "tomb_kings_blitzer_blitzer,_human,_skeleton",
-      "tomb_guardian_big_guy,_blocker,_human"
+      "tomb_kings_skeleton_lineman",
+      "tomb_kings_tomb_kings_thrower",
+      "tomb_kings_tomb_kings_blitzer",
+      "tomb_kings_tomb_guardian",
     ],
     "special_rules": [
-      {
-        "name": "Sylvanian Spotlight",
-        "cost": 0
-      },
-      {
-        "name": "Masters of Undeath",
-        "cost": 0
-      }
+      "Sylvanian Spotlight",
+      "Masters of Undeath",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Gretchen Wächter",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Ivan 'the Animal' Deathshroud",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Wilhelm Chaney",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Captain Karina von Riesz",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Count Luthor Von Drakenborg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Mortuary Assistant",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Vampire",
     "players": [
-      "thrall_lineman_human,_lineman",
-      "vampire_runner_runner,_undead",
-      "vampire_thrower_thrower,_undead",
-      "vampire_blitzer_blitzer,_undead",
-      "vargheist_big_guy,_undead"
+      "vampire_thrall_lineman",
+      "vampire_vampire_runner",
+      "vampire_vampire_thrower",
+      "vampire_vampire_blitzer",
+      "vampire_vargheist",
     ],
     "special_rules": [
-      {
-        "name": "Sylvanian Spotlight",
-        "cost": 0
-      },
-      {
-        "name": "Masters of Undeath",
-        "cost": 0
-      }
+      "Sylvanian Spotlight",
+      "Masters of Undeath",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Gretchen Wächter",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Ivan 'the Animal' Deathshroud",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Wilhelm Chaney",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Captain Karina von Riesz",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Count Luthor Von Drakenborg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Mortuary Assistant",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Wood Elf",
     "players": [
-      "wood_elf_lineman_lineman",
-      "wood_elf_thrower_thrower",
-      "wood_elf_catcher_catcher",
-      "wardancer_blitzer",
-      "loren_forest_treeman_big_guy"
+      "wood_elf_wood_elf_lineman",
+      "wood_elf_wood_elf_thrower",
+      "wood_elf_wood_elf_catcher",
+      "wood_elf_wardancer",
+      "wood_elf_loren_forest_treeman",
     ],
     "special_rules": [
-      {
-        "name": "Elven Kingdoms League",
-        "cost": 0
-      },
-      {
-        "name": "Woodland League",
-        "cost": 0
-      }
+      "Elven Kingdoms League",
+      "Woodland League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Rodney Roachbait",
-        "cost": 70000
+        "cost": 70000,
       },
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Swiftvine Glimmershard",
-        "cost": 110000
+        "cost": 110000,
       },
       {
         "name": "Gloriel Summerbloom",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Willow Rosebark",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Kiroth Krakeneye",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Maple Highgrove",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Eldril Sidewinder",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Roxanna Darknail",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "The Swift Twins",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
+  },
+  {
+    "name": "Index",
+    "players": [],
+    "special_rules": [],
+    "staff": [],
+    "star_players": [],
+    "inducements": [],
   },
   {
     "name": "Amazon",
     "players": [
-      "eagle_warrior_linewoman",
-      "python_warrior_thrower",
-      "piranha_warrior_blitzer",
-      "jaguar_warrior_blocker"
+      "amazon_eagle_warrior",
+      "amazon_python_warrior",
+      "amazon_piranha_warrior",
+      "amazon_jaguar_warrior",
     ],
     "special_rules": [
-      {
-        "name": "Lustrian Superleague",
-        "cost": 0
-      }
+      "Lustrian Superleague",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Boa Kon'ssstriktr",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Estelle la Veneaux",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "Anqi Panqi",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Dribl and Drull",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Glotl Stop",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Black Orc",
     "players": [
-      "goblin_bruiser_lineman",
-      "black_orc_blocker",
-      "trained_troll_big_guy"
+      "black_orc_goblin_bruiser",
+      "black_orc_black_orc",
+      "black_orc_trained_troll",
     ],
     "special_rules": [
-      {
-        "name": "Badlands Brawl",
-        "cost": 0
-      },
-      {
-        "name": "Bribery and Corruption",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      }
+      "Badlands Brawl",
+      "Bribery and Corruption",
+      "Brawlin' Brutes",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Rashnak Backstabber",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Varag Ghoul-Chewer",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "H'thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Biased Referee",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Bretonnian",
     "players": [
-      "bretonnian_squire_lineman",
-      "bretonnian_knight_catcher_catcher",
-      "bretonnian_knight_thrower_thrower",
-      "grail_knight_blitzer"
+      "bretonnian_bretonnian_squire",
+      "bretonnian_bretonnian_knight_catcher",
+      "bretonnian_bretonnian_knight_thrower",
+      "bretonnian_grail_knight",
     ],
     "special_rules": [
-      {
-        "name": "Old World Classic",
-        "cost": 0
-      }
+      "Old World Classic",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
+        "cost": 60000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Helmut Wulf",
-        "cost": 140000
+        "cost": 140000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Ivar Eriksson",
-        "cost": 215000
+        "cost": 215000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Griff Oberwald",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Plague Doctor",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Chaos Chosen",
     "players": [
-      "beastman_lineman_lineman",
-      "chaos_chosen_blocker",
-      "troll_big_guy",
-      "ogre_big_guy",
-      "minotaur_big_guy"
+      "chaos_chosen_beastman_lineman",
+      "chaos_chosen_chaos_chosen",
+      "chaos_chosen_troll",
+      "chaos_chosen_ogre",
+      "chaos_chosen_minotaur",
     ],
     "special_rules": [
-      {
-        "name": "Favoured of...",
-        "cost": 0
-      },
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      }
+      "Favoured of...",
+      "Chaos Clash",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Max Spleenripper",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Zzharg Madeye",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Guffle Pusmaw",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Withergrasp Doubledrool",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Bilerot Vomitflesh",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Scyla Anfingrimm",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "H'Thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Plague Doctor",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Chaos Dwarf",
     "players": [
-      "hobgoblin_lineman_lineman",
-      "sneaky_stabba_special",
-      "chaos_dwarf_blocker_blocker",
-      "flamesmith_special",
-      "bull_centaur_blitzer",
-      "minotaur_big_guy"
+      "chaos_dwarf_hobgoblin_lineman",
+      "chaos_dwarf_sneaky_stabba",
+      "chaos_dwarf_chaos_dwarf_blocker",
+      "chaos_dwarf_flamesmith",
+      "chaos_dwarf_bull_centaur",
+      "chaos_dwarf_minotaur",
     ],
     "special_rules": [
-      {
-        "name": "Badlands Brawl",
-        "cost": 0
-      },
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Hashut",
-        "cost": 0
-      }
+      "Badlands Brawl",
+      "Chaos Clash",
+      "Favoured of Hashut",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Rashnak Backstabber",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Zzharg Madeye",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Varag Ghoul-Chewer",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "H'thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Chaos Renegades",
     "players": [
-      "renegade_human_lineman",
-      "renegade_goblin_goblin",
-      "renegade_orc_lineman",
-      "renegade_skaven_lineman",
-      "renegade_dark_elf_elf",
-      "renegade_human_thrower_human",
-      "troll_big_guy",
-      "ogre_big_guy",
-      "minotaur_big_guy",
-      "rat_ogre_big_guy"
+      "chaos_renegades_renegade_human",
+      "chaos_renegades_renegade_goblin",
+      "chaos_renegades_renegade_orc",
+      "chaos_renegades_renegade_skaven",
+      "chaos_renegades_renegade_dark_elf",
+      "chaos_renegades_renegade_human_thrower",
+      "chaos_renegades_troll",
+      "chaos_renegades_ogre",
+      "chaos_renegades_minotaur",
+      "chaos_renegades_rat_ogre",
     ],
     "special_rules": [
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Khorne",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Nurgle",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Slaanesh",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Tzeentch",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Undivided",
-        "cost": 0
-      }
+      "Chaos Clash",
+      "Favoured of Khorne",
+      "Favoured of Nurgle",
+      "Favoured of Slaanesh",
+      "Favoured of Tzeentch",
+      "Favoured of Undivided",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Max Spleenripper",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Guffle Pusmaw",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Withergrasp Doubledrool",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Bilerot Vomitflesh",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Scyla Anfingrimm",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Plague Doctor",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Dark Elf",
     "players": [
-      "dark_elf_lineman_lineman",
-      "dark_elf_runner_runner",
-      "dark_elf_assassin_special",
-      "dark_elf_blitzer_blitzer",
-      "witch_elf_special"
+      "dark_elf_dark_elf_lineman",
+      "dark_elf_dark_elf_runner",
+      "dark_elf_dark_elf_assassin",
+      "dark_elf_dark_elf_blitzer",
+      "dark_elf_witch_elf",
     ],
     "special_rules": [
-      {
-        "name": "Elven Kingdoms League",
-        "cost": 0
-      }
+      "Elven Kingdoms League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Gloriel Summerbloom",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Kiroth Krakeneye",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Eldril Sidewinder",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "Roxanna Darknail",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "The Swift Twins",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Jeremiah Kool",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Dwarf",
     "players": [
-      "dwarf_lineman_lineman",
-      "dwarf_runner_runner",
-      "dwarf_blitzer_blitzer",
-      "troll_slayer_special",
-      "deathroller_big_guy,_dwarf"
+      "dwarf_dwarf_lineman",
+      "dwarf_dwarf_runner",
+      "dwarf_dwarf_blitzer",
+      "dwarf_troll_slayer",
+      "dwarf_deathroller",
     ],
     "special_rules": [
-      {
-        "name": "Worlds Edge Superleague",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      },
-      {
-        "name": "Bribery and Corruption",
-        "cost": 0
-      }
+      "Worlds Edge Superleague",
+      "Brawlin' Brutes",
+      "Bribery and Corruption",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
+        "cost": 60000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Grim Ironjaw",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Biased Referee",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Elven Union",
     "players": [
-      "elf_lineman_lineman",
-      "elf_thrower_thrower",
-      "elf_catcher_catcher",
-      "elf_blitzer_blitzer"
+      "elven_union_elf_lineman",
+      "elven_union_elf_thrower",
+      "elven_union_elf_catcher",
+      "elven_union_elf_blitzer",
     ],
     "special_rules": [
-      {
-        "name": "Elven Kingdoms League",
-        "cost": 0
-      }
+      "Elven Kingdoms League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Gloriel Summerbloom",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Kiroth Krakeneye",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Eldril Sidewinder",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Roxanna Darknail",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "The Swift Twins",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Jeremiah Kool",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Gnome",
     "players": [
-      "gnome_lineman_lineman",
-      "woodland_fox_runner",
-      "gnome_illusionist_special",
-      "gnome_beastmaster_blocker",
-      "altern_forest_treeman_big_guy"
+      "gnome_gnome_lineman",
+      "gnome_woodland_fox",
+      "gnome_gnome_illusionist",
+      "gnome_gnome_beastmaster",
+      "gnome_altern_forest_treeman",
     ],
     "special_rules": [
-      {
-        "name": "Halfling Thimble Cup",
-        "cost": 0
-      },
-      {
-        "name": "Woodland League",
-        "cost": 0
-      }
+      "Halfling Thimble Cup",
+      "Woodland League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Rodney Roachbait",
-        "cost": 70000
+        "cost": 70000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Swiftvine Glimmershard",
-        "cost": 110000
+        "cost": 110000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Willow Rosebark",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Rowana Forestfoot",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Rumbelow Sheepskin",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Maple Highgrove",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Deeproot Strongbranch",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Plague Doctor",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Goblin",
     "players": [
-      "goblin_lineman_goblin",
-      "looney_goblin",
-      "bomma_goblin",
-      "'ooligan_goblin",
-      "doom_diver_goblin",
-      "fanatic_goblin",
-      "pogoer_goblin",
-      "trained_troll_big_guy"
+      "goblin_goblin_lineman",
+      "goblin_looney",
+      "goblin_bomma",
+      "goblin_'ooligan",
+      "goblin_doom_diver",
+      "goblin_fanatic",
+      "goblin_pogoer",
+      "goblin_trained_troll",
     ],
     "special_rules": [
-      {
-        "name": "Badlands Brawl",
-        "cost": 0
-      },
-      {
-        "name": "Underworld Challenge",
-        "cost": 0
-      },
-      {
-        "name": "Bribery and Corruption",
-        "cost": 0
-      }
+      "Badlands Brawl",
+      "Underworld Challenge",
+      "Bribery and Corruption",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Rashnak Backstabber",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Skitter Stab-Stab",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Glart Smashrip",
-        "cost": 175000
+        "cost": 175000,
       },
       {
         "name": "Kreek Rustgouger",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Hakflem Skuttlespike",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Varag Ghoul-Chewer",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "H'thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Biased Referee",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Halfling",
     "players": [
-      "halfling_hopeful_lineman",
-      "halfling_hefty_blocker",
-      "halfling_catcher_catcher",
-      "athel_forest_treeman_big_guy"
+      "halfling_halfling_hopeful",
+      "halfling_halfling_hefty",
+      "halfling_halfling_catcher",
+      "halfling_athel_forest_treeman",
     ],
     "special_rules": [
-      {
-        "name": "Halfling Thimble Cup",
-        "cost": 0
-      },
-      {
-        "name": "Woodland League",
-        "cost": 0
-      }
+      "Halfling Thimble Cup",
+      "Woodland League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Rodney Roachbait",
-        "cost": 70000
+        "cost": 70000,
       },
       {
         "name": "Akhorne The Squirrell",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Swiftvine Glimmershard",
-        "cost": 110000
+        "cost": 110000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Willow Rosebark",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Rowana Forestfoot",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Rumbelow Sheepskin",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Maple Highgrove",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Deeproot Strongbranch",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
-      }
-    ]
+        "cost": 150000,
+      },
+    ],
   },
   {
     "name": "High Elf",
     "players": [
-      "high_elf_lineman_lineman",
-      "high_elf_thrower_thrower",
-      "high_elf_catcher_catcher",
-      "high_elf_blitzer_blitzer"
+      "high_elf_high_elf_lineman",
+      "high_elf_high_elf_thrower",
+      "high_elf_high_elf_catcher",
+      "high_elf_high_elf_blitzer",
     ],
     "special_rules": [
-      {
-        "name": "Elven Kingdoms League",
-        "cost": 0
-      }
+      "Elven Kingdoms League",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Gloriel Summerbloom",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Kiroth Krakeneye",
-        "cost": 160000
+        "cost": 160000,
       },
       {
         "name": "Eldril Sidewinder",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Roxanna Darknail",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Jordell Freshbreeze",
-        "cost": 280000
+        "cost": 280000,
       },
       {
         "name": "The Swift Twins",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Jeremiah Kool",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
-  },
-  {
-    "name": "Human",
-    "players": [
-      "human_lineman_lineman",
-      "halfling_hopeful_lineman",
-      "human_catcher_catcher",
-      "human_thrower_thrower",
-      "human_blitzer_blitzer",
-      "ogre_big_guy"
+        "cost": 300000,
+      },
     ],
-    "special_rules": [
-      {
-        "name": "Old World Classic",
-        "cost": 0
-      },
-      {
-        "name": "Team Captain",
-        "cost": 0
-      }
-    ],
-    "staff": [
-      {
-        "name": "Cheerleader",
-        "cost": 10000
-      },
-      {
-        "name": "Assistant Coach",
-        "cost": 10000
-      },
-      {
-        "name": "Apothecary",
-        "cost": 50000
-      },
-      {
-        "name": "Re-roll",
-        "cost": 50000
-      }
-    ],
-    "star_players": [
-      {
-        "name": "Akhorne the Squirrel",
-        "cost": 80000
-      },
-      {
-        "name": "Barik Farblast",
-        "cost": 80000
-      },
-      {
-        "name": "Cindy Piewhistle",
-        "cost": 100000
-      },
-      {
-        "name": "Puggy Baconbreath",
-        "cost": 130000
-      },
-      {
-        "name": "Helmut Wulf",
-        "cost": 140000
-      },
-      {
-        "name": "Grombrindal",
-        "cost": 170000
-      },
-      {
-        "name": "Thorsson Stoutmead",
-        "cost": 170000
-      },
-      {
-        "name": "Josef Bugman",
-        "cost": 180000
-      },
-      {
-        "name": "Karla von Kill",
-        "cost": 210000
-      },
-      {
-        "name": "Ivar Eriksson",
-        "cost": 215000
-      },
-      {
-        "name": "The Mighty Zug",
-        "cost": 220000
-      },
-      {
-        "name": "Skrorg Snowpelt",
-        "cost": 240000
-      },
-      {
-        "name": "Grak and Crumbleberry",
-        "cost": 250000
-      },
-      {
-        "name": "Griff Oberwald",
-        "cost": 300000
-      },
-      {
-        "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
-    ],
-    "inducements": [
-      {
-        "name": "Temp Agency Cheerleader",
-        "cost": 5000
-      },
-      {
-        "name": "Prayers to Nuffle",
-        "cost": 10000
-      },
-      {
-        "name": "Part-time Assistant Coach",
-        "cost": 20000
-      },
-      {
-        "name": "Team Mascot",
-        "cost": 25000
-      },
-      {
-        "name": "Weather Mage",
-        "cost": 25000
-      },
-      {
-        "name": "Mercenary Player",
-        "cost": 30000
-      },
-      {
-        "name": "Blitzer's Best Keg",
-        "cost": 50000
-      },
-      {
-        "name": "Bribe",
-        "cost": 100000
-      },
-      {
-        "name": "Extra Team Training",
-        "cost": 100000
-      },
-      {
-        "name": "Infamous Coaching Staff",
-        "cost": 100000
-      },
-      {
-        "name": "Wandering Apothecary",
-        "cost": 100000
-      },
-      {
-        "name": "Biased Referee",
-        "cost": 120000
-      },
-      {
-        "name": "Wizard",
-        "cost": 150000
-      },
-      {
-        "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
   },
   {
     "name": "Khorne",
     "players": [
-      "bloodborn_marauder_lineman",
-      "khorngor_runner",
-      "bloodseeker_blocker",
-      "bloodspawn_big_guy"
+      "khorne_bloodborn_marauder",
+      "khorne_khorngor",
+      "khorne_bloodseeker",
+      "khorne_bloodspawn",
     ],
     "special_rules": [
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Khorne",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      }
+      "Chaos Clash",
+      "Favoured of Khorne",
+      "Brawlin' Brutes",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Max Spleenripper",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Scyla Anfingrimm",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Lizardmen",
     "players": [
-      "skink_lineman_lineman",
-      "chameleon_skink_thrower",
-      "saurus_blocker_blocker",
-      "kroxigor_big_guy"
+      "lizardmen_skink_lineman",
+      "lizardmen_chameleon_skink",
+      "lizardmen_saurus_blocker",
+      "lizardmen_kroxigor",
     ],
     "special_rules": [
-      {
-        "name": "Lustrian Superleague",
-        "cost": 0
-      }
+      "Lustrian Superleague",
     ],
     "staff": [
       {
         "name": "Re-roll",
-        "cost": 70000
+        "cost": 70000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Boa Kon'ssstriktr",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Estelle la Veneaux",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "Anqi Panqi",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "Dribl and Drull",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Zolcath the Zoat",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Glotl Stop",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "Grombrindal",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Necromantic Horror",
     "players": [
-      "zombie_lineman_human,_lineman,_undead",
-      "ghoul_runner_ghoul,_runner",
-      "wraith_blocker,_undead",
-      "flesh_golem_blocker,_construct",
-      "werewolf_blitzer,_undead"
+      "necromantic_horror_zombie_lineman",
+      "necromantic_horror_ghoul_runner",
+      "necromantic_horror_wraith",
+      "necromantic_horror_flesh_golem",
+      "necromantic_horror_werewolf",
     ],
     "special_rules": [
-      {
-        "name": "Sylvanian Spotlight",
-        "cost": 0
-      },
-      {
-        "name": "Masters of Undeath",
-        "cost": 0
-      }
+      "Sylvanian Spotlight",
+      "Masters of Undeath",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Gretchen Wächter",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Ivan 'the Animal' Deathshroud",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Wilhelm Chaney",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Captain Karina von Riesz",
-        "cost": 230000
+        "cost": 230000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Count Luthor Von Drakenborg",
-        "cost": 300000
-      }
+        "cost": 300000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Mortuary Assistant",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Norse",
     "players": [
-      "norse_raider_lineman",
-      "beer_boar_special",
-      "norse_berserker_blitzer",
-      "valkyrie_catcher,_human",
-      "ulfwerener_blocker",
-      "yhetee_big_guy"
+      "norse_norse_raider",
+      "norse_beer_boar",
+      "norse_norse_berserker",
+      "norse_valkyrie",
+      "norse_ulfwerener",
+      "norse_yhetee",
     ],
     "special_rules": [
-      {
-        "name": "Old World Classic",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Khorne",
-        "cost": 0
-      },
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      }
+      "Old World Classic",
+      "Favoured of Khorne",
+      "Chaos Clash",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Cindy Piewhistle",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Puggy Baconbreath",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Helmut Wulf",
-        "cost": 140000
+        "cost": 140000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Josef Bugman",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Karla von Kill",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Ivar Eriksson",
-        "cost": 215000
+        "cost": 215000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Griff Oberwald",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Nurgle",
     "players": [
-      "rotter_lineman",
-      "pestigor_runner",
-      "bloater_blocker",
-      "rotspawn_big_guy"
+      "nurgle_rotter",
+      "nurgle_pestigor",
+      "nurgle_bloater",
+      "nurgle_rotspawn",
     ],
     "special_rules": [
-      {
-        "name": "Chaos Clash",
-        "cost": 0
-      },
-      {
-        "name": "Favoured of Nurgle",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      }
+      "Chaos Clash",
+      "Favoured of Nurgle",
+      "Brawlin' Brutes",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Re-roll",
-        "cost": 60000
-      }
+        "cost": 60000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Guffle Pusmaw",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Withergrasp Doubledrool",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Bilerot Vomitflesh",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Grashnak Blackhoof",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Lord Borak the Despoiler",
-        "cost": 270000
+        "cost": 270000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Plague Doctor",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Ogre",
     "players": [
-      "gnoblar_lineman_gnoblar",
-      "ogre_blocker_big_guy,_blocker",
-      "ogre_runt_punter_big_guy,_ogre"
+      "ogre_gnoblar_lineman",
+      "ogre_ogre_blocker",
+      "ogre_ogre_runt_punter",
     ],
     "special_rules": [
-      {
-        "name": "Badlands Brawl",
-        "cost": 0
-      },
-      {
-        "name": "Worlds Edge Superleague",
-        "cost": 0
-      },
-      {
-        "name": "Brawlin' Brutes",
-        "cost": 0
-      },
-      {
-        "name": "Low Cost Linemen",
-        "cost": 0
-      }
+      "Badlands Brawl",
+      "Worlds Edge Superleague",
+      "Brawlin' Brutes",
+      "Low Cost Linemen",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Barik Farblast",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Rashnak Backstabber",
-        "cost": 130000
+        "cost": 130000,
       },
       {
         "name": "Skrull Halfheight",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Grombrindal",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Thorsson Stoutmead",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Josef Bugman",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Grim Ironjaw",
-        "cost": 190000
+        "cost": 190000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "The Mighty Zug",
-        "cost": 220000
+        "cost": 220000,
       },
       {
         "name": "Skrorg Snowpelt",
-        "cost": 240000
+        "cost": 240000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Varag Ghoul-Chewer",
-        "cost": 260000
+        "cost": 260000,
       },
       {
         "name": "H'thark the Unstoppable",
-        "cost": 300000
+        "cost": 300000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Riotous Rookies",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Skaven",
     "players": [
-      "skaven_clanrat_lineman",
-      "skaven_thrower_thrower",
-      "gutter_runner_runner",
-      "skaven_blitzer_blitzer",
-      "rat_ogre_big_guy"
+      "skaven_skaven_clanrat",
+      "skaven_skaven_thrower",
+      "skaven_gutter_runner",
+      "skaven_skaven_blitzer",
+      "skaven_rat_ogre",
     ],
     "special_rules": [
-      {
-        "name": "Underworld Challenge",
-        "cost": 0
-      }
+      "Underworld Challenge",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 50000
-      }
+        "cost": 50000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Skitter Stab-Stab",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Glart Smashrip",
-        "cost": 175000
+        "cost": 175000,
       },
       {
         "name": "Kreek Rustgouger",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Hakflem Skuttlespike",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Morg 'n' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Biased Referee",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
+        "cost": 300000,
+      },
+    ],
   },
   {
     "name": "Underworld Denizens",
     "players": [
-      "goblin_lineman_goblin",
-      "snotling_lineman_lineman",
-      "skaven_clanrat_lineman",
-      "skaven_thrower_skaven",
-      "gutter_runner_runner",
-      "skaven_blitzer_blitzer",
-      "troll\\*_big_guy",
-      "rat_ogre\\*_big_guy"
+      "underworld_denizens_goblin_lineman",
+      "underworld_denizens_snotling_lineman",
+      "underworld_denizens_skaven_clanrat",
+      "underworld_denizens_skaven_thrower",
+      "underworld_denizens_gutter_runner",
+      "underworld_denizens_skaven_blitzer",
+      "underworld_denizens_troll\\*",
+      "underworld_denizens_rat_ogre\\*",
     ],
     "special_rules": [
-      {
-        "name": "Underworld Challenge",
-        "cost": 0
-      },
-      {
-        "name": "Bribery and Corruption",
-        "cost": 0
-      }
+      "Underworld Challenge",
+      "Bribery and Corruption",
     ],
     "staff": [
       {
         "name": "Cheerleader",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Assistant Coach",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Apothecary",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Re-roll",
-        "cost": 70000
-      }
+        "cost": 70000,
+      },
     ],
     "star_players": [
       {
         "name": "Akhorne the Squirrel",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Fungus the Loon",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Bomber Dribblesnot",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Nobbla Blackwart",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Scrappa Sorehead",
-        "cost": 120000
+        "cost": 120000,
       },
       {
         "name": "Skitter Stab-Stab",
-        "cost": 170000
+        "cost": 170000,
       },
       {
         "name": "Glart Smashrip",
-        "cost": 175000
+        "cost": 175000,
       },
       {
         "name": "Kreek Rustgouger",
-        "cost": 180000
+        "cost": 180000,
       },
       {
         "name": "Hakflem Skuttlespike",
-        "cost": 200000
+        "cost": 200000,
       },
       {
         "name": "The Black Gobbo",
-        "cost": 210000
+        "cost": 210000,
       },
       {
         "name": "Grak and Crumbleberry",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Ripper Bolgrot",
-        "cost": 250000
+        "cost": 250000,
       },
       {
         "name": "Morg 'N' Thorg",
-        "cost": 340000
-      }
+        "cost": 340000,
+      },
     ],
     "inducements": [
       {
         "name": "Temp Agency Cheerleader",
-        "cost": 5000
+        "cost": 5000,
       },
       {
         "name": "Prayers to Nuffle",
-        "cost": 10000
+        "cost": 10000,
       },
       {
         "name": "Part-time Assistant Coach",
-        "cost": 20000
+        "cost": 20000,
       },
       {
         "name": "Team Mascot",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Weather Mage",
-        "cost": 25000
+        "cost": 25000,
       },
       {
         "name": "Mercenary Player",
-        "cost": 30000
+        "cost": 30000,
       },
       {
         "name": "Blitzer's Best Keg",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Bribe",
-        "cost": 50000
+        "cost": 50000,
       },
       {
         "name": "Biased Referee",
-        "cost": 80000
+        "cost": 80000,
       },
       {
         "name": "Extra Team Training",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Infamous Coaching Staff",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wandering Apothecary",
-        "cost": 100000
+        "cost": 100000,
       },
       {
         "name": "Wizard",
-        "cost": 150000
+        "cost": 150000,
       },
       {
         "name": "Halfling Master Chef",
-        "cost": 300000
-      }
-    ]
-  }
+        "cost": 300000,
+      },
+    ],
+  },
+  {
+    "name": "Human",
+    "players": [
+      "human_human_lineman",
+      "human_halfling_hopeful",
+      "human_human_catcher",
+      "human_human_thrower",
+      "human_human_blitzer",
+      "human_ogre",
+    ],
+    "special_rules": [
+      "Old World Classic",
+      "Team Captain",
+    ],
+    "staff": [
+      {
+        "name": "Cheerleader",
+        "cost": 10000,
+      },
+      {
+        "name": "Assistant Coach",
+        "cost": 10000,
+      },
+      {
+        "name": "Apothecary",
+        "cost": 50000,
+      },
+      {
+        "name": "Re-roll",
+        "cost": 50000,
+      },
+    ],
+    "star_players": [
+      {
+        "name": "Akhorne the Squirrel",
+        "cost": 80000,
+      },
+      {
+        "name": "Barik Farblast",
+        "cost": 80000,
+      },
+      {
+        "name": "Cindy Piewhistle",
+        "cost": 100000,
+      },
+      {
+        "name": "Puggy Baconbreath",
+        "cost": 130000,
+      },
+      {
+        "name": "Helmut Wulf",
+        "cost": 140000,
+      },
+      {
+        "name": "Grombrindal",
+        "cost": 170000,
+      },
+      {
+        "name": "Thorsson Stoutmead",
+        "cost": 170000,
+      },
+      {
+        "name": "Josef Bugman",
+        "cost": 180000,
+      },
+      {
+        "name": "Karla von Kill",
+        "cost": 210000,
+      },
+      {
+        "name": "Ivar Eriksson",
+        "cost": 215000,
+      },
+      {
+        "name": "The Mighty Zug",
+        "cost": 220000,
+      },
+      {
+        "name": "Skrorg Snowpelt",
+        "cost": 240000,
+      },
+      {
+        "name": "Grak and Crumbleberry",
+        "cost": 250000,
+      },
+      {
+        "name": "Griff Oberwald",
+        "cost": 300000,
+      },
+      {
+        "name": "Morg 'n' Thorg",
+        "cost": 340000,
+      },
+    ],
+    "inducements": [
+      {
+        "name": "Temp Agency Cheerleader",
+        "cost": 5000,
+      },
+      {
+        "name": "Prayers to Nuffle",
+        "cost": 10000,
+      },
+      {
+        "name": "Part-time Assistant Coach",
+        "cost": 20000,
+      },
+      {
+        "name": "Team Mascot",
+        "cost": 25000,
+      },
+      {
+        "name": "Weather Mage",
+        "cost": 25000,
+      },
+      {
+        "name": "Mercenary Player",
+        "cost": 30000,
+      },
+      {
+        "name": "Blitzer's Best Keg",
+        "cost": 50000,
+      },
+      {
+        "name": "Bribe",
+        "cost": 100000,
+      },
+      {
+        "name": "Extra Team Training",
+        "cost": 100000,
+      },
+      {
+        "name": "Infamous Coaching Staff",
+        "cost": 100000,
+      },
+      {
+        "name": "Wandering Apothecary",
+        "cost": 100000,
+      },
+      {
+        "name": "Biased Referee",
+        "cost": 120000,
+      },
+      {
+        "name": "Wizard",
+        "cost": 150000,
+      },
+      {
+        "name": "Halfling Master Chef",
+        "cost": 300000,
+      },
+    ],
+  },
 ]
