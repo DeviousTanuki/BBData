@@ -3,7 +3,7 @@ name: Deploy Eleventy to GitHub Pages
 on:
   push:
     branches:
-      - main  # trigger on pushes to main
+      - main
 
 jobs:
   build-and-deploy:
