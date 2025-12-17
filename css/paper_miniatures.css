@@ -19,7 +19,12 @@
 
 .page {
   width: 210mm;
-  padding: 5mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  & h2 {
+    grid-column: span 2;
+  }
 
   & .miniature {
     height: 30mm;
@@ -49,19 +54,31 @@
         transform-origin: top left;
         font-family: 'Roboto Condensed';
         text-align: center;
-        line-height: 1.3em;
+        line-height: 5mm;
 
         & .name {
           font-weight: 700;
+          font-size: 5mm;
+        }
+
+        & .number {
+          font-weight: 700;
+          font-size: 5mm;
         }
 
         & .attribute {
-          font-size: 6pt;
+          font-size: 3.4mm;
+          line-height: 4mm;
+          font-weight: 700;
+        }
+
+        & .attribute_number {
+          font-size: 3.4mm;
+          line-height: 4mm;
         }
 
         & .skills {
-          display: block;
-          font-size: 5.5pt;
+          font-size: 3.4mm;
         }
       }
 
@@ -76,6 +93,8 @@
   }
 
   & .big {
+    grid-column: span 2;
+
     & .side {
       height: 55mm !important;
 
