@@ -26,6 +26,8 @@ jobs:
         run: pnpm install
 
       - name: Build Eleventy site
+        env:
+          BASE_URL: /BBData/
         run: pnpm run build
 
       - name: Deploy to GitHub Pages
