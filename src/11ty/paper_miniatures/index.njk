@@ -12,14 +12,14 @@ layout: base.njk
       <div class="text">
         <span class="name">{{ player.name }}</span><br>
         <span class="number">{{ player.number }}</span><br>
-        <span class="ma attribute">MA {{ player.MA }}</span>
-        <span class="st attribute">ST {{ player.ST }}</span><br>
-        <span class="ag attribute">AG {{ player.AG }}+</span>
-        <span class="pa attribute">PA {{ player.PA }}+</span>
-        <span class="av attribute">AV {{ player.AV }}+</span>
+        <span class="ma attribute">MA</span><span class="attribute_number"> {{ player.MA }}</span>
+        <span class="st attribute">ST</span><span class="attribute_number"> {{ player.ST }}</span>
+        <span class="ag attribute">AG</span><span class="attribute_number"> {{ player.AG }}+</span><br>
+        <span class="pa attribute">PA</span><span class="attribute_number"> {{ player.PA }}+</span>
+        <span class="av attribute">AV</span><span class="attribute_number"> {{ player.AV }}+</span><br>
         <span class="skills">
         {% for skill in player.skills_abbr %}
-        <span class="skill">{{ skill }}</span>{% if not loop.last %}; {% endif %}
+        <span class="skill">{{ skill }}</span>{% if not loop.last %}, {% endif %}
         {% endfor %}
         </span>
       </div>
