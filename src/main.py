@@ -7,8 +7,6 @@ INPUT_DIR = Path.expanduser(
 )
 OUTPUT_DIR = Path("json")
 OUTPUT_DIR.mkdir(exist_ok=True)
-all_players = {}
-all_teams = []
 
 
 def parse_int_or_nan(value):
@@ -39,7 +37,7 @@ def parse_player_row(row, team_name):
     match = re.match(r"(.+)\s*\*\((.+)\)\*", cols[1])
     name, tags = match.groups() if match else (cols[1], "")
     tags = parse_tags(tags)
-    name = name.strip()
+    name = name.replace("\\*", "").strip()
 
     quantity = int(cols[0][2:])
     skills = parse_skills(cols[7])
@@ -87,7 +85,7 @@ def parse_special_rules(lines):
     return items
 
 
-def parse_teams():
+def parse_teams(all_players, all_teams):
     for md_file in INPUT_DIR.glob("teams/*.md"):
         with md_file.open(encoding="utf-8") as f:
             lines = [l.rstrip() for l in f.readlines()]
@@ -142,10 +140,15 @@ def parse_teams():
                 "inducements": inducements,
             }
         )
+    all_teams.sort(key=lambda x: x["name"])
+    all_teams = list(filter(lambda x: x["name"] != "Index", all_teams))
+    return (all_players, all_teams)
 
 
 def main():
-    parse_teams()
+    all_players = {}
+    all_teams = []
+    (all_players, all_teams) = parse_teams(all_players, all_teams)
 
     # Write players.json
     with (OUTPUT_DIR / "players.json5").open("w", encoding="utf-8") as f:

@@ -4165,8 +4165,8 @@
     ],
     "cost": 90000,
   },
-  "underworld_denizens_troll\\*": {
-    "name": "Troll\\*",
+  "underworld_denizens_troll": {
+    "name": "Troll",
     "quantity": 1,
     "tags": [
       "Big Guy",
@@ -4197,8 +4197,8 @@
     ],
     "cost": 115000,
   },
-  "underworld_denizens_rat_ogre\\*": {
-    "name": "Rat Ogre\\*",
+  "underworld_denizens_rat_ogre": {
+    "name": "Rat Ogre",
     "quantity": 1,
     "tags": [
       "Big Guy",
