@@ -1,0 +1,65 @@
+/* print.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* container for all miniatures, rotated back to normal */
+.page {
+    width: 210mm;
+    height: 297mm;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 40mm); */
+    /* grid-auto-rows: 30mm; */
+    /* gap: 5mm; */
+    /* padding: 5mm; */
+}
+
+/* miniature rotated 90° inside the grid cell */
+.side {
+    width: 30mm;
+    height: 40mm;
+    overflow: hidden;
+    border: 1px solid #000;
+    transform-origin: top left;
+}
+
+.side:first-child {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+
+.side:nth-child(2n+1) {
+    /* transform: rotate(270deg); */
+    /* transform-origin: top left; */
+}
+
+/* attributes */
+.attribute {
+    /* display: block; */
+    font-size: 6pt;
+}
+
+/* skills */
+.skills {
+    display: block;
+    font-size: 5.5pt;
+}
+
+.foot {
+    border: 1px solid #000;
+    width: 30mm;
+  height: 5mm;
+}
+
+/* avoid page breaks inside miniatures */
+@media print {
+    .page {
+        width: 297mm;
+        height: 210mm;
+        page-break-after: always;
+    }
+    .miniature {
+        page-break-inside: avoid;
+    }
+}
