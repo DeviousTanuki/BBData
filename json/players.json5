@@ -1,6 +1,5 @@
-[
-  {
-    "id": "imperial_nobility_imperial_retainer",
+{
+  "imperial_nobility_imperial_retainer": {
     "name": "Imperial Retainer",
     "quantity": 16,
     "tags": [
@@ -24,8 +23,7 @@
     ],
     "cost": 45000,
   },
-  {
-    "id": "imperial_nobility_imperial_thrower",
+  "imperial_nobility_imperial_thrower": {
     "name": "Imperial Thrower",
     "quantity": 2,
     "tags": [
@@ -52,8 +50,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "imperial_nobility_bodyguard",
+  "imperial_nobility_bodyguard": {
     "name": "Bodyguard",
     "quantity": 4,
     "tags": [
@@ -78,8 +75,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "imperial_nobility_noble_blitzer",
+  "imperial_nobility_noble_blitzer": {
     "name": "Noble Blitzer",
     "quantity": 2,
     "tags": [
@@ -106,8 +102,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "imperial_nobility_ogre",
+  "imperial_nobility_ogre": {
     "name": "Ogre",
     "quantity": 1,
     "tags": [
@@ -135,8 +130,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "old_world_alliance_human_lineman",
+  "old_world_alliance_human_lineman": {
     "name": "Human Lineman",
     "quantity": 16,
     "tags": [
@@ -158,8 +152,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "old_world_alliance_halfling_hopeful",
+  "old_world_alliance_halfling_hopeful": {
     "name": "Halfling Hopeful",
     "quantity": 3,
     "tags": [
@@ -185,8 +178,7 @@
     ],
     "cost": 30000,
   },
-  {
-    "id": "old_world_alliance_human_catcher",
+  "old_world_alliance_human_catcher": {
     "name": "Human Catcher",
     "quantity": 1,
     "tags": [
@@ -212,8 +204,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "old_world_alliance_dwarf_lineman",
+  "old_world_alliance_dwarf_lineman": {
     "name": "Dwarf Lineman",
     "quantity": 3,
     "tags": [
@@ -239,8 +230,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "old_world_alliance_human_thrower",
+  "old_world_alliance_human_thrower": {
     "name": "Human Thrower",
     "quantity": 1,
     "tags": [
@@ -266,8 +256,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "old_world_alliance_dwarf_runner",
+  "old_world_alliance_dwarf_runner": {
     "name": "Dwarf Runner",
     "quantity": 1,
     "tags": [
@@ -294,8 +283,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "old_world_alliance_human_blitzer",
+  "old_world_alliance_human_blitzer": {
     "name": "Human Blitzer",
     "quantity": 1,
     "tags": [
@@ -320,8 +308,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "old_world_alliance_dwarf_blitzer",
+  "old_world_alliance_dwarf_blitzer": {
     "name": "Dwarf Blitzer",
     "quantity": 1,
     "tags": [
@@ -348,8 +335,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "old_world_alliance_troll_slayer",
+  "old_world_alliance_troll_slayer": {
     "name": "Troll Slayer",
     "quantity": 1,
     "tags": [
@@ -377,8 +363,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "old_world_alliance_ogre",
+  "old_world_alliance_ogre": {
     "name": "Ogre",
     "quantity": 1,
     "tags": [
@@ -406,8 +391,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "old_world_alliance_altern_forest_treeman",
+  "old_world_alliance_altern_forest_treeman": {
     "name": "Altern Forest Treeman",
     "quantity": 1,
     "tags": [
@@ -438,8 +422,7 @@
     ],
     "cost": 120000,
   },
-  {
-    "id": "orc_orc_lineman",
+  "orc_orc_lineman": {
     "name": "Orc Lineman",
     "quantity": 16,
     "tags": [
@@ -462,8 +445,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "orc_goblin_lineman",
+  "orc_goblin_lineman": {
     "name": "Goblin Lineman",
     "quantity": 4,
     "tags": [
@@ -491,8 +473,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "orc_orc_thrower",
+  "orc_orc_thrower": {
     "name": "Orc Thrower",
     "quantity": 2,
     "tags": [
@@ -519,8 +500,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "orc_orc_blitzer",
+  "orc_orc_blitzer": {
     "name": "Orc Blitzer",
     "quantity": 2,
     "tags": [
@@ -546,8 +526,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "orc_big_un_blocker",
+  "orc_big_un_blocker": {
     "name": "Big Un Blocker",
     "quantity": 2,
     "tags": [
@@ -575,8 +554,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "orc_troll",
+  "orc_troll": {
     "name": "Troll",
     "quantity": 1,
     "tags": [
@@ -607,8 +585,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "shambling_undead_skeleton_lineman",
+  "shambling_undead_skeleton_lineman": {
     "name": "Skeleton Lineman",
     "quantity": 16,
     "tags": [
@@ -636,8 +613,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "shambling_undead_zombie_lineman",
+  "shambling_undead_zombie_lineman": {
     "name": "Zombie Lineman",
     "quantity": 16,
     "tags": [
@@ -666,8 +642,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "shambling_undead_ghoul_runner",
+  "shambling_undead_ghoul_runner": {
     "name": "Ghoul Runner",
     "quantity": 2,
     "tags": [
@@ -695,8 +670,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "shambling_undead_wight_blitzer",
+  "shambling_undead_wight_blitzer": {
     "name": "Wight Blitzer",
     "quantity": 2,
     "tags": [
@@ -726,8 +700,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "shambling_undead_mummy",
+  "shambling_undead_mummy": {
     "name": "Mummy",
     "quantity": 2,
     "tags": [
@@ -754,8 +727,7 @@
     ],
     "cost": 125000,
   },
-  {
-    "id": "snotling_snotling_lineman",
+  "snotling_snotling_lineman": {
     "name": "Snotling Lineman",
     "quantity": 16,
     "tags": [
@@ -784,8 +756,7 @@
     ],
     "cost": 15000,
   },
-  {
-    "id": "snotling_fun-hoppa",
+  "snotling_fun-hoppa": {
     "name": "Fun-hoppa",
     "quantity": 2,
     "tags": [
@@ -813,8 +784,7 @@
     ],
     "cost": 20000,
   },
-  {
-    "id": "snotling_stilty_runna",
+  "snotling_stilty_runna": {
     "name": "Stilty Runna",
     "quantity": 2,
     "tags": [
@@ -842,8 +812,7 @@
     ],
     "cost": 20000,
   },
-  {
-    "id": "snotling_fungus_flinga",
+  "snotling_fungus_flinga": {
     "name": "Fungus Flinga",
     "quantity": 2,
     "tags": [
@@ -874,8 +843,7 @@
     ],
     "cost": 30000,
   },
-  {
-    "id": "snotling_pump_wagon",
+  "snotling_pump_wagon": {
     "name": "Pump Wagon",
     "quantity": 2,
     "tags": [
@@ -905,8 +873,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "snotling_trained_troll",
+  "snotling_trained_troll": {
     "name": "Trained Troll",
     "quantity": 2,
     "tags": [
@@ -936,8 +903,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "tomb_kings_skeleton_lineman",
+  "tomb_kings_skeleton_lineman": {
     "name": "Skeleton Lineman",
     "quantity": 16,
     "tags": [
@@ -965,8 +931,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "tomb_kings_tomb_kings_thrower",
+  "tomb_kings_tomb_kings_thrower": {
     "name": "Tomb Kings Thrower",
     "quantity": 2,
     "tags": [
@@ -997,8 +962,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "tomb_kings_tomb_kings_blitzer",
+  "tomb_kings_tomb_kings_blitzer": {
     "name": "Tomb Kings Blitzer",
     "quantity": 2,
     "tags": [
@@ -1027,8 +991,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "tomb_kings_tomb_guardian",
+  "tomb_kings_tomb_guardian": {
     "name": "Tomb Guardian",
     "quantity": 4,
     "tags": [
@@ -1056,8 +1019,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "vampire_thrall_lineman",
+  "vampire_thrall_lineman": {
     "name": "Thrall Lineman",
     "quantity": 16,
     "tags": [
@@ -1080,8 +1042,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "vampire_vampire_runner",
+  "vampire_vampire_runner": {
     "name": "Vampire Runner",
     "quantity": 2,
     "tags": [
@@ -1109,8 +1070,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "vampire_vampire_thrower",
+  "vampire_vampire_thrower": {
     "name": "Vampire Thrower",
     "quantity": 2,
     "tags": [
@@ -1139,8 +1099,7 @@
     ],
     "cost": 110000,
   },
-  {
-    "id": "vampire_vampire_blitzer",
+  "vampire_vampire_blitzer": {
     "name": "Vampire Blitzer",
     "quantity": 2,
     "tags": [
@@ -1167,8 +1126,7 @@
     "secondary": [],
     "cost": 110000,
   },
-  {
-    "id": "vampire_vargheist",
+  "vampire_vargheist": {
     "name": "Vargheist",
     "quantity": 1,
     "tags": [
@@ -1197,8 +1155,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "wood_elf_wood_elf_lineman",
+  "wood_elf_wood_elf_lineman": {
     "name": "Wood Elf Lineman",
     "quantity": 16,
     "tags": [
@@ -1220,8 +1177,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "wood_elf_wood_elf_thrower",
+  "wood_elf_wood_elf_thrower": {
     "name": "Wood Elf Thrower",
     "quantity": 2,
     "tags": [
@@ -1247,8 +1203,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "wood_elf_wood_elf_catcher",
+  "wood_elf_wood_elf_catcher": {
     "name": "Wood Elf Catcher",
     "quantity": 2,
     "tags": [
@@ -1275,8 +1230,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "wood_elf_wardancer",
+  "wood_elf_wardancer": {
     "name": "Wardancer",
     "quantity": 2,
     "tags": [
@@ -1303,8 +1257,7 @@
     ],
     "cost": 130000,
   },
-  {
-    "id": "wood_elf_loren_forest_treeman",
+  "wood_elf_loren_forest_treeman": {
     "name": "Loren Forest Treeman",
     "quantity": 1,
     "tags": [
@@ -1334,8 +1287,7 @@
     ],
     "cost": 120000,
   },
-  {
-    "id": "amazon_eagle_warrior",
+  "amazon_eagle_warrior": {
     "name": "Eagle Warrior",
     "quantity": 16,
     "tags": [
@@ -1359,8 +1311,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "amazon_python_warrior",
+  "amazon_python_warrior": {
     "name": "Python Warrior",
     "quantity": 2,
     "tags": [
@@ -1388,8 +1339,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "amazon_piranha_warrior",
+  "amazon_piranha_warrior": {
     "name": "Piranha Warrior",
     "quantity": 2,
     "tags": [
@@ -1415,8 +1365,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "amazon_jaguar_warrior",
+  "amazon_jaguar_warrior": {
     "name": "Jaguar Warrior",
     "quantity": 2,
     "tags": [
@@ -1441,8 +1390,7 @@
     ],
     "cost": 110000,
   },
-  {
-    "id": "black_orc_goblin_bruiser",
+  "black_orc_goblin_bruiser": {
     "name": "Goblin Bruiser",
     "quantity": 16,
     "tags": [
@@ -1471,8 +1419,7 @@
     ],
     "cost": 45000,
   },
-  {
-    "id": "black_orc_black_orc",
+  "black_orc_black_orc": {
     "name": "Black Orc",
     "quantity": 6,
     "tags": [
@@ -1498,8 +1445,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "black_orc_trained_troll",
+  "black_orc_trained_troll": {
     "name": "Trained Troll",
     "quantity": 1,
     "tags": [
@@ -1529,8 +1475,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "bretonnian_bretonnian_squire",
+  "bretonnian_bretonnian_squire": {
     "name": "Bretonnian Squire",
     "quantity": 16,
     "tags": [
@@ -1554,8 +1499,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "bretonnian_bretonnian_knight_catcher",
+  "bretonnian_bretonnian_knight_catcher": {
     "name": "Bretonnian Knight Catcher",
     "quantity": 2,
     "tags": [
@@ -1581,8 +1525,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "bretonnian_bretonnian_knight_thrower",
+  "bretonnian_bretonnian_knight_thrower": {
     "name": "Bretonnian Knight Thrower",
     "quantity": 2,
     "tags": [
@@ -1609,8 +1552,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "bretonnian_grail_knight",
+  "bretonnian_grail_knight": {
     "name": "Grail Knight",
     "quantity": 2,
     "tags": [
@@ -1636,8 +1578,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "chaos_chosen_beastman_lineman",
+  "chaos_chosen_beastman_lineman": {
     "name": "Beastman Lineman",
     "quantity": 16,
     "tags": [
@@ -1665,8 +1606,7 @@
     ],
     "cost": 55000,
   },
-  {
-    "id": "chaos_chosen_chaos_chosen",
+  "chaos_chosen_chaos_chosen": {
     "name": "Chaos Chosen",
     "quantity": 4,
     "tags": [
@@ -1692,8 +1632,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "chaos_chosen_troll",
+  "chaos_chosen_troll": {
     "name": "Troll",
     "quantity": 1,
     "tags": [
@@ -1725,8 +1664,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "chaos_chosen_ogre",
+  "chaos_chosen_ogre": {
     "name": "Ogre",
     "quantity": 1,
     "tags": [
@@ -1755,8 +1693,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "chaos_chosen_minotaur",
+  "chaos_chosen_minotaur": {
     "name": "Minotaur",
     "quantity": 1,
     "tags": [
@@ -1786,8 +1723,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "chaos_dwarf_hobgoblin_lineman",
+  "chaos_dwarf_hobgoblin_lineman": {
     "name": "Hobgoblin Lineman",
     "quantity": 16,
     "tags": [
@@ -1810,8 +1746,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "chaos_dwarf_sneaky_stabba",
+  "chaos_dwarf_sneaky_stabba": {
     "name": "Sneaky Stabba",
     "quantity": 2,
     "tags": [
@@ -1837,8 +1772,7 @@
     ],
     "cost": 60000,
   },
-  {
-    "id": "chaos_dwarf_chaos_dwarf_blocker",
+  "chaos_dwarf_chaos_dwarf_blocker": {
     "name": "Chaos Dwarf Blocker",
     "quantity": 4,
     "tags": [
@@ -1866,8 +1800,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "chaos_dwarf_flamesmith",
+  "chaos_dwarf_flamesmith": {
     "name": "Flamesmith",
     "quantity": 2,
     "tags": [
@@ -1896,8 +1829,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "chaos_dwarf_bull_centaur",
+  "chaos_dwarf_bull_centaur": {
     "name": "Bull Centaur",
     "quantity": 2,
     "tags": [
@@ -1926,8 +1858,7 @@
     ],
     "cost": 130000,
   },
-  {
-    "id": "chaos_dwarf_minotaur",
+  "chaos_dwarf_minotaur": {
     "name": "Minotaur",
     "quantity": 1,
     "tags": [
@@ -1956,8 +1887,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "chaos_renegades_renegade_human",
+  "chaos_renegades_renegade_human": {
     "name": "Renegade Human",
     "quantity": 16,
     "tags": [
@@ -1983,8 +1913,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "chaos_renegades_renegade_goblin",
+  "chaos_renegades_renegade_goblin": {
     "name": "Renegade Goblin",
     "quantity": 1,
     "tags": [
@@ -2013,8 +1942,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "chaos_renegades_renegade_orc",
+  "chaos_renegades_renegade_orc": {
     "name": "Renegade Orc",
     "quantity": 1,
     "tags": [
@@ -2040,8 +1968,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "chaos_renegades_renegade_skaven",
+  "chaos_renegades_renegade_skaven": {
     "name": "Renegade Skaven",
     "quantity": 1,
     "tags": [
@@ -2067,8 +1994,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "chaos_renegades_renegade_dark_elf",
+  "chaos_renegades_renegade_dark_elf": {
     "name": "Renegade Dark Elf",
     "quantity": 1,
     "tags": [
@@ -2094,8 +2020,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "chaos_renegades_renegade_human_thrower",
+  "chaos_renegades_renegade_human_thrower": {
     "name": "Renegade Human Thrower",
     "quantity": 1,
     "tags": [
@@ -2124,8 +2049,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "chaos_renegades_troll",
+  "chaos_renegades_troll": {
     "name": "Troll",
     "quantity": 1,
     "tags": [
@@ -2157,8 +2081,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "chaos_renegades_ogre",
+  "chaos_renegades_ogre": {
     "name": "Ogre",
     "quantity": 1,
     "tags": [
@@ -2187,8 +2110,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "chaos_renegades_minotaur",
+  "chaos_renegades_minotaur": {
     "name": "Minotaur",
     "quantity": 1,
     "tags": [
@@ -2218,8 +2140,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "chaos_renegades_rat_ogre",
+  "chaos_renegades_rat_ogre": {
     "name": "Rat Ogre",
     "quantity": 1,
     "tags": [
@@ -2248,8 +2169,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "dark_elf_dark_elf_lineman",
+  "dark_elf_dark_elf_lineman": {
     "name": "Dark Elf Lineman",
     "quantity": 16,
     "tags": [
@@ -2272,8 +2192,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "dark_elf_dark_elf_runner",
+  "dark_elf_dark_elf_runner": {
     "name": "Dark Elf Runner",
     "quantity": 2,
     "tags": [
@@ -2300,8 +2219,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "dark_elf_dark_elf_assassin",
+  "dark_elf_dark_elf_assassin": {
     "name": "Dark Elf Assassin",
     "quantity": 2,
     "tags": [
@@ -2328,8 +2246,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "dark_elf_dark_elf_blitzer",
+  "dark_elf_dark_elf_blitzer": {
     "name": "Dark Elf Blitzer",
     "quantity": 2,
     "tags": [
@@ -2355,8 +2272,7 @@
     ],
     "cost": 105000,
   },
-  {
-    "id": "dark_elf_witch_elf",
+  "dark_elf_witch_elf": {
     "name": "Witch Elf",
     "quantity": 2,
     "tags": [
@@ -2383,8 +2299,7 @@
     ],
     "cost": 110000,
   },
-  {
-    "id": "dwarf_dwarf_lineman",
+  "dwarf_dwarf_lineman": {
     "name": "Dwarf Lineman",
     "quantity": 16,
     "tags": [
@@ -2410,8 +2325,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "dwarf_dwarf_runner",
+  "dwarf_dwarf_runner": {
     "name": "Dwarf Runner",
     "quantity": 2,
     "tags": [
@@ -2437,8 +2351,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "dwarf_dwarf_blitzer",
+  "dwarf_dwarf_blitzer": {
     "name": "Dwarf Blitzer",
     "quantity": 2,
     "tags": [
@@ -2465,8 +2378,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "dwarf_troll_slayer",
+  "dwarf_troll_slayer": {
     "name": "Troll Slayer",
     "quantity": 2,
     "tags": [
@@ -2494,8 +2406,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "dwarf_deathroller",
+  "dwarf_deathroller": {
     "name": "Deathroller",
     "quantity": 1,
     "tags": [
@@ -2527,8 +2438,7 @@
     ],
     "cost": 170000,
   },
-  {
-    "id": "elven_union_elf_lineman",
+  "elven_union_elf_lineman": {
     "name": "Elf Lineman",
     "quantity": 16,
     "tags": [
@@ -2552,8 +2462,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "elven_union_elf_thrower",
+  "elven_union_elf_thrower": {
     "name": "Elf Thrower",
     "quantity": 2,
     "tags": [
@@ -2579,8 +2488,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "elven_union_elf_catcher",
+  "elven_union_elf_catcher": {
     "name": "Elf Catcher",
     "quantity": 2,
     "tags": [
@@ -2606,8 +2514,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "elven_union_elf_blitzer",
+  "elven_union_elf_blitzer": {
     "name": "Elf Blitzer",
     "quantity": 2,
     "tags": [
@@ -2633,8 +2540,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "gnome_gnome_lineman",
+  "gnome_gnome_lineman": {
     "name": "Gnome Lineman",
     "quantity": 16,
     "tags": [
@@ -2662,8 +2568,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "gnome_woodland_fox",
+  "gnome_woodland_fox": {
     "name": "Woodland Fox",
     "quantity": 2,
     "tags": [
@@ -2689,8 +2594,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "gnome_gnome_illusionist",
+  "gnome_gnome_illusionist": {
     "name": "Gnome Illusionist",
     "quantity": 2,
     "tags": [
@@ -2718,8 +2622,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "gnome_gnome_beastmaster",
+  "gnome_gnome_beastmaster": {
     "name": "Gnome Beastmaster",
     "quantity": 2,
     "tags": [
@@ -2747,8 +2650,7 @@
     ],
     "cost": 55000,
   },
-  {
-    "id": "gnome_altern_forest_treeman",
+  "gnome_altern_forest_treeman": {
     "name": "Altern Forest Treeman",
     "quantity": 2,
     "tags": [
@@ -2779,8 +2681,7 @@
     ],
     "cost": 120000,
   },
-  {
-    "id": "goblin_goblin_lineman",
+  "goblin_goblin_lineman": {
     "name": "Goblin Lineman",
     "quantity": 16,
     "tags": [
@@ -2808,8 +2709,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "goblin_looney",
+  "goblin_looney": {
     "name": "Looney",
     "quantity": 1,
     "tags": [
@@ -2837,8 +2737,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "goblin_bomma",
+  "goblin_bomma": {
     "name": "Bomma",
     "quantity": 1,
     "tags": [
@@ -2867,8 +2766,7 @@
     ],
     "cost": 45000,
   },
-  {
-    "id": "goblin_'ooligan",
+  "goblin_'ooligan": {
     "name": "'Ooligan",
     "quantity": 1,
     "tags": [
@@ -2898,8 +2796,7 @@
     ],
     "cost": 60000,
   },
-  {
-    "id": "goblin_doom_diver",
+  "goblin_doom_diver": {
     "name": "Doom Diver",
     "quantity": 1,
     "tags": [
@@ -2927,8 +2824,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "goblin_fanatic",
+  "goblin_fanatic": {
     "name": "Fanatic",
     "quantity": 1,
     "tags": [
@@ -2956,8 +2852,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "goblin_pogoer",
+  "goblin_pogoer": {
     "name": "Pogoer",
     "quantity": 1,
     "tags": [
@@ -2984,8 +2879,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "goblin_trained_troll",
+  "goblin_trained_troll": {
     "name": "Trained Troll",
     "quantity": 2,
     "tags": [
@@ -3015,8 +2909,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "halfling_halfling_hopeful",
+  "halfling_halfling_hopeful": {
     "name": "Halfling Hopeful",
     "quantity": 16,
     "tags": [
@@ -3043,8 +2936,7 @@
     ],
     "cost": 30000,
   },
-  {
-    "id": "halfling_halfling_hefty",
+  "halfling_halfling_hefty": {
     "name": "Halfling Hefty",
     "quantity": 2,
     "tags": [
@@ -3072,8 +2964,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "halfling_halfling_catcher",
+  "halfling_halfling_catcher": {
     "name": "Halfling Catcher",
     "quantity": 2,
     "tags": [
@@ -3102,8 +2993,7 @@
     ],
     "cost": 55000,
   },
-  {
-    "id": "halfling_athel_forest_treeman",
+  "halfling_athel_forest_treeman": {
     "name": "Athel Forest Treeman",
     "quantity": 2,
     "tags": [
@@ -3135,8 +3025,7 @@
     ],
     "cost": 120000,
   },
-  {
-    "id": "high_elf_high_elf_lineman",
+  "high_elf_high_elf_lineman": {
     "name": "High Elf Lineman",
     "quantity": 16,
     "tags": [
@@ -3159,8 +3048,7 @@
     ],
     "cost": 65000,
   },
-  {
-    "id": "high_elf_high_elf_thrower",
+  "high_elf_high_elf_thrower": {
     "name": "High Elf Thrower",
     "quantity": 2,
     "tags": [
@@ -3187,8 +3075,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "high_elf_high_elf_catcher",
+  "high_elf_high_elf_catcher": {
     "name": "High Elf Catcher",
     "quantity": 4,
     "tags": [
@@ -3212,8 +3099,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "high_elf_high_elf_blitzer",
+  "high_elf_high_elf_blitzer": {
     "name": "High Elf Blitzer",
     "quantity": 2,
     "tags": [
@@ -3238,8 +3124,7 @@
     ],
     "cost": 100000,
   },
-  {
-    "id": "khorne_bloodborn_marauder",
+  "khorne_bloodborn_marauder": {
     "name": "Bloodborn Marauder",
     "quantity": 16,
     "tags": [
@@ -3265,8 +3150,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "khorne_khorngor",
+  "khorne_khorngor": {
     "name": "Khorngor",
     "quantity": 2,
     "tags": [
@@ -3296,8 +3180,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "khorne_bloodseeker",
+  "khorne_bloodseeker": {
     "name": "Bloodseeker",
     "quantity": 4,
     "tags": [
@@ -3323,8 +3206,7 @@
     ],
     "cost": 105000,
   },
-  {
-    "id": "khorne_bloodspawn",
+  "khorne_bloodspawn": {
     "name": "Bloodspawn",
     "quantity": 1,
     "tags": [
@@ -3353,8 +3235,7 @@
     ],
     "cost": 160000,
   },
-  {
-    "id": "lizardmen_skink_lineman",
+  "lizardmen_skink_lineman": {
     "name": "Skink Lineman",
     "quantity": 16,
     "tags": [
@@ -3381,8 +3262,7 @@
     ],
     "cost": 60000,
   },
-  {
-    "id": "lizardmen_chameleon_skink",
+  "lizardmen_chameleon_skink": {
     "name": "Chameleon Skink",
     "quantity": 2,
     "tags": [
@@ -3411,8 +3291,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "lizardmen_saurus_blocker",
+  "lizardmen_saurus_blocker": {
     "name": "Saurus Blocker",
     "quantity": 6,
     "tags": [
@@ -3437,8 +3316,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "lizardmen_kroxigor",
+  "lizardmen_kroxigor": {
     "name": "Kroxigor",
     "quantity": 1,
     "tags": [
@@ -3466,8 +3344,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "necromantic_horror_zombie_lineman",
+  "necromantic_horror_zombie_lineman": {
     "name": "Zombie Lineman",
     "quantity": 16,
     "tags": [
@@ -3496,8 +3373,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "necromantic_horror_ghoul_runner",
+  "necromantic_horror_ghoul_runner": {
     "name": "Ghoul Runner",
     "quantity": 2,
     "tags": [
@@ -3525,8 +3401,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "necromantic_horror_wraith",
+  "necromantic_horror_wraith": {
     "name": "Wraith",
     "quantity": 2,
     "tags": [
@@ -3556,8 +3431,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "necromantic_horror_flesh_golem",
+  "necromantic_horror_flesh_golem": {
     "name": "Flesh Golem",
     "quantity": 2,
     "tags": [
@@ -3586,8 +3460,7 @@
     ],
     "cost": 110000,
   },
-  {
-    "id": "necromantic_horror_werewolf",
+  "necromantic_horror_werewolf": {
     "name": "Werewolf",
     "quantity": 2,
     "tags": [
@@ -3616,8 +3489,7 @@
     ],
     "cost": 120000,
   },
-  {
-    "id": "norse_norse_raider",
+  "norse_norse_raider": {
     "name": "Norse Raider",
     "quantity": 16,
     "tags": [
@@ -3645,8 +3517,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "norse_beer_boar",
+  "norse_beer_boar": {
     "name": "Beer Boar",
     "quantity": 2,
     "tags": [
@@ -3671,8 +3542,7 @@
     ],
     "cost": 20000,
   },
-  {
-    "id": "norse_norse_berserker",
+  "norse_norse_berserker": {
     "name": "Norse Berserker",
     "quantity": 2,
     "tags": [
@@ -3699,8 +3569,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "norse_valkyrie",
+  "norse_valkyrie": {
     "name": "Valkyrie",
     "quantity": 2,
     "tags": [
@@ -3729,8 +3598,7 @@
     ],
     "cost": 95000,
   },
-  {
-    "id": "norse_ulfwerener",
+  "norse_ulfwerener": {
     "name": "Ulfwerener",
     "quantity": 2,
     "tags": [
@@ -3755,8 +3623,7 @@
     ],
     "cost": 105000,
   },
-  {
-    "id": "norse_yhetee",
+  "norse_yhetee": {
     "name": "Yhetee",
     "quantity": 1,
     "tags": [
@@ -3784,8 +3651,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "nurgle_rotter",
+  "nurgle_rotter": {
     "name": "Rotter",
     "quantity": 16,
     "tags": [
@@ -3812,8 +3678,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "nurgle_pestigor",
+  "nurgle_pestigor": {
     "name": "Pestigor",
     "quantity": 2,
     "tags": [
@@ -3844,8 +3709,7 @@
     ],
     "cost": 70000,
   },
-  {
-    "id": "nurgle_bloater",
+  "nurgle_bloater": {
     "name": "Bloater",
     "quantity": 4,
     "tags": [
@@ -3876,8 +3740,7 @@
     ],
     "cost": 110000,
   },
-  {
-    "id": "nurgle_rotspawn",
+  "nurgle_rotspawn": {
     "name": "Rotspawn",
     "quantity": 1,
     "tags": [
@@ -3909,8 +3772,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "ogre_gnoblar_lineman",
+  "ogre_gnoblar_lineman": {
     "name": "Gnoblar Lineman",
     "quantity": 16,
     "tags": [
@@ -3938,8 +3800,7 @@
     ],
     "cost": 15000,
   },
-  {
-    "id": "ogre_ogre_blocker",
+  "ogre_ogre_blocker": {
     "name": "Ogre Blocker",
     "quantity": 5,
     "tags": [
@@ -3969,8 +3830,7 @@
     ],
     "cost": 140000,
   },
-  {
-    "id": "ogre_ogre_runt_punter",
+  "ogre_ogre_runt_punter": {
     "name": "Ogre Runt Punter",
     "quantity": 1,
     "tags": [
@@ -4000,8 +3860,7 @@
     ],
     "cost": 145000,
   },
-  {
-    "id": "skaven_skaven_clanrat",
+  "skaven_skaven_clanrat": {
     "name": "Skaven Clanrat",
     "quantity": 16,
     "tags": [
@@ -4025,8 +3884,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "skaven_skaven_thrower",
+  "skaven_skaven_thrower": {
     "name": "Skaven Thrower",
     "quantity": 2,
     "tags": [
@@ -4054,8 +3912,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "skaven_gutter_runner",
+  "skaven_gutter_runner": {
     "name": "Gutter Runner",
     "quantity": 2,
     "tags": [
@@ -4082,8 +3939,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "skaven_skaven_blitzer",
+  "skaven_skaven_blitzer": {
     "name": "Skaven Blitzer",
     "quantity": 2,
     "tags": [
@@ -4110,8 +3966,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "skaven_rat_ogre",
+  "skaven_rat_ogre": {
     "name": "Rat Ogre",
     "quantity": 1,
     "tags": [
@@ -4140,8 +3995,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "underworld_denizens_goblin_lineman",
+  "underworld_denizens_goblin_lineman": {
     "name": "Goblin Lineman",
     "quantity": 16,
     "tags": [
@@ -4170,8 +4024,7 @@
     ],
     "cost": 40000,
   },
-  {
-    "id": "underworld_denizens_snotling_lineman",
+  "underworld_denizens_snotling_lineman": {
     "name": "Snotling Lineman",
     "quantity": 6,
     "tags": [
@@ -4201,8 +4054,7 @@
     ],
     "cost": 15000,
   },
-  {
-    "id": "underworld_denizens_skaven_clanrat",
+  "underworld_denizens_skaven_clanrat": {
     "name": "Skaven Clanrat",
     "quantity": 3,
     "tags": [
@@ -4228,8 +4080,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "underworld_denizens_skaven_thrower",
+  "underworld_denizens_skaven_thrower": {
     "name": "Skaven Thrower",
     "quantity": 1,
     "tags": [
@@ -4258,8 +4109,7 @@
     ],
     "cost": 80000,
   },
-  {
-    "id": "underworld_denizens_gutter_runner",
+  "underworld_denizens_gutter_runner": {
     "name": "Gutter Runner",
     "quantity": 1,
     "tags": [
@@ -4287,8 +4137,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "underworld_denizens_skaven_blitzer",
+  "underworld_denizens_skaven_blitzer": {
     "name": "Skaven Blitzer",
     "quantity": 1,
     "tags": [
@@ -4316,8 +4165,7 @@
     ],
     "cost": 90000,
   },
-  {
-    "id": "underworld_denizens_troll\\*",
+  "underworld_denizens_troll\\*": {
     "name": "Troll\\*",
     "quantity": 1,
     "tags": [
@@ -4349,8 +4197,7 @@
     ],
     "cost": 115000,
   },
-  {
-    "id": "underworld_denizens_rat_ogre\\*",
+  "underworld_denizens_rat_ogre\\*": {
     "name": "Rat Ogre\\*",
     "quantity": 1,
     "tags": [
@@ -4379,8 +4226,7 @@
     ],
     "cost": 150000,
   },
-  {
-    "id": "human_human_lineman",
+  "human_human_lineman": {
     "name": "Human Lineman",
     "quantity": 16,
     "tags": [
@@ -4403,8 +4249,7 @@
     ],
     "cost": 50000,
   },
-  {
-    "id": "human_halfling_hopeful",
+  "human_halfling_hopeful": {
     "name": "Halfling Hopeful",
     "quantity": 3,
     "tags": [
@@ -4431,8 +4276,7 @@
     ],
     "cost": 30000,
   },
-  {
-    "id": "human_human_catcher",
+  "human_human_catcher": {
     "name": "Human Catcher",
     "quantity": 2,
     "tags": [
@@ -4459,8 +4303,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "human_human_thrower",
+  "human_human_thrower": {
     "name": "Human Thrower",
     "quantity": 2,
     "tags": [
@@ -4487,8 +4330,7 @@
     ],
     "cost": 75000,
   },
-  {
-    "id": "human_human_blitzer",
+  "human_human_blitzer": {
     "name": "Human Blitzer",
     "quantity": 2,
     "tags": [
@@ -4514,8 +4356,7 @@
     ],
     "cost": 85000,
   },
-  {
-    "id": "human_ogre",
+  "human_ogre": {
     "name": "Ogre",
     "quantity": 1,
     "tags": [
@@ -4543,4 +4384,4 @@
     ],
     "cost": 140000,
   },
-]
+}

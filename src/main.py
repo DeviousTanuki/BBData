@@ -53,7 +53,6 @@ def parse_player_row(row, team_name):
     )
 
     return player_id, {
-        "id": player_id,
         "name": name,
         "quantity": quantity,
         "tags": tags,
@@ -150,9 +149,7 @@ def main():
 
     # Write players.json
     with (OUTPUT_DIR / "players.json5").open("w", encoding="utf-8") as f:
-        json5.dump(
-            list(all_players.values()), f, indent=2, ensure_ascii=False, quote_keys=True
-        )
+        json5.dump(all_players, f, indent=2, ensure_ascii=False, quote_keys=True)
 
     # Write teams.json
     with (OUTPUT_DIR / "teams.json5").open("w", encoding="utf-8") as f:
