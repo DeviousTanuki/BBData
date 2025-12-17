@@ -1,5 +1,7 @@
 # Data for a popular Bloody Fantasy Football Bowl game.
 
+<https://devioustanuki.github.io/BBData/>
+
 ## To Do
 
 - Add star players
@@ -23,4 +25,4 @@ mkdir ~/src/github.com/BBBase-EHeresy-PPPub/
 git clone git@github.com:BBBase-EHeresy-PPPub/BBBase.git
 uv run src/main.py
 ```
-
+  
