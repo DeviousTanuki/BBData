@@ -1,0 +1,52 @@
+/* 1. Box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margins */
+* {
+  margin: 0;
+}
+
+/* 3. Sensible defaults */
+body {
+  min-height: 100vh;
+}
+
+/* 4. Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 5. Font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-family: Avenir, Montserrat, Roboto, source-sans-pro, sans-serif;
+  font-weight: normal;
+}

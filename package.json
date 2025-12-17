@@ -5,7 +5,7 @@
         "json5": "^2.2.3"
     },
     "scripts": {
-        "build": "eleventy",
-        "start": "eleventy --serve"
+        "build": "rm -rf _site && eleventy",
+        "start": "rm -rf _site && eleventy --serve"
     }
 }
