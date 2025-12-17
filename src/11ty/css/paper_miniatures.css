@@ -1,65 +1,103 @@
-/* print.css */
-body {
-    margin: 0;
-    padding: 0;
+/* roboto-condensed-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/roboto-condensed-v31-latin_latin-ext-regular.woff2') format('woff2');
 }
 
-/* container for all miniatures, rotated back to normal */
+/* roboto-condensed-700 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/roboto-condensed-v31-latin_latin-ext-700.woff2') format('woff2');
+}
+
+
 .page {
-    width: 210mm;
-    height: 297mm;
-    display: grid;
-    /* grid-template-columns: repeat(auto-fill, 40mm); */
-    /* grid-auto-rows: 30mm; */
-    /* gap: 5mm; */
-    /* padding: 5mm; */
-}
+  width: 210mm;
+  padding: 5mm;
 
-/* miniature rotated 90° inside the grid cell */
-.side {
-    width: 30mm;
-    height: 40mm;
-    overflow: hidden;
-    border: 1px solid #000;
-    transform-origin: top left;
-}
+  & .miniature {
+    height: 30mm;
 
-.side:first-child {
-    transform: rotate(90deg);
-    transform-origin: bottom right;
-}
+    & .side {
+      width: 30mm;
+      height: 45mm;
 
-.side:nth-child(2n+1) {
-    /* transform: rotate(270deg); */
-    /* transform-origin: top left; */
-}
+      &:first-child {
+        transform: rotate(90deg) translateY(-100%);
+        transform-origin: top left;
+      }
 
-/* attributes */
-.attribute {
-    /* display: block; */
-    font-size: 6pt;
-}
+      &:last-child {
+        transform: rotate(-90deg) translateY(100%) translateX(50%);
+        transform-origin: top left;
+      }
 
-/* skills */
-.skills {
-    display: block;
-    font-size: 5.5pt;
-}
+      & .text {
+        padding: 1mm;
+        width: 30mm;
+        height: 40mm;
+        overflow: hidden;
+        border-width: .5mm 0;
+        border-style: solid;
+        border-color: #000;
+        transform-origin: top left;
+        font-family: 'Roboto Condensed';
+        text-align: center;
+        line-height: 1.3em;
 
-.foot {
-    border: 1px solid #000;
-    width: 30mm;
-  height: 5mm;
+        & .name {
+          font-weight: 700;
+        }
+
+        & .attribute {
+          font-size: 6pt;
+        }
+
+        & .skills {
+          display: block;
+          font-size: 5.5pt;
+        }
+      }
+
+      & .foot {
+        border-width: .5mm;
+        border-style: solid;
+        border-color: #000;
+        width: 30mm;
+        height: 5mm;
+      }
+    }
+  }
+
+  & .big {
+    & .side {
+      height: 55mm !important;
+
+      &:last-child {
+        transform: rotate(-90deg) translateY(100%) translateX(25mm);
+        transform-origin: top left;
+      }
+
+      & .text {
+        height: 50mm !important;
+      }
+    }
+  }
 }
 
 /* avoid page breaks inside miniatures */
 @media print {
-    .page {
-        width: 297mm;
-        height: 210mm;
-        page-break-after: always;
-    }
-    .miniature {
-        page-break-inside: avoid;
-    }
+  .page {
+    page-break-after: always;
+  }
+
+  .miniature {
+    page-break-inside: avoid;
+  }
 }
