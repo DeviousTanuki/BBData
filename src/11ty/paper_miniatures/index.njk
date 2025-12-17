@@ -1,4 +1,32 @@
 ---
 layout: base.njk
 ---
-
+{% for roster in rosters %}
+<div class="page">
+{# <h2>{{ roster.name }}</h2> #}
+{% for player in roster.players %}
+<div class="miniature">
+<div class="text">
+{% set miniatures = [player, player] %} {# front and back #}
+{% for m in miniatures %}
+<div class="side">
+<span class="number">{{ player.number }}</span>
+<span class="name">{{ player.name }}</span><br>
+<span class="ma attribute">MA {{ player.MA }}</span>
+<span class="st attribute">ST {{ player.ST }}</span>
+<span class="ag attribute">AG {{ player.AG }}+</span>
+<span class="pa attribute">PA {{ player.PA }}+</span>
+<span class="av attribute">AV {{ player.AV }}+</span>
+<span class="skills">
+{% for skill in player.skills_abbr %}
+<span class="skill">{{ skill }}</span>{% if not loop.last %}; {% endif %}
+{% endfor %}
+</span>
+</div>
+<div class="foot"></div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
+{% endfor %}

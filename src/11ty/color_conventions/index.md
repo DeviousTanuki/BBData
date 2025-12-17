@@ -1,3 +1,7 @@
+---
+layout: base.njk
+---
+
 # Color Conventions
 
 Inofficial color conventions

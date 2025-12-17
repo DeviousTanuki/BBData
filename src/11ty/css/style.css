@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-/* 2. Remove default margins */
-* {
-  margin: 0;
-}
-
 /* 3. Sensible defaults */
 body {
   min-height: 100vh;
