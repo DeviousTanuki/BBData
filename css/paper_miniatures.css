@@ -18,7 +18,7 @@
 
 
 .page {
-  width: 210mm;
+  width: 200mm;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -31,7 +31,7 @@
 
     & .side {
       width: 30mm;
-      height: 45mm;
+      height: 50mm;
 
       &:first-child {
         transform: rotate(90deg) translateY(-100%);
@@ -39,7 +39,7 @@
       }
 
       &:last-child {
-        transform: rotate(-90deg) translateY(100%) translateX(50%);
+        transform: rotate(-90deg) translateY(100%) translateX(calc(50mm - 30mm));
         transform-origin: top left;
       }
 
@@ -48,7 +48,7 @@
         width: 30mm;
         height: 40mm;
         overflow: hidden;
-        border-width: .5mm 0;
+        border-width: .25mm 0;
         border-style: solid;
         border-color: #000;
         transform-origin: top left;
@@ -87,7 +87,7 @@
         border-style: solid;
         border-color: #000;
         width: 30mm;
-        height: 5mm;
+        height: 10mm;
       }
     }
   }
@@ -99,7 +99,7 @@
       height: 55mm !important;
 
       &:last-child {
-        transform: rotate(-90deg) translateY(100%) translateX(25mm);
+        transform: rotate(-90deg) translateY(100%) translateX(calc(55mm - 30mm));
         transform-origin: top left;
       }
 
