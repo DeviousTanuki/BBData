@@ -1,50 +1,9 @@
-/* roboto-condensed-regular - latin_latin-ext */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/roboto-condensed-v31-latin_latin-ext-regular.woff2') format('woff2');
-}
-
-/* roboto-condensed-700 - latin_latin-ext */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url('fonts/roboto-condensed-v31-latin_latin-ext-700.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/oswald-v57-latin_latin-ext-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  src: url('fonts/oswald-v57-latin_latin-ext-700.woff2') format('woff2');
-}
-
-:root,
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
-  width: 180mm;
   display: grid;
-  grid-template-columns: 30mm 30mm 30mm 30mm 30mm 30mm;
+  grid-template-columns: repeat(auto-fill, 30mm);
 
   & h2 {
-    grid-column: span 6;
+    grid-column: 1 / -1;
   }
 
   & .miniature {

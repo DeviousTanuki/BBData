@@ -1,0 +1,39 @@
+/* Box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin */
+:root,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sensible defaults */
+body {
+  min-height: 100vh;
+}
+
+/* Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
