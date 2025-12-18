@@ -4,10 +4,6 @@
     background-color: rgb(185, 185, 185);
   }
 
-  & .big .side {
-    background-color: rgb(166, 123, 91);
-  }
-
   & .bkr .side {
     background-color: rgb(96, 204, 96);
   }
@@ -30,6 +26,10 @@
 
   & .thw .side {
     background-color: white;
+  }
+
+  & .big .side {
+    background-color: rgb(166, 123, 91);
   }
 
   & .stp .side {
@@ -105,14 +105,14 @@
         border-style: solid;
         border-color: #000;
         width: 30mm;
-        height: 10mm;
+        height: 15mm;
       }
     }
   }
 
   & .big {
     & .side {
-      height: 60mm;
+      height: 65mm;
 
       & .text {
         height: 50mm;
