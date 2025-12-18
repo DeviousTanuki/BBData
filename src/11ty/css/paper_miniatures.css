@@ -1,43 +1,59 @@
 .print-color {
-  & .lnw .side,
-  & .lnm .side {
-    background-color: rgb(185, 185, 185);
+
+  /* Blitzer Red */
+  & .blz .side .text {
+    /* background-color: #D55D5D; */
+    background-image: url("../paper_miniatures/blitzer.svg");
+    background-repeat: no-repeat;
   }
 
-  & .bkr .side {
-    background-color: rgb(96, 204, 96);
+  /* Special Orange */
+  & .spc .side .text {
+    background-image: url("../paper_miniatures/special.svg");
+    background-repeat: no-repeat;
   }
 
-  & .blz .side {
-    background-color: rgb(255, 78, 78);
+  /* Catcher Yellow */
+  & .ctr .side .text {
+    background-image: url("../paper_miniatures/catcher.svg");
+    background-repeat: no-repeat;
   }
 
-  & .ctr .side {
-    background-color: rgb(255, 255, 147);
+  /* Blocker Green */
+  & .bkr .side .text {
+    background-image: url("../paper_miniatures/blocker.svg");
+    background-repeat: no-repeat;
   }
 
-  & .rnr .side {
-    background-color: rgb(118, 206, 206);
+  /* Runner Cyan */
+  & .rnr .side .text {
+    background-image: url("../paper_miniatures/runner.svg");
+    background-repeat: no-repeat;
   }
 
-  & .spc .side {
-    background-color: rgb(255, 197, 89);
+  /* Star Player Blue */
+  & .stp .side .text {
+    background-image: url("../paper_miniatures/star_player.svg");
+    background-repeat: no-repeat;
   }
 
-  & .thw .side {
-    background-color: white;
+  /* Lineman/Linewoman Grey */
+  & .lnw .side .text,
+  & .lnm .side .text {
+    background-image: url("../paper_miniatures/lineman.svg");
+    background-repeat: no-repeat;
   }
 
-  & .big .side {
-    background-color: rgb(166, 123, 91);
+  /* Thrower White */
+  & .thw .side .text {
+    background-image: url("../paper_miniatures/thrower.svg");
+    background-repeat: no-repeat;
   }
 
-  & .stp .side {
-    background-color: rgb(138, 138, 255);
-  }
-
-  & .scw .side {
-    background-color: rgb(255, 97, 255);
+  /* Big Guy Brown */
+  & .big .side .text {
+    background-image: url("../paper_miniatures/big_guy.svg");
+    background-repeat: no-repeat;
   }
 }
 
@@ -48,6 +64,7 @@
   & h2 {
     grid-column: 1 / -1;
   }
+
   & .miniature {
     & .side {
       &:first-child {
