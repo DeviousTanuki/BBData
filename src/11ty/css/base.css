@@ -1,6 +1,7 @@
-main {
-  margin: 10mm;
-  padding: 10mm;
+@media screen {
+  main {
+    margin: 15mm;
+  }
 }
 
 /* Base reset */

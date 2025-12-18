@@ -26,6 +26,11 @@ export default async function () {
         for (let skill of player.skills) {
           skills_abbr.push(abbreviations_reversed[skill]);
         }
+        let tags_abbr = [];
+        player["tags_abbr"] = tags_abbr;
+        for (let tag of player.tags) {
+          tags_abbr.push(abbreviations_reversed[tag]);
+        }
        }
     }
   }
