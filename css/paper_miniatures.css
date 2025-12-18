@@ -1,3 +1,46 @@
+.print-color {
+  & .lnw .side,
+  & .lnm .side {
+    background-color: rgb(185, 185, 185);
+  }
+
+  & .big .side {
+    background-color: rgb(166, 123, 91);
+  }
+
+  & .bkr .side {
+    background-color: rgb(96, 204, 96);
+  }
+
+  & .blz .side {
+    background-color: rgb(255, 78, 78);
+  }
+
+  & .ctr .side {
+    background-color: rgb(255, 255, 147);
+  }
+
+  & .rnr .side {
+    background-color: rgb(118, 206, 206);
+  }
+
+  & .spc .side {
+    background-color: rgb(255, 197, 89);
+  }
+
+  & .thw .side {
+    background-color: white;
+  }
+
+  & .stp .side {
+    background-color: rgb(138, 138, 255);
+  }
+
+  & .scw .side {
+    background-color: rgb(255, 97, 255);
+  }
+}
+
 .page {
   display: grid;
   grid-template-columns: repeat(auto-fill, 30mm);
@@ -5,7 +48,6 @@
   & h2 {
     grid-column: 1 / -1;
   }
-
   & .miniature {
     & .side {
       &:first-child {
@@ -79,20 +121,21 @@
   }
 }
 
-@media screen {
-  .page {
-    margin: 15mm;
-  }
-}
+
 
 @media print {
   .page {
     size: A4;
     page-break-after: always;
-    /* margin: 15mm; */
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   .miniature {
     page-break-inside: avoid;
+  }
+
+  .screen {
+    display: none;
   }
 }
