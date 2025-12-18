@@ -1,0 +1,50 @@
+main {
+  margin: 10mm;
+  padding: 10mm;
+}
+
+/* Base reset */
+ul,
+ol,
+dl {
+  margin-block: 1em;
+  padding-inline-start: 1.5em;
+}
+
+/* Unordered lists */
+ul {
+  list-style-type: disc;
+}
+
+/* Ordered lists */
+ol {
+  list-style-type: decimal;
+}
+
+/* Nested lists */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-block: 0.5em;
+}
+
+/* List items */
+li {
+  margin-block: 0.25em;
+}
+
+/* Definition lists */
+dl {
+  padding-inline-start: 0;
+}
+
+dt {
+  font-weight: 600;
+  margin-block-start: 0.75em;
+}
+
+dd {
+  margin-inline-start: 1.5em;
+  margin-block-start: 0.25em;
+}

@@ -1,0 +1,115 @@
+---
+layout: base.njk
+---
+<main class="abbreviation_page">
+<h1>Abbreviations</h1>
+<p>This is an inofficial list of abbreviations.</p>
+<div class="masonry">
+<div class="list">
+<h2>All Abbreviations</h2>
+<dl>
+    {% for k, v in abbreviations.abbreviations %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>All Abbreviations Reversed</h2>
+<dl>
+    {% for k, v in abbreviations.abbreviations_reversed %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Positional Tags</h2>
+<dl>
+    {% for k, v in abbreviations.positional_tags %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Races</h2>
+<dl>
+    {% for k, v in abbreviations.races %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Teams</h2>
+<dl>
+    {% for k, v in abbreviations.teams %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Agility Skills</h2>
+<dl>
+    {% for k, v in abbreviations.agility %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Devious Skills</h2>
+<dl>
+    {% for k, v in abbreviations.devious %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>General Skills</h2>
+<dl>
+    {% for k, v in abbreviations.general %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Passing Skills</h2>
+<dl>
+    {% for k, v in abbreviations.passing %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Strength Skills</h2>
+<dl>
+    {% for k, v in abbreviations.strength %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+
+<div class="list">
+<h2>Traits</h2>
+<dl>
+    {% for k, v in abbreviations.traits %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+<div class="list">
+<h2>Mutations</h2>
+<dl>
+    {% for k, v in abbreviations.mutation %}
+    <dt>{{ k }}</dt><dd>{{ v }}</dd>
+    {% endfor %}
+</dl>
+</div>
+</div>
+</main>

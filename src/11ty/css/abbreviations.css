@@ -1,0 +1,5 @@
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90mm , auto));
+  grid-template-rows: masonry;
+}

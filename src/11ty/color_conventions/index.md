@@ -2,9 +2,12 @@
 layout: base.njk
 ---
 
+<main>
+
 # Color Conventions
 
-Inofficial color conventions
+This are inofficial color conventions.
+
 
 | Positinal Tag     | Color  |
 | ----------------- | ------ |
@@ -19,9 +22,11 @@ Inofficial color conventions
 | Star Player       | Blue   |
 | Thrower           | White  |
 
-Color conventions are based on 
+Since some players can be *Specical* and have the *Secret Weapon* Trait, the fact that they have the *Secret weapon* Trait has priority.
+
+Color conventions are based on:
 
 - <https://www.thenaf.net/outdated/blood-bowl/rules/conventions/>
 - <https://www.reddit.com/r/bloodbowl/comments/ec4dbp/predefined_colours_used_for_different_positions/>
 
-Since some players can be Specical and have a Secret Weapon, the fact that they have a secret weapon takes priority.
+</main>
