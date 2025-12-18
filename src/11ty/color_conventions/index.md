@@ -13,20 +13,20 @@ This are inofficial color conventions.
 | ----------------- | ------ |
 | Big Guy           | Brown  |
 | Blitzer           | Red    |
-| Blocker           | Green  |
-| Catcher           | Yellow |
-| Lineman/Linewoman | Grey   |
-| Runner            | Cyan   |
-| Secret Weapon     | Purple |
 | Special           | Orange |
+| Catcher           | Yellow |
+| Blocker           | Green  |
+| Runner            | Cyan   |
 | Star Player       | Blue   |
-| Thrower           | White  |
-
-Since some players can be *Specical* and have the *Secret Weapon* Trait, the fact that they have the *Secret weapon* Trait has priority.
+| Thrower           | Purple |
+| Lineman/Linewoman | Grey   |
 
 Color conventions are based on:
 
 - <https://www.thenaf.net/outdated/blood-bowl/rules/conventions/>
 - <https://www.reddit.com/r/bloodbowl/comments/ec4dbp/predefined_colours_used_for_different_positions/>
+- Secret weapon being removed as a category (they are mostly special).
+- Throwers are now purple.
+- Big Guys are now brown.
 
 </main>
