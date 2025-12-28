@@ -9,17 +9,17 @@ layout: base.njk
 This are inofficial color conventions.
 
 
-| Positinal Tag     | Color  |
-| ----------------- | ------ |
-| Big Guy           | Brown  |
-| Blitzer           | Red    |
-| Special           | Orange |
-| Catcher           | Yellow |
-| Blocker           | Green  |
-| Runner            | Cyan   |
-| Star Player       | Blue   |
-| Thrower           | Purple |
-| Lineman/Linewoman | Grey   |
+| Positinal Tag | Color  |
+| ------------- | ------ |
+| Big Guy       | Brown  |
+| Blitzer       | Red    |
+| Special       | Orange |
+| Catcher       | Yellow |
+| Blocker       | Green  |
+| Runner        | Cyan   |
+| Star Player   | Blue   |
+| Thrower       | Purple |
+| Lineman       | Grey   |
 
 Color conventions are based on:
 
