@@ -38,6 +38,7 @@ layout: base.njk
         <span class="ag attribute">AG</span><span class="attribute_number"> {{ player.AG }}+</span><br>
         <span class="pa attribute">PA</span><span class="attribute_number"> {{ player.PA }}+</span>
         <span class="av attribute">AV</span><span class="attribute_number"> {{ player.AV }}+</span><br>
+        <span class="tags">{% for tag in player.tags_abbr %}<span class="tag">{{ tag }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span><br>
         <span class="skills">
         {% for skill in player.skills_abbr %}
         <span class="skill">{{ skill }}</span>{% if not loop.last %}, {% endif %}
