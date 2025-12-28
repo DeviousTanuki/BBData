@@ -83,11 +83,11 @@
         transform-origin: top left;
         font-family: 'Roboto Condensed';
         text-align: center;
-        line-height: 5mm;
+        line-height: 4.4mm;
 
         & .name {
           font-weight: 700;
-          font-size: 5mm;
+          font-size: 4.8mm;
           font-family: "Oswald";
           font-optical-sizing: auto;
           font-style: normal;
@@ -95,7 +95,7 @@
 
         & .number {
           font-weight: 600;
-          font-size: 5mm;
+          font-size: 4.8mm;
           font-family: "Oswald";
           font-optical-sizing: auto;
           font-style: normal;
@@ -103,16 +103,16 @@
 
         & .attribute {
           font-size: 3.4mm;
-          line-height: 4mm;
+          line-height: 3.5mm;
           font-weight: 700;
         }
 
         & .attribute_number {
           font-size: 3.4mm;
-          line-height: 4mm;
+          line-height: 3.5mm;
         }
 
-        & .skills {
+        & .skills, .tags {
           font-size: 3.4mm;
         }
       }
