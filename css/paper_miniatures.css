@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
   }
 
-  /* Lineman/Linewoman Grey */
+  /* Lineman Grey */
   & .lnw .side .text,
   & .lnm .side .text {
     background-image: url("../paper_miniatures/lineman.svg");
