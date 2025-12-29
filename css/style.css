@@ -1,7 +1,7 @@
 @import url("reset.css");
 
-@import url("fonts/oswald.css");
-@import url("fonts/roboto-condensed.css");
+@import url("fonts/oswald/oswald.css");
+@import url("fonts/roboto/roboto-condensed.css");
 
 @import url("text.css");
 @import url("base.css");
