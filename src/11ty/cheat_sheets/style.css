@@ -1,0 +1,245 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body,
+* {
+  font-family: "Atkinson Hyperlegible";
+  font-size: 3mm;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Black Ops One";
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+ul+h2,
+ol+h2,
+p+h2 {
+  margin-top: 2mm;
+}
+
+p {
+  font-family: "Atkinson Hyperlegible";
+  margin-top: 0;
+  margin-bottom: 2mm;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  padding: 0;
+}
+
+th {
+  vertical-align: top;
+  text-align: left;
+  padding: 0;
+}
+
+td {
+  vertical-align: top;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 5mm;
+  margin: 0;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dice_icon {
+  width: 10mm;
+  height: 10mm;
+}
+
+.page-break {
+  break-after: page;
+}
+
+@page {
+  size: A6;
+  margin: 10mm;
+}
+
+.passing-chart {
+  border-collapse: collapse;
+  border: 0;
+}
+
+.passing-chart td {
+  font-family: "Black Ops One", system-ui;
+  width: calc(100vw / 15);
+  height: calc(100vw / 15);
+  text-align: center;
+  vertical-align: middle;
+  outline-style: dashed;
+  outline-width: 0.1mm;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+dt::before {
+  content: "";
+  display: block;
+}
+
+dt {
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 0 0 2mm;
+}
+
+dd {
+  margin: 0 0 0 2mm;
+}
+
+@media print {
+  .passing-chart td {
+    background: lch(95% 50% 120deg);
+    outline-color: black;
+  }
+
+  .passing-chart td.n {
+    color: black;
+  }
+
+  .passing-chart td.t {
+    background: lch(60% 0% 30);
+  }
+
+  .passing-chart td.q {
+    background: lch(90% 50% 120deg);
+  }
+
+  .passing-chart td.s {
+    background: lch(80% 50% 90deg);
+  }
+
+  .passing-chart td.l {
+    background: lch(70% 50% 60deg);
+  }
+
+  .passing-chart td.b {
+    background: lch(60% 50% 30deg);
+  }
+}
+
+@media screen {
+  article {
+    margin: 10mm;
+  }
+
+  .passing-chart td {
+    background: lch(95% 50% 120deg);
+    outline-color: black;
+  }
+
+  .passing-chart td.n {
+    color: black;
+  }
+
+  .passing-chart td.t {
+    background: lch(60% 0% 30);
+  }
+
+  .passing-chart td.q {
+    background: lch(90% 50% 120deg);
+  }
+
+  .passing-chart td.s {
+    background: lch(80% 50% 90deg);
+  }
+
+  .passing-chart td.l {
+    background: lch(70% 50% 60deg);
+  }
+
+  .passing-chart td.b {
+    background: lch(60% 50% 30deg);
+  }
+}
+
+.watermark {
+  display: block;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  bottom: 5mm;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, .2);
+  z-index: -1;
+}

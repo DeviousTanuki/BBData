@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Blood Bowl Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Black+Ops+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Sequence -->
+    <article class="page-break">
+        <h1 class="watermark">SEQUENCE 1</h1>
+        <h2 id="pre-game-sequence">PRE-GAME SEQUENCE</h2>
+        <p>The pre-game sequence consists of the following steps:</p>
+        <ol>
+            <li>The Fans</li>
+            <li>The Weather</li>
+            <li>(Secret Objectives)</li>
+            <li>Take On Journeymen</li>
+            <li>Inducements</li>
+            <li>The Prayers to Nuffle Table</li>
+            <li>Determine Kicking Team</li>
+        </ol>
+        <h2 id="start-of-drive-sequence">START OF DRIVE SEQUENCE</h2>
+        <p>
+            At the beginning of every drive, both coaches run through the following sequence of steps:
+        </p>
+        <ol>
+            <li>Set-up</li>
+            <ol>
+                <li>Defender Set-up</li>
+                <li>Attacker Set-up</li>
+            </ol>
+            <li>The Kick-off</li>
+            <ol>
+                <li>Declare Kicking Player</li>
+                <li>Declare Target Square</li>
+                <li>Deviation</li>
+                <li>The Kick-off Event</li>
+                <li>Bounce</li>
+            </ol>
+        </ol>
+        <h2 id="team-turns">TEAM TURNS</h2>
+        <p>
+            Once the Kick-off has been resolved, the game continues in a simple but strict sequence of
+            team turns:
+        </p>
+        <ol>
+            <li>Receiving Team's Turn</li>
+            <li>Kicking Team's Turn</li>
+        </ol>
+        <div class="page-number"></div>
+    </article>
+    <article class="page-break">
+        <h1 class="watermark">SEQUENCE 2</h1>
+        <h2 id="end-of-drive-sequence">END OF DRIVE SEQUENCE</h2>
+        <p>
+            When a touchdown is scored or at the end of the final turn of a half, the current drive comes
+            to an end and play will half.
+            If there are more turns of the current half or a full half still to come, play only halts
+            temporarily. Both coaches run through the following sequence of steps:
+        </p>
+        <ol>
+            <li>Deal with Secret Weapons</li>
+            <li>Recover Knocked-out Players</li>
+            <li>The Drive ends</li>
+        </ol>
+        <h2 id="post-game-sequence">POST-GAME SEQUENCE</h2>
+        <p>
+            After a league fixture, both coaches should run through the full post-game sequence step by
+            step. Note that in exhibition play, the post-game sequence need not be completed:
+        </p>
+        <ol>
+            <li>Record outcome</li>
+            <li>Calculate winnings. Consider:
+                <ul>
+                    <li>Fans</li>
+                    <li>Touchdowns</li>
+                    <li>Stalling</li>
+                    <li>(Secret Objectives)</li>
+                </ul>
+            </li>
+            <li>Update Dedicated Fans</li>
+            <li>See if a player goes into upkeep negotioations</li>
+            <li>Player advancement</li>
+            <li>Hiring, firing and temporarily retiring</li>
+            <li>Expensive mistakes</li>
+            <li>Prepare for next fixture</li>
+        </ol>
+    </article>
+
+    <!-- Weather -->
+    <article class="page-break">
+        <h1 class="watermark">WEATHER</h1>
+        <h2 id="weather-table">WEATHER TABLE</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>2D6</th>
+                    <th>RESULT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <strong>2</strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <em>Sweltering Heat:</em>
+                        </strong>
+                        Some players faint in the unbearable
+                        heat! D3 randomly selected players from each team that are on the pitch when a
+                        drive ends are placed in the Reserves box. They must miss the next drive.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>3</strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <em>Very Sunny:</em>
+                        </strong>
+                        A glorious day, but the clear skies and
+                        bright sunlight interfere with the passing game! Apply a -1 modifier every time
+                        a player tests against their Passing Ability.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>4‑10</strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <em>Perfect Conditions:</em>
+                        </strong>
+                        Neither too cold nor too hot. A
+                        warm, dry and slightly overcast day provides perfect conditions for Blood Bowl.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>11</strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <em>Pouring Rain:</em>
+                        </strong>
+                        Pouring Rain: A torrential downpour
+                        leaves the players soaked and the ball very slippery! Apply a -1 modifier every
+                        time a player makes an Agility test to catch or pick-up the ball, or to attempt
+                        to interfere with a pass.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>12</strong>
+                    </td>
+                    <td>
+                        <strong>
+                            <em>Blizzard:</em>
+                        </strong>
+                        Freezing conditions and heavy falls of snow
+                        make the footing treacherous. Apply a -1 modifier every time a player attempts
+                        to Rush an extra square.
+                        <br>
+                        Additionally, the poor visibility means that only
+                        Quick and Short passes can be attempted.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <!-- Throw Ins -->
+    <article class="page-break">
+        <h1 class="watermark">THROW INS</h1>
+        <h2 id="injury-table">THROW INS</h2>
+        <p>Should the ball leave the pitch at any time, the crowd will throw it back into play.</p>
+        <ol>
+            <li>Place the ball on the last squere, where it left the pitch.</li>
+            <li>Determin the direction the ball is thrown by the crowd, use a D6.</li>
+            <ol>
+                <li>If the ball left the pitch on the side line or end zone: Go clockwise in one of the three
+                    directions: 1-2: ↖️; 3-4: ⬆️; 5-6: ↗️. Notice, that the ball won't be thrown in the direction along
+                    the sideline or end zone line.</li>
+                <li>If the ball left the pitch in any of the corners: Go clockwise in one of the three directions: 1-2:
+                    left side line; 3-4: diagonal; 5-6: right side line.</li>
+            </ol>
+            <li>The ball travels 2D6 squares.</li>
+            <li>If the ball lands in a square that is occupied by a Standing player that has not lost their Tackle Zone,
+                that player must attempt to catch it.</li>
+            <li>If they fail, or if the ball lands in an unoccupied square, or a square that is occupied either by a
+                Standing player that has lost their Tackle Zone, or by a Prone, or by a Stunned player, it will bounce
+                before it comes to rest on the ground.</li>
+            <li>Should the ball leave the pitch again following an over-enthusiastic throw-in, repeat the above process.
+            </li>
+        </ol>
+    </article>
+
+    <!-- Turnover -->
+    <article class="page-break">
+        <h1 class="watermark">TURNOVER</h1>
+        <h2 id="the-turnover">THE TURNOVER</h2>
+        <p>A Turnover is caused:</p>
+        <ul>
+            <li>If a player on the active team Falls Over during their own activation.</li>
+            <li>If a player on the active team is Knocked Down during their team turn.</li>
+            <li>
+                If a player on the active team that is in possession of the ball is Placed Prone during
+                their team turn.
+            </li>
+            <li>
+                If a player on the active team that is in possession of the ball is forced to move off
+                the pitch for any reason.
+            </li>
+            <li>
+                If a player on the active team attempts to pick up the ball from the ground and fails,
+                even if the bouncing ball is then caught by a player from the active team.
+            </li>
+            <li>
+                If a player on the active team fumbles a Pass action, even if the bouncing ball is then
+                caught by a player on the active team.
+            </li>
+            <li>
+                If no player on the active team catches the ball after a Pass action or a Hand-off
+                action and the ball comes to rest on the ground or in the possession of a player from
+                the opposing team.
+            </li>
+            <li>
+                If a Pass action is Deflected or Intercepted and the ball comes to rest either on the
+                ground or in the possession of a player from the opposing team.
+            </li>
+            <li>
+                If a player on the active team that is in possession of the ball is thrown by a
+                team-mate and either fails to land safely, lands in the crowd or is eaten, even if the
+                bouncing ball is then caught by a player from the active team.
+            </li>
+            <li>If a player on the active team is Sent-off by the referee for committing a Foul.</li>
+            <li>If a touchdown is scored.</li>
+        </ul>
+    </article>
+    <!-- Player Actions -->
+    <article class="page-break">
+        <h1 class="watermark">ACTIONS 1</h1>
+        <h2 id="player-activations">PLAYER ACTIVATIONS</h2>
+        <p>
+            During your team turn, you may activate each Standing and/or Prone player to perform one
+            action available to them. Players that begin their team turn Stunned cannot be activated.
+        </p>
+        <ul>
+            <li>
+                <strong>MOVE</strong>
+                Any player on the active team that is not Stunned can perform a simple Move action.
+            </li>
+            <li>
+                <strong>PASS</strong>
+                Once per team turn, a player on the active team may attempt to pass the ball to
+                another square.
+            </li>
+            <li>
+                <strong>HAND-OFF</strong>
+                Once per team turn, a player on the active team may attempt to hand the ball
+                off to another Standing player from their team that is in an adjacent square.
+            </li>
+            <li>
+                <strong>THROW TEAM-MATE</strong>
+                Once per team turn, instead of performing an ordinary Pass action, a
+                player on the active team with the 'Throw Team-mate' trait may attempt to throw a player from their team
+                that has the 'Right Stuff' trait.
+            </li>
+            <li>
+                <strong>BLOCK</strong>
+                A Standing player on the active team can target a Standing opposition player that
+                is within their Tackle Zone with a Block action, but cannot move before or after performing the action.
+            </li>
+            <li>
+                <strong>BLITZ</strong>
+                Once per team turn, a player on the active team may perform a Blitz action, an
+                action that combines together both a Move action and a Block action (or a Special action granted by a
+                Skill or Trait that can be performed instead of a Block action).
+            </li>
+            <li>
+                <strong id="foul">FOUL</strong>
+                Once per team turn, a player on the active team may commit a Foul
+                action.
+            </li>
+            <li>
+                <strong id="special-actions">SPECIAL ACTIONS</strong>
+                In addition to these seven main actions, there are
+                numerous Skills and Traits a player may
+                possess that allow them to perform another, unique action. Such actions are called "Special actions" and
+                are detailed in the appropriate Skill or Trait
+                description.
+            </li>
+        </ul>
+    </article>
+
+    <!-- Blocking -->
+    <article class="page-break">
+        <h1 class="watermark">BLOCKING 1</h1>
+        <h2 id="block-dice">BLOCK DICE</h2>
+        <p>
+            Block dice feature five icons, each representing an outcome. Alternativly the Block dice can be replaced by
+            normal six-sided dice as described in the table below. Some of these outcomes can be
+            modified by Skills or Traits possessed by one or both players:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Icon</th>
+                    <th>D6</th>
+                    <th>EFFECT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img class="dice_icon" alt="" src="images/dice_pow.jpg">
+                    </td>
+                    <td>
+                        <strong>6</strong>
+                    </td>
+                    <td>
+                        <strong>POW!</strong>
+                        The target of the Block action is pushed back by the active player and is
+                        then Knocked Down in the square they have been moved into. The active player may follow up into
+                        the square vacated.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="dice_icon" alt="" src="images/dice_stumble.jpg">
+                    </td>
+                    <td>
+                        <strong>5</strong>
+                    </td>
+                    <td>
+                        <strong>STUMBLE</strong>
+                        If the target of the Block action has and chooses to use the Dodge
+                        skill, this result becomes a Push Back. Otherwise, this result becomes a POW!, as described
+                        below.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="dice_icon" alt="" src="images/dice_push_back.jpg">
+                    </td>
+                    <td>
+                        <strong>3&#8209;4</strong>
+                    </td>
+                    <td>
+                        <strong>PUSH BACK</strong>
+                        The target of the Block action is pushed back one square by the
+                        active player. The active player may follow up into the square vacated.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="dice_icon" alt="" src="images/dice_both_down.jpg">
+                    </td>
+                    <td>
+                        <strong>2</strong>
+                    </td>
+                    <td>
+                        <strong>BOTH DOWN</strong>
+                        Both the active player and the target of the Block action are Knocked
+                        Down by one another. If one or both of the players has the Block skill, they may choose to
+                        ignore this result and not be Knocked Down.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="dice_icon" alt="" src="images/dice_player_down.jpg">
+                    </td>
+                    <td>
+                        <strong>1</strong>
+                    </td>
+                    <td>
+                        <strong>PLAYER DOWN!</strong>
+                        The active player is immediately Knocked Down by the player they
+                        were attempting to Block!
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <article class="page-break">
+        <h1 class="watermark">BLOCKING 2</h1>
+        <h2 id="block-actions">BLOCK ACTIONS</h2>
+        <p> When a Standing player is activated they can immediately nominate a single Standing opposition player that
+            they are currently Marking and declare that they will target them with a Block action. Unlike other actions,
+            there is no limit to how many players may perform a Block action each team turn.
+        </p>
+        <ol>
+            <li>Look up ST of blocking player and target.</li>
+            <ol>
+                <li>Add +1 ST per friendly non-marked adjacent to target.</li>
+                <li>Add +1 ST to target per enemy non-marked adjacent to self.</li>
+            </ol>
+            <li>Compare modified ST of player and target.</li>
+            <ol>
+                <li>If ST is equal: One die is rolled.</li>
+                <li>If ST is more then equal but double or less: Two dice are rolled.</li>
+                <li>If ST is more then double: Three dice are rolled.</li>
+            </ol>
+            <li>The Coach with the player with the higher ST after modifiers picks the die.</li>
+            <li>If Pow!, Stumble, Push: Push the Target.</li>
+            <li>If otherwise not possible: Chain push.</li>
+            <li>If otherwise not possible: Push into the crowd.</li>
+            <li>Decide on flollow up.</li>
+            <li>If Target / Player knocked down: Armour Roll</li>
+            <li>If Armour broken: Injury Roll</li>
+            <li>If Casualty: Casualty Roll</li>
+            <li>If Ball Carrier was knocked down: Ball Bounces</li>
+        </ol>
+    </article>
+
+    <!-- Passing -->
+    <article class="page-break">
+        <h1 class="watermark">PASSING 1</h1>
+        <h2 id="pass-actions">PASS ACTIONS</h2>
+        <p>Once per team turn. Steps:</p>
+        <ol>
+            <li>Declare Target Square and Measure Range</li>
+            <li>Test for Accuracy</li>
+            <li>Optional: Passing Interference</li>
+            <li>Optional: Catching the Ball</li>
+        </ol>
+        <h2>DECLARE TARGET SQUARE AND MEASURE RANGE</h3>
+            <ol>
+                <li>Declare Pass Action</li>
+                <li>Optional: Move player as normal.</li>
+                <li>Declare Target Square. Target Square might be occupied or not.</li>
+                <li>Measur range using the passing range Chart.</li>
+                <ul>
+                    <li>I: Quick pass</li>
+                    <li>II: Short pass</li>
+                    <li>III: Long pass</li>
+                    <li>IIII: Long bomb</li>
+                </ul>
+            </ol>
+    </article>
+    <article class="page-break">
+        <h1 class="watermark">PASSING 2</h1>
+        <h2>TEST FOR ACCURACY</h2>
+        <ul>
+            <li>If the player is attempting a Quick pass, there is no modifier.</li>
+            <li>If the player is attempting a Short pass, apply a -1 modifier.</li>
+            <li>If the player is attempting a Long pass, apply a -2 modifier.</li>
+            <li>If the player is attempting a Long bomb, apply a -3 modifier.</li>
+            <li>If the player is being Marked, apply an additional -1 modifier per player Marking them.</li>
+            <li><strong>ACCURATE PASSES</strong> If the Passing Ability test is passed, or if the roll is a
+                natural 6,
+                the pass is accurate and the ball will land in the target square.</li>
+            <li><strong>INACCURATE PASSES</strong> If the Passing Ability test is failed, the pass is inaccurate
+                and the
+                ball will scatter from the target square before landing.</li>
+            <li><strong>WILDLY INACCURATE PASSES</strong> If, when making the Passing Ability test, the dice roll
+                is a 1
+                after modifiers have been applied, the ball will deviate from the square occupied by the player
+                performing the Pass action before landing.</li>
+            <li><strong>FUMBLED PASSES</strong>
+                <ul>
+                    <li>If, when making the Passing Ability test, a natural 1 is rolled, the pass has been
+                        fumbled.</li>
+                    <li>If the player has a PA of '-', the pass is automatically fumbled.</li>
+                </ul>
+                When a Pass action is fumbled, the activation of the player performing it ends immediately. The
+                ball is
+                dropped, bouncing from the square occupied by the player performing the action, and a Turnover
+                is
+                caused.
+            </li>
+        </ul>
+    </article>
+    <article class="page-break">
+        <h1 class="watermark">PASSING 3</h1>
+        <h2>PASSING INTERFERENCE</h2>
+        <p>The opponent can nominate a single player to try to interfere the pass, if that player is in range.</p>
+        <p>To attempt, test against their Agility, applying the following modifiers:</p>
+        <ul>
+            <li>If the player is attempting to interfere with an accurate pass, apply a -3 modifier.</li>
+            <li>If the player is attempting to interfere with an inaccurate pass, apply a -2 modifier.</li>
+            <li>If the player is attempting to interfere with a wildly inaccurate pass, apply a -1 modifier.
+            </li>
+            <li>Apply an additional -1 modifier if the player is being Marked.</li>
+        </ul>
+        <p>If the Agility test is passed, the player's attempt to interfere with the pass has been successful and the
+            pass has been 'Deflected'. The pass is interrupted and the action immediately ends.</p>
+
+        <h3 id="successful-passing-interference">SUCCESSFUL PASSING INTERFERENCE</h3>
+        <p>The player that made the Deflection must now attempt to convert that Deflection into an 'Interception' by
+            catching the ball. If they do, they have made an Interception. If the player fails to catch the ball, it
+            will scatter from the square they occupy.
+        </p>
+        <p>Following any successful passing interference, if the ball comes to rest on the ground in an empty
+            square or in the possession of a player from the opposing team, a Turnover is caused. If, however, the ball
+            is caught by a player on the active team after scattering, no Turnover is caused.</p>
+    </article>
+    <article class="page-break">
+        <h1 class="watermark">PASSING 4</h1>
+        <h2 id="resolve-pass-action">RESOLVE PASS ACTION</h2>
+        <p>If the pass was neither successfully interfered with nor fumbled, the pass itself is now resolved.</p>
+        <ul>
+            <li>If the ball lands on a player, that is able to chatch it, it must try to do so.</li>
+            <li>If no player on the active team catches the ball after a Pass action and the ball comes to rest on the
+                ground or in the possession of a player from the inactive team, a Turnover is caused.</li>
+            <li>If the ball lands on the ground it bounces.</li>
+        </ul>
+
+        <h2>CATCHING THE BALL</h2>
+        <p>There are many instances when the rules will call upon a player to attempt to catch the ball. If the
+            ball lands on a player that is standing and not lost their Tackle Zone, it must attempt to catch the
+            ball. To catch the ball do an agility test. Apply the following modifiers:</p>
+        <ul>
+            <li>If the player is attempting to catch an accurate pass or a Hand-off, there
+                are no modifiers.</li>
+            <li>If the player is attempting to convert a Deflection into an Interception, apply a -1 modifier.
+            </li>
+            <li>If the player is attempting to catch a bouncing ball, apply a -1 modifier.</li>
+            <li>If the player is attempting to catch a ball that has been thrown-in by the crowd, apply a -1 modifier.
+            </li>
+            <li>If the player is attempting to catch a ball that has scattered or deviated into the square they
+                occupy, apply a -1 modifier.</li>
+            <li>If the player is being Marked, apply an additional -1 modifier per player Marking them.</li>
+            <li>If catching fails, the ball bounces.</li>
+        </ul>
+    </article>
+
+    <!-- Passing Chart -->
+    <article class="page-break">
+        <h2 id="resolve-pass-action">PASSING RANGE CHART</h2>
+        <table class="passing-chart">
+            <tr>
+                <td class="n">14</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n">13</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n">12</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n">11</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n">10</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 9</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 8</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 7</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 6</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 5</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 4</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 3</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 2</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 1</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+            <tr>
+                <td class="n"> 0</td>
+                <td class="t">T</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="q">Q</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="s">S</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="l">L</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="b">B</td>
+                <td class="e"></td>
+            <tr>
+                <td class="e"> </td>
+                <td class="n">0</td>
+                <td class="n">1</td>
+                <td class="n">2</td>
+                <td class="n">3</td>
+                <td class="n">4</td>
+                <td class="n">5</td>
+                <td class="n">6</td>
+                <td class="n">7</td>
+                <td class="n">8</td>
+                <td class="n">9</td>
+                <td class="n">10</td>
+                <td class="n">11</td>
+                <td class="n">12</td>
+                <td class="n">13</td>
+                <td class="n">14</td>
+        </table>
+        <dl>
+            <dt>T</dt>
+            <dd>Thrower</dd>
+            <dt>Q</dt>
+            <dd>Quick Pass</dd>
+            <dt>S</dt>
+            <dd>Short Pass</dd>
+            <dt>L</dt>
+            <dd>Long Pass</dd>
+            <dt>B</dt>
+            <dd>Long Bomb</dd>
+        </dl>
+    </article>
+
+    <!-- Foul -->
+    <article class="page-break">
+        <h1 class="watermark">FOUL</h1>
+        <h2 id="block-actions">FOUL ACTIONS</h2>
+        <p>Once per team turn. When activated, the player nominates a single Prone or Stunned player on the opposing
+            team to be the victim of the Foul. The player may move before committing the Foul, but not after.</p>
+        <p>To commit a Foul, make an Armour roll (and possible Injury roll) against the nominated victim.</p>
+        <ul>
+            <li>Apply a +1 modifier to the Armour roll for each offensive assist.</li>
+            <li>Apply a -1 modifier to the Armour roll for each defensive assist.</li>
+        </ul>
+        <h3 id="being-sent-off">BEING SENT-OFF</h3>
+        <p>Regardless of the outcome, if a natural double is rolled the player committing the Foul action is Sent-off.
+            When a player is Sent-off, a Turnover is caused.</p>
+        <h3 id="arguing-the-call">ARGUING THE CALL</h3>
+        <p>When a player is Sent-off by the referee for committing a Foul, their coach may attempt to Argue the Call.
+            Roll a D6 and refer to the table below:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>D6</th>
+                    <th>RESULT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>1</strong></td>
+                    <td><strong><em>"You're Outta Here!"</em></strong> The referee is so enraged that the coach is
+                        ejected along with the player. For the remainder of this game, you may no longer Argue the Call
+                        and must apply a -1 modifier when rolling for Brilliant Coaching.</td>
+                </tr>
+                <tr>
+                    <td><strong>2‑5</strong></td>
+                    <td><strong><em>"I Don't Care!"</em></strong> The referee is not interested in your argument. The
+                        player is Sent-off and a Turnover caused.</td>
+                </tr>
+                <tr>
+                    <td><strong>6</strong></td>
+                    <td><strong><em>"Well, When You Put It Like That.."</em></strong> The referee is swayed by your
+                        argument. A Turnover is still caused, but the player that committed the Foul is not Sent-off.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <!-- Throw Teammate -->
+    <article class="page-break">
+        <h1 class="watermark">THROW TEAM-MATE</h1>
+        <h2 id="throw-team-mate-actions">THROW TEAM-MATE ACTIONS</h2>
+        <p>TODO</p>
+        <p>
+            Once per team turn, instead of performing a Pass action, a player on the active team with the
+            'Throw Team-mate' trait can attempt to throw a team-mate with the 'Right Stuff' trait as if
+            they were a ball, as described on
+            <a href="../the_rules_of_blood_bowl/index.html#throwing-other-players">
+                page 52
+                of the Blood
+                Bowl rulebook
+            </a>
+            :
+        </p>
+        <p>
+            <strong>MEASURE RANGEAND DECLARE TARGET SQUARE:</strong>
+            The range ruler may be used to
+            determine the range between the throwing player and any possible target squares, before the
+            target square is chosen and declared.
+        </p>
+        <p>
+            <strong>TEST FOR QUALITY:</strong>
+            The coach of the player performing the action rolls a D6
+            to determine the quality of the throw.
+        </p>
+        <p>
+            <strong>RESOLVE THROW:</strong>
+            Where the thrown player lands, and how easily, depends upon
+            the quality of the throw. If the throw is fumbled, the thrown player is dropped and will
+            bounce.
+        </p>
+    </article>
+
+    <!-- Injury by the Crowd -->
+    <article class="page-break">
+        <h1 class="watermark">INJURY 3</h1>
+        <h2 id="injury-by-the-crowd">INJURY BY THE CROWD</h2>
+        <p>
+            When a player is pushed back into the crowd or lands in the crowd, they risk Injury by the
+            Crowd. No Armour roll is made against the player. Instead the coach of the opposing team
+            rolls immediately on the Injury table to see what the crowd does to the player:
+        </p>
+        <ul>
+            <li>If the player is Stunned, they are placed in the Reserves box.</li>
+            <li>
+                If the player is Knocked-out, they are placed in the Knocked-out box. They may recover
+                as usual at the end of the drive.
+            </li>
+            <li>
+                If the player becomes a Casualty, they are placed in the Casualty box. A roll is made
+                against them on the Casualty table, as described below.
+            </li>
+        </ul>
+    </article>
+</body>
+
+</html>
