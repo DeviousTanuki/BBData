@@ -3,13 +3,18 @@ import http from 'node:http';
 import puppeteer from 'puppeteer';
 import handler from 'serve-handler';
 
+const BASE_URL = process.env.BASE_URL ?? '/';
 const siteDir = path.resolve('_site');
-const url = 'http://localhost:3000/cheat_sheets/index.html';
+const url = `http://localhost:3000${BASE_URL}cheat_sheets/index.html`;
 const output = path.resolve('_site/cheat_sheets/cheat_sheets.pdf');
 
 const server = http.createServer((request, response) => {
   return handler(request, response, {
     public: siteDir,
+    cleanUrls: false,
+    rewrites: BASE_URL === '/'
+      ? []
+      : [{ source: `${BASE_URL}**`, destination: '/$1' }],
   });
 });
 
