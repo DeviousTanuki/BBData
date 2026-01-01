@@ -9,6 +9,7 @@ const url = `http://localhost:3000${BASE_URL}cheat_sheets/index.html`;
 const output = path.resolve('_site/cheat_sheets/cheat_sheets.pdf');
 
 const server = http.createServer((request, response) => {
+  console.log(`${request.method} ${request.url}`);
   return handler(request, response, {
     public: siteDir,
     cleanUrls: false,
