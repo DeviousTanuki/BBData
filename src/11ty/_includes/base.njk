@@ -4,8 +4,11 @@
         <meta charset="utf-8">
         <base href="{{ BASE_URL }}">
         <link rel="stylesheet" href="css/style.css">
+        {% block additional_head %}{% endblock %}
     </head>
     <body>
+        {% block main %}
         {{ content | safe }}
+        {% endblock %}
     </body>
 </html>

@@ -1,29 +1,19 @@
----
-layout: base.njk
----
-
+{% extends "base.njk" %}
+{% block additional_head %}
+<script src="paper_miniatures/script.js" type="module"></script> 
+{% endblock %}
+{% block main %}
 <main class="print-color">
 <div class="screen">
 <h1>Paper Miniatures</h1>
+<input type="checkbox" id="printColorToggle" checked>
 <label>
-  <input type="checkbox" id="printColorToggle" checked> Print with color
+Print with color
 </label>
-
-<script>
-  const toggle = document.getElementById('printColorToggle');
-  const base = document.getElementsByClassName('print-color')[0];
-  toggle.addEventListener('change', e => {
-    if(e.target.checked){
-      base.classList.add('print-color');
-    } else {
-      base.classList.remove('print-color');
-    }
-  });
-</script>
 </div>
 
 {% for roster in rosters %}
-<div class="page">
+<div class="paper_miniatrues page">
   <h2 class="screen">{{ roster.name }}</h2>
   {% for player in roster.players %}
   <div class="miniature{% for tag in player.tags_abbr %} {{ tag.toLowerCase() }}{% endfor %}{% for skill in player.skills_abbr %}{% if skill %} {{ skill.toLowerCase() }}{% endif %}{% endfor %}">
@@ -53,3 +43,4 @@ layout: base.njk
 </div>
 {% endfor %}
 </main>
+{% endblock %}

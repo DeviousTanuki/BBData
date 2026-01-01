@@ -1,10 +1,14 @@
-@import url("reset.css");
+@layer reset, base, details;
 
-@import url("fonts/oswald/oswald.css");
-@import url("fonts/roboto/roboto-condensed.css");
+@import url("reset.css") layer(reset);
 
-@import url("text.css");
-@import url("base.css");
+@import url("fonts/oswald/oswald.css") layer(base);
+@import url("fonts/roboto/roboto-condensed.css") layer(base);
+@import url("fonts/atkinson_hyperlegible_next/atkinson_hyperlegible_next.css") layer(base);
+@import url("fonts/black_ops_one/black_ops_one.css") layer(base);
+@import url("text.css") layer(base);
+@import url("base.css") layer(base);
 
-@import url("paper_miniatures.css");
-@import url("abbreviations.css");
+@import url("paper_miniatures.css") layer(details);
+@import url("abbreviations.css") layer(details);
+@import url("cheat_sheets.css") layer(details);

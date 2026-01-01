@@ -2,15 +2,16 @@
   "packageManager": "pnpm@10.26.0",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@vivliostyle/cli": "^10.2.1",
     "dotenv": "^17.2.3",
-    "json5": "^2.2.3"
+    "json5": "^2.2.3",
+    "puppeteer": "^24.34.0",
+    "serve-handler": "^6.1.6"
   },
   "type": "module",
   "scripts": {
     "start": "rm -rf _site && eleventy --serve",
-    "build": "rm -rf _site && pnpm run build-11ty && pnpm run build-vivliostyle",
-    "build-11ty": "rm -rf _site && eleventy",
-    "build-vivliostyle": "vivliostyle build --config vivliostyle.config.js"
+    "build": "rm -rf _site && pnpm run build:11ty && pnpm run build:pdf",
+    "build:11ty": "rm -rf _site && eleventy",
+    "build:pdf": "node scripts/generate-pdf.js"
   }
 }
