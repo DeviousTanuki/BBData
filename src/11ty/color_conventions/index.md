@@ -1,13 +1,10 @@
 ---
 layout: base.njk
 ---
-
-<main>
-
+<main class="color_conventions">
 # Color Conventions
 
 This are inofficial color conventions.
-
 
 | Positinal Tag | Color  |
 | ------------- | ------ |
@@ -28,5 +25,4 @@ Color conventions are based on:
 - Secret weapon being removed as a category (they are mostly special).
 - Throwers are now purple.
 - Big Guys are now brown.
-
 </main>

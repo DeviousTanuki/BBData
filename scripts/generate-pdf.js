@@ -5,8 +5,22 @@ import handler from 'serve-handler';
 
 const BASE_URL = process.env.BASE_URL ?? '/';
 const siteDir = path.resolve('_site');
-const url = `http://localhost:3000${BASE_URL}cheat_sheets/index.html`;
-const output = path.resolve('_site/cheat_sheets/cheat_sheets.pdf');
+
+const PDF = [
+  {
+    url: `http://localhost:3000${BASE_URL}paper_miniatures/index.html`,
+    path: path.resolve('_site/paper_miniatures/paper_miniatures.pdf'),
+    format: 'A4',
+    printBackground: true,
+    margin: { top: '8mm', right: '8mm', bottom: '8mm', left: '8mm', },
+  },
+  {
+    url: `http://localhost:3000${BASE_URL}cheat_sheets/index.html`,
+    path: path.resolve('_site/cheat_sheets/cheat_sheets.pdf'),
+    format: 'A6',
+    printBackground: true,
+  },
+]
 
 const server = http.createServer((request, response) => {
   let { method, url } = request;
@@ -35,15 +49,11 @@ server.listen(3000, async () => {
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
-  const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle0' });
-
-  await page.pdf({
-    path: output,
-    format: 'A6',
-    printBackground: true,
-  });
-
+  for (let pdf of PDF) {
+    const page = await browser.newPage();
+    await page.goto(pdf.url, { waitUntil: 'networkidle0' });
+    await page.pdf(pdf);
+  }
   await browser.close();
   server.close();
 });
