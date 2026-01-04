@@ -1,4 +1,12 @@
+:root {
+  --font-size-s: 12px;
+  --font-size-m: 18px;
+  --font-size-l: 27px;
+  --font-size-xl: 40.5px;
+}
+
 .cheat_sheets {
+
   /* TEXT */
   & .black-ops-one-regular {
     font-family: "Black Ops One", system-ui;
@@ -24,42 +32,28 @@
     font-style: italic;
   }
 
+  & .columns {
+    columns: 2;
+  }
+
   & h1,
-  & h2,
-  & h3,
-  & h4,
-  & h5,
-  & h6 {
+  & h2 {
     font-family: "Black Ops One";
     font-weight: 400;
-    margin-bottom: 1rem;
+    text-align: center;
   }
 
   & h1 {
-    font-size: 1.8rem;
+    font-size: var(--font-size-l);
+    line-height: var(--font-size-l);
+    margin: 0;
+    text-transform: uppercase;
   }
 
   & h2 {
     margin: 0;
-    font-size: 1.3rem;
-    text-align: center;
-  }
-
-  & h3 {
-    margin: 0;
-    font-size: 1.2rem;
-  }
-
-  & h4 {
-    font-size: 1.1rem;
-  }
-
-  & h5 {
-    font-size: 1rem;
-  }
-
-  & h6 {
-    font-size: 1rem;
+    font-size: var(--font-size-m);
+    line-height: var(--font-size-m);
   }
 
   & ul+h2,
@@ -72,6 +66,8 @@
     font-family: "Atkinson Hyperlegible Next";
     margin-top: 0;
     margin-bottom: 2mm;
+    line-height: var(--font-size-s);
+    font-size: var(--font-size-s);
   }
 
   /* TABLE */
@@ -122,6 +118,13 @@
 
   & dd {
     margin: 0 0 0 2mm;
+  }
+
+  li {
+    font-family: "Atkinson Hyperlegible Next";
+    font-size: var(--font-size-s);
+    margin: 0;
+    line-height: var(--font-size-s);
   }
 
   /* PASSING CHART */
@@ -182,20 +185,7 @@
   @media print {
     @page {
       size: A6;
-      margin: 10mm;
-    }
-
-    .watermark {
-      display: block;
-      width: 100%;
-      position: fixed;
-      left: 50%;
-      bottom: 5mm;
-      text-align: center;
-      transform: translate(-50%, -50%);
-      font-weight: bold;
-      color: rgba(0, 0, 0, .2);
-      z-index: -1;
+      margin: 8mm;
     }
 
     .page-break {
@@ -204,9 +194,8 @@
   }
 
   @media screen {
-    article {
-      width: 148mm;
-      margin: 10mm;
-    }
+    margin: auto;
+    padding: 8mm;
+    width: 148mm;
   }
 }

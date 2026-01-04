@@ -2,9 +2,9 @@ import { loadJson5 } from '../utils.js';
 
 export default async function () {
   let rosters = [];
-  const abbreviations_reversed = await loadJson5('../../json/abbreviations_reversed.json5');
-  const teams = (await loadJson5('../../json/teams.json5')).sort((a, b) => a.name.localeCompare(b.name));
-  const players_raw = await loadJson5('../../json/players.json5');
+  const abbreviations_reversed = await loadJson5('../json5/abbreviations_reversed.json5');
+  const teams = (await loadJson5('../json5/teams.json5')).sort((a, b) => a.name.localeCompare(b.name));
+  const players_raw = await loadJson5('../json5/players.json5');
   for (let team of teams) {
     let roster = {};
     rosters.push(roster);
