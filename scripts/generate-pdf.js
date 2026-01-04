@@ -15,10 +15,18 @@ const PDF = [
     margin: { top: '8mm', right: '8mm', bottom: '8mm', left: '8mm', },
   },
   {
+    url: `http://localhost:3000${BASE_URL}paper_miniatures/index.html?no_color`,
+    path: path.resolve('_site/paper_miniatures/paper_miniatures_(no_color).pdf'),
+    format: 'A4',
+    printBackground: true,
+    margin: { top: '8mm', right: '8mm', bottom: '8mm', left: '8mm', },
+  },
+  {
     url: `http://localhost:3000${BASE_URL}cheat_sheets/index.html`,
     path: path.resolve('_site/cheat_sheets/cheat_sheets.pdf'),
     format: 'A6',
     printBackground: true,
+    margin: { top: '8mm', right: '8mm', bottom: '8mm', left: '8mm', },
   },
 ]
 
@@ -51,6 +59,7 @@ server.listen(3000, async () => {
 
   for (let pdf of PDF) {
     const page = await browser.newPage();
+    page.setJavaScriptEnabled(true);
     await page.goto(pdf.url, { waitUntil: 'networkidle0' });
     await page.pdf(pdf);
   }

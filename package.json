@@ -9,7 +9,8 @@
   },
   "type": "module",
   "scripts": {
-    "start": "rm -rf _site && eleventy --serve",
+    "clean": "rm -rf _site",
+    "start": "eleventy --serve",
     "build": "rm -rf _site && pnpm run build:11ty && pnpm run build:pdf",
     "build:11ty": "rm -rf _site && eleventy",
     "build:pdf": "node scripts/generate-pdf.js"

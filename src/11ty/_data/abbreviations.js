@@ -1,11 +1,11 @@
 import { loadJson5 } from '../utils.js';
 
-const abbreviations = await loadJson5('../../json/abbreviations.json5');
-const abbreviations_reversed = await loadJson5('../../json/abbreviations_reversed.json5');
-const positional_tags = await loadJson5('../../json/positional_tags.json5');
-const races = await loadJson5('../../json/races.json5');
-const teams = await loadJson5('../../json/teams_list.json5');
-const skills_and_traits = await loadJson5('../../json/skills_and_traits.json5');
+const abbreviations = await loadJson5('../json5/abbreviations.json5');
+const abbreviations_reversed = await loadJson5('../json5/abbreviations_reversed.json5');
+const positional_tags = await loadJson5('../json5/positional_tags.json5');
+const races = await loadJson5('../json5/races.json5');
+const teams = await loadJson5('../json5/teams_list.json5');
+const skills_and_traits = await loadJson5('../json5/skills_and_traits.json5');
 
 function lookup(lst) {
   const mydict = {}
