@@ -1,0 +1,57 @@
+/* Body and page background */
+body {
+    background-color: #e0dcd2; /* light stone color */
+    color: #3a3a3a; /* dark text for contrast */
+    font-family: 'Cinzel', 'Times New Roman', serif; /* Roman-inspired font */
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Main container */
+main.commandments {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    background: linear-gradient(145deg, #f0eee8, #dcd7ce); /* subtle stone texture */
+    border: 8px solid #b5b0a5;
+    border-radius: 12px;
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.3);
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Title */
+main.commandments h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+/* Ordered list with Roman numerals */
+main.commandments ol {
+    list-style-type: upper-roman;
+    padding-left: 2rem;
+}
+
+/* List items with subtle stone carving effect */
+main.commandments li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 0 #fff, -1px -1px 0 #000;
+}
+
+/* Optional: add subtle cracks / texture (pseudo-element) */
+main.commandments::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 100%;
+    background: url('images/stone-texture.png') repeat;
+    opacity: 0.1;
+    pointer-events: none;
+}
