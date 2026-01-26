@@ -6,9 +6,11 @@
 @import url("fonts/roboto/roboto-condensed.css") layer(base);
 @import url("fonts/atkinson_hyperlegible_next/atkinson_hyperlegible_next.css") layer(base);
 @import url("fonts/black_ops_one/black_ops_one.css") layer(base);
+@import url("fonts/cinzel/cinzel.css") layer(base);
 @import url("text.css") layer(base);
 @import url("base.css") layer(base);
 
 @import url("paper_miniatures.css") layer(details);
 @import url("abbreviations.css") layer(details);
 @import url("cheat_sheets.css") layer(details);
+@import url("commandments.css") layer(details);
