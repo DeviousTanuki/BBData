@@ -11,19 +11,22 @@
 
   /* Main container */
   & main {
-    @media screen {
-      box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
-      background: linear-gradient(145deg, #f0eee8, #dcd7ce);
-      border: 8px solid #b5b0a5;
-      margin: 10mm auto;
-    }
-
     @media print {
       margin: 0 auto;
     }
 
+    @media screen and (min-width: 210mm) {
+      box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(145deg, #f0eee8, #dcd7ce);
+      border: 8px solid #b5b0a5;
+      margin: 10mm auto;
+      padding: 20mm 20mm;
+    }
+    @media screen and (max-width: 210mm) {
+      margin: 2rem;
+    }
+
     max-width: 210mm;
-    padding: 20mm 20mm;
     text-align: left;
     line-height: 1.6;
 
