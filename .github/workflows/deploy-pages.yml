@@ -23,6 +23,8 @@ jobs:
         run: npm install -g pnpm
 
       - name: Install dependencies
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: "false"
         run: pnpm install
       
       # - name: Install Chrome for puppeteer
