@@ -25,12 +25,12 @@ jobs:
       - name: Install dependencies
         env:
           PUPPETEER_SKIP_DOWNLOAD: "false"
-        run: pnpm install && pnpm approve-builds
+        run: pnpm install
       
-      # - name: Install Chrome for puppeteer
-      #   run: pnpm dlx puppeteer browsers install chrome
+      - name: Install Chromium for Puppeteer
+        run: pnpm dlx puppeteer@24.34.0 browsers install chrome@143.0.7499.169
 
-      - name: Build Eleventy site
+     - name: Build Eleventy site
         env:
           BASE_URL: /BBData/
         run: pnpm run build
