@@ -11,6 +11,7 @@
 11ty is a static page generator.
 
 ```
+pnpm install
 pnpm run build
 pnpm run start
 ```
