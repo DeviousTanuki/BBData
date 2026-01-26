@@ -25,8 +25,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       
-      - name: Install Chrome for puppeteer
-        run: pnpm dlx puppeteer browsers install chrome
+      # - name: Install Chrome for puppeteer
+      #   run: pnpm dlx puppeteer browsers install chrome
 
       - name: Build Eleventy site
         env:
