@@ -6,7 +6,7 @@ import handler from 'serve-handler';
 const BASE_URL = process.env.BASE_URL ?? '/';
 const siteDir = path.resolve('_site');
 
-const PDF = [
+const PDFS = [
   {
     url: `http://localhost:3000${BASE_URL}paper_miniatures/index.html`,
     path: path.resolve('_site/paper_miniatures/paper_miniatures.pdf'),
@@ -57,7 +57,7 @@ server.listen(3000, async () => {
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
-  for (let pdf of PDF) {
+  for (let pdf of PDFS) {
     const page = await browser.newPage();
     page.setJavaScriptEnabled(true);
     await page.goto(pdf.url, { waitUntil: 'networkidle0' });
